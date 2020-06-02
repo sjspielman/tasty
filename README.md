@@ -28,6 +28,7 @@ _More detailed instructions coming soon._
 *You can optionally turn these checkboxes into issues on your new repository.*
 
 - [ ] Turn on GitHub pages under `Settings`.
+- [ ] _Optional:_ Delete or alter the issue templates (`.github/ISSUE_TEMPLATE`); the ones that will be included are tailored for the template repository.
 - [ ] Delete the irrelevant `*-workshop` folder. 
 If your workshop is a virtual workshop, remove the `in-person-workshop` folder. 
 If your workshop is an in-person workshop, remove the `virtual-workshop` folder.
