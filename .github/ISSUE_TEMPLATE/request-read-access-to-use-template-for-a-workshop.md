@@ -12,7 +12,7 @@ assignees: ''
 
 #### Your information
 
-<!-- Add some basic information about yourself like your name and institution. If a GitHub user other than the one you are filing this issue from needs read access, tell us here -->
+<!-- Add some basic information about yourself like your name and institution. If a GitHub user other than the one you are filing this issue from needs read access, tell us here. -->
 
 #### Workshop format, location, and dates
 
