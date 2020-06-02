@@ -1,6 +1,6 @@
-# CCDL Virtual Training: `<Training Title>`
+# CCDL Virtual Training: {{site.training_title}}
 
-Dates: `<START>` through `<END>`
+Dates: {{site.start-date}} through {{site.end-date}}
 
 ## Getting Started
 
