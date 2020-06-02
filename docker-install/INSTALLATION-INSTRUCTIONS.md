@@ -89,4 +89,4 @@ In the BIOS set up, you will need to enable virtualization.
 Unfortunately, the steps for enabling virtualization are manufacturer- and sometimes model-specific.  
 
 
-### Now return to the workshop schedule for the link to the next steps.
+### If this is an in-person workshop, please return to the [workshop schedule](../workshop/SCHEDULE.md) for a link to the next steps.
