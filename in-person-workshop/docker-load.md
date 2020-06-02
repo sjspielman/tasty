@@ -1,6 +1,6 @@
 # Docker Container Set Up - from Flashdrive
 
-If you have successfully installed [Docker](https://github.com/AlexsLemonade/training-modules/blob/master/docker-install/README.md),
+If you have successfully installed [Docker](../docker-install/INSTALLATION-INSTRUCTIONS.md),
 and have [copied the files from the flash drive](flashdrive-instructions.md),
 you are now ready for the last part of set up: setting up your Docker container.   
 
