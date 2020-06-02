@@ -32,7 +32,7 @@ You may find these helpful as you review instruction material or work through ex
 
 If you plan on working with your own data during consultations, you may find it helpful to leverage our RStudio Server. 
 
-You can find instructions for working with your own data on RStudio Server [here](https://github.com/AlexsLemonade/training-modules/blob/2020-may/virtual-setup/working-with-your-own-data.md#working-with-your-own-data). **Please read these instructions carefully.**
+You can find instructions for working with your own data on RStudio Server [here](../virtual-setup/working-with-your-own-data.md#working-with-your-own-data). **Please read these instructions carefully.**
 
 We'll reiterate some of the most important points from those instructions below:
 
