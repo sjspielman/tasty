@@ -1,9 +1,10 @@
+# Using Docker (Post-Workshop)
 #### Background
 
 You will continue to have access to RStudio Server and the files in your home directory for 6 months following this workshop. 
 We recognize there may be circumstances where you will need to process files locally.
 Running the same software that we use for training locally can be challenging, particularly for Windows users. 
-(Some tools, like Salmon, are not supported on Windows.)
+(Some tools we use during our training modules, like Salmon, are not supported on Windows.)
 
 Docker is software that allows us to package a computing environment such that it can be fully reproduced between different computers and operating systems; it is sometimes referred to as a "lightweight virtual machine."
 We have put together a Docker image with the same software dependencies we use in training on the RStudio Server.
@@ -11,7 +12,7 @@ The image we use will allow you to access an RStudio Server in your local contai
 
 #### Docker installation 
 
-You can find instructions for installing Docker on Mac OS or Windows 10 Pro [here](https://github.com/AlexsLemonade/training-modules/tree/2020-may/docker-install#installing-docker). 
+You can find instructions for installing Docker on Mac OS or Windows 10 Pro [here](../docker-install#INSTALLATION-INSTRUCTIONS.md). 
 _Note: Windows Home has only recently become supported and requires different steps than what is linked above ([Docker documentation](https://docs.docker.com/docker-for-windows/install-windows-home/))._
 
 #### Obtaining the Docker image
@@ -41,20 +42,20 @@ It is important to note that anything that you save to the Docker container but 
 First, open `Kitematic` - you should see an image running. Docker assigns a random name to your container. In the example below: "stoic_lamport".
 If you don't see a container running, try quitting `Kitematic` and then opening it up again, or going to the toolbar > `View` > `Refresh Container List`.
 <br><br>
-<img src = https://github.com/AlexsLemonade/RNA-Seq-Exercises/raw/719ef55f4181e8c389dcb472a6e217075d5ae9a7/screenshots/container_running.png width = 500> <br><br>
+<img src = "../docker-install/screenshots/container_running.png" width = 500> <br><br>
 
 Navigate to  `Settings` > `Volumes` > Set local folder to the using the `CHANGE` button.<br><br>
-<img src = https://github.com/AlexsLemonade/RNA-Seq-Exercises/raw/719ef55f4181e8c389dcb472a6e217075d5ae9a7/screenshots/all-02-volume.png width = 500><br><br>
+<img src = "../docker-install/screenshots/all-02-volume.png" width = 500><br><br>
 
 *For Windows*: After you set `Volumes` you will may see a message in the lower right corner of your screen that asks if you would like to 'Share it' with Docker.
 Click the `Share it` button; it will ask for your credentials. Enter your password and click `OK`.
 <br><br>
-<img src = https://github.com/AlexsLemonade/RNA-Seq-Exercises/raw/719ef55f4181e8c389dcb472a6e217075d5ae9a7/screenshots/docker_permission_windows.png width = 250> <br><br>
+<img src = "../docker-install/screenshots/docker_permission_windows.png" width = 250> <br><br>
 
 Now, navigate to RStudio window.
 
   - In a *Windows* or *Mac* in Kitematic, go to the `Settings` > `Hostname/Ports` tab and click on the blue lettering. 
-<br><br> <img src = https://github.com/AlexsLemonade/RNA-Seq-Exercises/raw/719ef55f4181e8c389dcb472a6e217075d5ae9a7/screenshots/all-01-network.png width = 500> <br><br>
+<br><br> <img src = "../docker-install/all-01-network.png" width = 500> <br><br>
 
   - Alternatively, for a *Mac*, you can navigate to the RStudio window by typing `localhost:8787` in your web browser
 
