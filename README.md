@@ -20,6 +20,9 @@ If you are an external user, you can either [file an issue to request read acces
 If you request read access and it is granted, follow [the instructions above](#ccdl-workshops).
 To fork the repository, [follow the GitHub instructions for forking a repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo).
 
+If you are not using the CCDL hosted RStudio Server, there are a number of instructions in this repository that are about distributing credentials and logging into that server.
+_More detailed instructions coming soon._
+
 ### Customizing the new repository for an individual training workshop
 
 *You can optionally turn these checkboxes into issues on your new repository.*
