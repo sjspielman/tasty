@@ -9,7 +9,7 @@ provide you with all the software and packages you need for this workshop.
 
 ## Part 1: Get the Docker image using a copy from the flash drives
 
-1. Be sure that you have copied `ccdl_training_rnaseq.tar.gz` from the flash drive
+1. Be sure that you have copied `<docker image tar.gz file>` from the flash drive
 as was instructed in [these steps](flashdrive-instructions.md). If you do not
 have this file yet, follow [those instructions](flashdrive-instructions.md) before
 attempting to complete these next steps.
