@@ -1,8 +1,10 @@
-Our consultation days (Tuesday May 5th, Thursday May 7th, and the first half of Friday May 8th) are designed for you to spend your time as you would like with the support of your instructors.
+# Resources for Consultation Sessions
 
-You can review the previous day's instruction materials, work through exercise notebooks we provide, or analyze your own data.
+Our consultation sessions are designed for you to spend your time as you would like with the support of your instructors.
 
-On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation days and how to get help, please review [the Consultation days section of the Workshop Structure page](Workshop-Structure#consultation-days).
+You can review instruction materials, work through exercise notebooks we provide, or analyze your own data.
+
+On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation days and how to get help, please review [the Consultation sessions section of the Workshop Structure page](./workshop-structure.md#consultation-days).
 
 **Table of contents**
 
@@ -19,10 +21,10 @@ On this page, we've assembled some resources you may find helpful during these s
 
 ## Module cheatsheets
 
-The [`modules-cheatsheets` directory](https://github.com/AlexsLemonade/training-modules/tree/2020-may/module-cheatsheets) of our [GitHub repository of training materials](https://github.com/AlexsLemonade/training-modules) contains Markdown and PDF version of "cheatsheets" that contain tables with short descriptions of functions used throughout training modules and links to documentation.
+The [`modules-cheatsheets` directory](https://github.com/AlexsLemonade/training-modules/tree/<specific release>/module-cheatsheets) of our [GitHub repository of training materials](https://github.com/AlexsLemonade/training-modules) contains Markdown and PDF version of "cheatsheets" that contain tables with short descriptions of functions used throughout training modules and links to documentation.
 
-* Introduction to R/Tidyverse cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/2020-may/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/2020-may/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.pdf))
-* RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/2020-may/module-cheatsheets/RNA-seq-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/2020-may/module-cheatsheets/RNA-seq-cheatsheet.pdf))
+* Introduction to R/Tidyverse cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/<specific release>/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/<specific release>/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.pdf))
+* RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/<specific release>/module-cheatsheets/RNA-seq-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/<specific release>/module-cheatsheets/RNA-seq-cheatsheet.pdf))
 
 You may find these helpful as you review instruction material or work through exercise notebooks.
 
