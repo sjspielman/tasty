@@ -1,15 +1,15 @@
 # Zoom Procedures for CCDL Virtual Workshops
 
 We use [Zoom](https://zoom.us/) meetings for conducting CCDL virtual workshops.
-In this document, we will cover the procedures for joining a Zoom call and using various features for instruction and consultation days.
+In this document, we will cover the procedures for joining a Zoom call and using various features for instruction and consultation sessions.
 
 #### Instructions for setting up Zoom
 
 We have instructions for setting up Zoom for your operating system available.
 
-* [Linux](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/linux-instructions.md#zoom)
-* [Mac](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/mac-instructions.md#zoom)
-* [Windows](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/windows-instructions.md#zoom)
+* [Linux](./virtual-setup/linux-instructions.md#zoom)
+* [Mac](./virtual-setup/mac-instructions.md#zoom)
+* [Windows](./virtual-setup/windows-instructions.md#zoom)
 
 #### Table of Contents
 
@@ -32,7 +32,7 @@ We have instructions for setting up Zoom for your operating system available.
   - [Joining a breakout room](#joining-a-breakout-room)
   - [Sharing your screen in Zoom](#sharing-your-screen-in-zoom)
   - [Returning to the main session](#returning-to-the-main-session)
-- [Zoom on consultation days](#zoom-on-consultation-days)
+- [Zoom during consultation](#zoom-during-consultation)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -128,7 +128,7 @@ You will see the following window while you are in the waiting room.
 An instructor will let you into the meeting.
 To make this process as smooth as possible, **please use a display name that will make it easy to match to your registration form and admit you into the Zoom call.**
 
-If you have trouble connecting, [please send an instructor a direct message on Slack](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/slack-procedures.md#using-direct-messages-during-training) or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
+If you have trouble connecting, [please send an instructor a direct message on Slack](./slack-procedures.md#using-direct-messages-during-training) or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
 
 **Join the call with computer audio** if you see the prompt shown below.
 You will also have the option to test your audio and video set up.
@@ -139,7 +139,7 @@ You may find it helpful to check the `Automatically join audio by computer when 
 
 ### Joining a Zoom call from Slack
 
-Instructors may use Zoom meetings during consultation days so you can share your screen.
+Instructors may use Zoom meetings during consultation periods so you can share your screen.
 Instructors will initiate the call from Slack either in a thread or in a direct message.
 To join the call, click the `Join` button:
 
@@ -149,13 +149,13 @@ When you click `Join`, the link should open in your browser and all steps should
 
 ## Zoom recordings
 
-**We will be recording instruction** to allow course participants to revisit instruction during consultation days or in case their connection is disrupted during instruction.
+**We will be recording instruction** to allow course participants to revisit instruction during consultation sessions or in case their connection is disrupted during instruction.
 
 When we are recording, you will be notified by a banner in the top corner of the Zoom interface.
 We plan to distribute these recordings to other course participants in your specific training session or as part of training for additional workshop instructors.
 We will not post these videos publicly.
 
-_Note: Consent for video recordings is included in the [CCDL training workshop waiver](https://github.com/AlexsLemonade/training-modules/blob/master/ccdl-training-waiver.DOCX) signed prior to the start of the training workshop._
+_Note: Consent for video recordings is included in the [CCDL training workshop waiver](../ccdl-training-waiver.pdf) signed prior to the start of the training workshop._
 
 ## Using Zoom breakout rooms
 
@@ -163,11 +163,12 @@ Zoom breakout rooms are a feature that allow us to assign course participants an
 We will use Zoom breakout rooms in the following capacities during training:
 
 * To provide 1:1 help during instruction as needed.
-* _Optionally_ to group participants on consultation days who are working on similar tasks or the same exercise notebooks. 
+* To group participants during exercise portions of instruction.
+* _Optionally_ to group participants during consultation sessions who are working on similar tasks or the same exercise notebooks. 
 
 ### Asking for 1:1 help during instruction
 
-If you need help from an instructor during instruction days, message the host of the Zoom meeting and let them know that you need help from an instructor.
+If you need help from an instructor during instruction, message the host of the Zoom meeting and let them know that you need help from an instructor.
 We will clearly identify the host of the meeting at the beginning of the session.
 
 To bring up chat, click the chat icon in the control bar.
@@ -180,7 +181,7 @@ Click `Join Breakout Room`.
 
 <img src = screenshots/zoom-join-breakout-room.png width = 400>
 
-If you are assigned to a Zoom breakout room during consultation days, the process for joining a breakout room is the same.
+If you are assigned to a Zoom breakout room during a consultation period, the process for joining a breakout room is the same.
 
 ### Sharing your screen in Zoom
 
@@ -210,12 +211,7 @@ To return to the main session, select `Leave Breakout Room` from the control pan
 
 You may receive messages from the host or a notification that the host is closing all breakout rooms while in a breakout room.
 
-## Zoom on consultation days
+## Zoom during consultation
 
-You will receive a link for a standing Zoom meeting on consultation days, but you do not need to join the meeting unless you intend you meet with other course participants in a breakout room.
-
-At the end of each day preceding a consultation day, [instructors will poll you in the training-specific Slack channel](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/slack-procedures.md#collecting-feedback) to understand what they would like to work on during the next day.
-Instructors will reach out to you on consultation days to see if you are interested in being grouped with other participants working on similar tasks in a Zoom breakout room.
-
-If you need assistance during a consultation day and it would be helpful to share your screen, an instructor will initiate a Zoom call in Slack either in a thread or direct message.
+If you need assistance during a consultation period and it would be helpful to share your screen, an instructor will initiate a Zoom call in Slack either in a thread or direct message.
 See [Joining a Zoom call from Slack](#joining-a-zoom-call-from-slack) for instructions for joining that call and [Sharing your screen in Zoom](#sharing-your-screen-in-zoom) for screen sharing instructions.

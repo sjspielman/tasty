@@ -73,17 +73,13 @@ We also use the training-specific private channel to poll participants via [Poll
 * What you liked about the module (anonymous, only instructors will see your answer)
 * How we can improve the module (anonymous, only instructors will see your answer)
 
-We will also ask you what you want to work on the next day on days _preceding_ consultation days.
-Your answers will be sent to course instructors only and are **not** anonymous.
-This allows instructors to group course participants based on their interests.
-
 Use the `Submit Response` button in a Polly message to enter your feedback:
 
 <img src = screenshots/slack-polly-response.png width = 500>
 
 ### Using Slack calling during training
 
-If you need help on consultation days, a course instructor may initiate a [Slack call](https://slack.com/help/articles/216771908-Make-calls-in-Slack).
+If you need help during consultation, a course instructor may initiate a [Slack call](https://slack.com/help/articles/216771908-Make-calls-in-Slack).
 To answer a Slack call, hit the button with the phone icon on the prompt.
 
 <img src = screenshots/slack-call-prompt.png height = 300>
