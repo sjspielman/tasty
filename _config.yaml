@@ -1,12 +1,15 @@
 training_title: MONTH-TOPIC
-# the name of the repository (e.g., 2020-may-training)
-repository: YEAR-MONTH-TRAINING
-# full URL to the repository
-repository-url: REPOSITORY-URL
+# The name of the repository (e.g., 2020-may-training)
+# We use training-specific-template to help with development
+repository: training-specific-template
+# Full URL to the repository
+# Again, using training-specific-template to aid in development
+repository-url: https://github.com/AlexsLemonade/training-specific-template
 start-date: YYYY-MM-DD
 end-date: YYYY-MM-DD
 # Specific release in AlexsLemonade/training-modules
-release-tag: SPECIFIC-RELEASE
+# We use master to make development easier
+release-tag: master
 # The Docker user will almost always be ccdl, which is why this is here
 docker-user: ccdl
 docker-repo: DOCKER-REPOSITORY
