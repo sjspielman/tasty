@@ -12,7 +12,7 @@ This document is designed to give you an idea of what your participation in the 
 
 ## Instruction sessions
 
-**During instruction sessions**, you will call into a Zoom meeting and log into [our RStudio Server](https://rstudio.ccdatalab.org). 
+**During instruction sessions**, you will call into a Zoom meeting and log into [our RStudio Server](https://rstudio.ccdatalab.org).
 An instructor may present some slides to introduce the material and then they will instruct you to navigate to [rstudio.ccdatalab.org](https://rstudio.ccdatalab.org), [enter your RStudio login credentials](../virtual-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the course material.
 Typically you will be asked to navigate to a specific R Notebook file and you will execute steps at the same time as your instructor.
 You will have access to [a private training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) in [Cancer Data Science Slack](https://www.ccdatalab.org/slack) that you can use as a forum to post questions.
@@ -20,12 +20,12 @@ This channel will be monitored by instructors.
 Instruction will be [recorded and distributed to course participants](../virtual-setup/zoom-procedures.md#zoom-recordings) (not posted publicly).
 
 
-### Your instructors' roles during instruction 
+### Your instructors' roles during instruction
 
-**During instruction**, your instructors function in one of three roles: 
+**During instruction**, your instructors function in one of three roles:
 
 * One person leads the hands-on exercise.
-* One person is the host of the Zoom meeting and is responsible for administering that platform. 
+* One person is the host of the Zoom meeting and is responsible for administering that platform.
 The host makes sure any time-sensitive questions or problems are addressed during instruction and is responsible for pairing anyone that needs 1:1 assistance with an available instructor.
 The host may also group you into breakout rooms for exercises as needed.
 * All other instructors are on-hand to monitor the training specific Slack channel, answer questions, provide 1:1 assistance, or help with technology or login issues.
@@ -59,7 +59,7 @@ If you need assistance and would like to share your screen, an instructor will i
 ### Your instructors' roles during consultation
 
 Your instructors will be available via Slack during the consultation sessions listed in the [workshop schedule](./SCHEDULE.md).
-You may also remain in the Zoom meeting used for the day's instruction period, which will be used for breakout room functionality for grouping participants that want to work together.
+You may also remain in the Zoom meeting used for the day's instruction session, which will be used for breakout room functionality for grouping participants that want to work together.
 If you need to share your screen with an instructor during the a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
 
 ### Using communication platforms during consultation sessions
