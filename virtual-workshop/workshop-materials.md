@@ -2,7 +2,7 @@
 
 ### Github Repositories
 
-CCDL training materials are available on Github, in either this repostiory or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
+CCDL training materials are available on Github, in either this repository or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
 
 ### Slides
 

@@ -38,7 +38,7 @@ If your workshop is an in-person workshop, remove the `virtual-workshop` folder.
 - [ ] Rename the relevant `*-workshop` folder to `workshop`. 
 For a virtual workshop, `virtual-workshop` should be renamed to `workshop`.
 Changing this folder name will make several links in the repository work–there are instances where we link to a schedule with `../workshop/SCHEDULE.md`, for example.
-- [ ] Add a PDF copies of your slides to `slides`.
+- [ ] Add PDF copies of your slides to `slides`.
 _Optional_: remove the `.gitkeep` file from `slides`.
 - [ ] Update `_config.yaml` to use values that are relevant for your workshop such as the Docker repository and tag that you will be using for the workshop. [We use jekyll variable substitution as part of this template](https://jekyllrb.com/docs/includes/#passing-parameter-variables-to-includes).
 - [ ] Update `workshop/SCHEDULE.md` to point to appropriate materials for your workshop.
