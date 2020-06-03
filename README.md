@@ -79,4 +79,4 @@ The following instructions are for Mac OS and have only been used on Mojave.
 
 2. Install Jekyll (`gem install jekyll`).
 3. Run `bundle install` from the root of this repository, where the `Gemfile` is located.
-4. Run `jekyll serve` and navigate to the server address.
+4. Run `bundle exec jekyll serve` and navigate to the server address.
