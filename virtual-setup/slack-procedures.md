@@ -2,10 +2,10 @@
 
 We use Slack for communication during CCDL virtual workshops.
 
-<p><img style = "padding: 0 15px; float: left;" src = "https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/master/logo/slack-cancer-data-science-logo.png" width = 50></p>
+<p><img style = "padding: 0 15px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75"></p>
 <p style="margin-top: 20px;"> </p>
 <p>Specifically, we use the <b>Cancer Data Science Slack</b> team administered by the CCDL.
-You can join Cancer Data Science Slack by following this link: <a href="https://www.ccdatalab.org/slack">ccdatalab.org/slack</a>
+You can join Cancer Data Science Slack by following this link: <a href="https://www.ccdatalab.org/slack">ccdatalab.org/slack</a></p>
 <br>
 
 All Slack communications must adhere to our [code of conduct](../code-of-conduct.md).
@@ -60,7 +60,7 @@ If you have a question, it's very likely someone else in the course has the same
 **Responses to questions should be in [threads](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-) as much as possible**, including any screenshots or images.
 To start a thread, hover over the message you want to respond to and click the start a thread icon that appears on the top right of the message:
 
-<img src = screenshots/slack-start-a-thread.png width = 300>
+<img src = "screenshots/slack-start-a-thread.png" width = "450">
 
 You can then enter your response in the thread sidebar that appears on the right side of the Slack interface.
 In general, you do not want to check the box that sends the message to the entire channel.
@@ -75,14 +75,14 @@ We also use the training-specific private channel to poll participants via [Poll
 
 Use the `Submit Response` button in a Polly message to enter your feedback:
 
-<img src = screenshots/slack-polly-response.png width = 500>
+<img src = "screenshots/slack-polly-response.png" width = "600">
 
 ### Using Slack calling during training
 
 If you need help during consultation session, a course instructor may initiate a [Slack call](https://slack.com/help/articles/216771908-Make-calls-in-Slack).
 To answer a Slack call, hit the button with the phone icon on the prompt.
 
-<img src = screenshots/slack-call-prompt.png height = 300>
+<img src = "screenshots/slack-call-prompt.png" height = "300">
 
 _Note: Where possible please utilize headphones throughout the training workshop to minimize audio feedback._
 
@@ -90,7 +90,7 @@ _Note: Where possible please utilize headphones throughout the training workshop
 Your instructor will ask you to [share your screen](https://slack.com/help/articles/115003501303-Share-your-screen-with-Slack-Calls) using the share your screen icon circled in yellow below.
 It is located at the bottom middle of your Slack call window.
 
-<img src = screenshots/slack-call-control.png width = 300>
+<img src = "screenshots/slack-call-control.png" width = "300">
 
 When you share your screen in Slack, please note that the **entire screen** will be displayed.
 You can not select a specific window to share.
@@ -102,7 +102,7 @@ If you have a question that is **_highly specific_** to your own data or a probl
 
 First, use the new message button in the top right side corner of the Slack interface.
 
-<img src = screenshots/slack-compose-new-message.png width=300>
+<img src = "screenshots/slack-compose-new-message.png" width="300">
 
 You are then able to search for the CCDL instructors – `Chante Bethell`, `Candace Savonen`, `Josh Shapiro` or `Jaclyn N. Taroni` – and compose your message.
 
@@ -116,18 +116,18 @@ In this section, we include a collection of tips that you may find helpful for u
 
 You can [add a file or image to Slack](https://slack.com/help/articles/201330736-Add-files-to-Slack) by dragging a file to the Slack window or by using the paper clip icon next to the message field:
 
-<img src = screenshots/slack-add-a-file.png width = 500>
+<img src = "screenshots/slack-add-a-file.png" width = "600">
 
 #### Adding code blocks to messages
 
 Code and error messages are usually easier to read when you use code formatting in Slack.
 You can either select the code block icon below the message field:
 
-<img src = screenshots/slack-code-block-icon.png width = 500>
+<img src = "screenshots/slack-code-block-icon.png" width = "600">
 
 Or you can type three backticks <code>```</code> into the message field and formatting will be applied:
 
-<img src = screenshots/slack-backticks.gif width = 500 >
+<img src = "screenshots/slack-backticks.gif" width = "600">
 
 You are then ready to paste your code or error message into the grey code block.
 
