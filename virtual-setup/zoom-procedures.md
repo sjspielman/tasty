@@ -58,14 +58,14 @@ You can toggle video on and off using the Stop Video icon (or Start Video if vid
 ### Viewing Zoom while instructors are sharing their screen
 
 Because you will need to interact with your browser window to work in RStudio during instruction, you likely do not want Zoom to automatically enter full screen mode or maximize the window when the instructor shares their screen.
-These are default settings in Zoom that can be turned off. 
+These are default settings in Zoom that can be turned off.
 See the Zoom installation instructions for your operating system for more information, but typically the process involves navigating to Zoom settings or preferences, looking under the **Share Screen** settings, and making sure `Enter full screen when a participant shares screen` and `Maximize Zoom window when a participant shares screen` are unchecked.
 
 ### Interacting with instructors and providing feedback
 
 #### Participant pane
 
-The participant pane will both allow you to identify the host and co-hosts of the meeting (CCDL staff) and to provide feedback during instruction. 
+The participant pane will both allow you to identify the host and co-hosts of the meeting (CCDL staff) and to provide feedback during instruction.
 
 To bring up the participant pane, click the participants icon in the middle of the controls at the bottom of the Zoom window.
 
@@ -83,14 +83,14 @@ To bring up the chat window to ask questions during instruction, click the chat 
 
 <img src = screenshots/zoom-participant-chat.png>
 
-The chat pane will appear below the participant pane. 
+The chat pane will appear below the participant pane.
 
 <img src = screenshots/zoom-chat-pane.png height = 500>
 
 **You should direct your questions to the host of the meeting** by selecting their name from the dropdown menu of the Chat window.
 In general, the "host" will not be the instructor, but another member of the CCDL who will coordinate questions and feedback.
 
-<img src = screenshots/zoom-chat-dropdown.png width = 300> 
+<img src = screenshots/zoom-chat-dropdown.png width = 300>
 
 
 ## Joining a Zoom call
@@ -139,7 +139,7 @@ You may find it helpful to check the `Automatically join audio by computer when 
 
 ### Joining a Zoom call from Slack
 
-Instructors may use Zoom meetings during consultation periods so you can share your screen.
+Instructors may use Zoom meetings during consultation sessions so you can share your screen.
 Instructors will initiate the call from Slack either in a thread or in a direct message.
 To join the call, click the `Join` button:
 
@@ -164,7 +164,7 @@ We will use Zoom breakout rooms in the following capacities during training:
 
 * To provide 1:1 help during instruction as needed.
 * To group participants during exercise portions of instruction.
-* _Optionally_ to group participants during consultation sessions who are working on similar tasks or the same exercise notebooks. 
+* _Optionally_ to group participants during consultation sessions who are working on similar tasks or the same exercise notebooks.
 
 ### Asking for 1:1 help during instruction
 
@@ -181,7 +181,7 @@ Click `Join Breakout Room`.
 
 <img src = screenshots/zoom-join-breakout-room.png width = 400>
 
-If you are assigned to a Zoom breakout room during a consultation period, the process for joining a breakout room is the same.
+If you are assigned to a Zoom breakout room during a consultation session, the process for joining a breakout room is the same.
 
 ### Sharing your screen in Zoom
 
@@ -213,5 +213,5 @@ You may receive messages from the host or a notification that the host is closin
 
 ## Zoom during consultation
 
-If you need assistance during a consultation period and it would be helpful to share your screen, an instructor will initiate a Zoom call in Slack either in a thread or direct message.
+If you need assistance during a consultation session and it would be helpful to share your screen, an instructor will initiate a Zoom call in Slack either in a thread or direct message.
 See [Joining a Zoom call from Slack](#joining-a-zoom-call-from-slack) for instructions for joining that call and [Sharing your screen in Zoom](#sharing-your-screen-in-zoom) for screen sharing instructions.
