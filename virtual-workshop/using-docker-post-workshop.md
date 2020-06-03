@@ -26,7 +26,7 @@ Once you've installed Docker and Kitematic, you will need to pull the appropriat
 In your respective command line interface, copy and paste the following:
   
 ```
-docker pull ccdl/<repo>:<tag>
+docker pull {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
 ```
 
 #### Running and interacting with the container
@@ -34,7 +34,7 @@ docker pull ccdl/<repo>:<tag>
 To run the container, change the `<PASSWORD>` in the line below to whatever you'd like.
 
 ```
-docker run -e PASSWORD=<PASSWORD> -p 8787:8787 ccdl/<repo>:<tag>
+docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
 ```
 
 **To work with files on your computer, you will need to set a local folder as your volume.**
