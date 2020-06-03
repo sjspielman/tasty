@@ -22,7 +22,7 @@ In this training workshop, we will be using the following modules:
 
 The layout of the `training-modules` folders follow a common general structure.
 
-<img src="https://github.com/AlexsLemonade/training-modules/blob/{{site.release-tag}}/module_structure_detail.png" alt="Module Structure" width=600>
+<img src="https://github.com/AlexsLemonade/training-modules/raw/{{site.release-tag}}/module_structure_detail.png" alt="Module Structure" width="600">
 
 In these folders, you will notice that there may be two or three versions of some notebook files.
 For example, there may be a `01-intro_to_base_R-live.Rmd`, a `01-intro_to_base_R.Rmd`, and a `01-intro_to_base_R.nb.html`.
