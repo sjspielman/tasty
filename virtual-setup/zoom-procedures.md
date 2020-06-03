@@ -205,7 +205,11 @@ To ask for help from the meeting host while in a breakout room, use the `Ask for
 
 ### Returning to the main session
 
-To return to the main session, select `Leave Breakout Room` from the control panel.
+To return to the main session, stop sharing your screen.
+
+<img src = screenshots/zoom-breakout-stop-screen-sharing.png width = 500>
+
+Then select `Leave Breakout Room` from the control panel.
 
 <img src = screenshots/zoom-breakout-leave-room.png width = 500>
 
