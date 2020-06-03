@@ -109,7 +109,7 @@ name to your container. In the example below: "stoic_lamport".
 If you don't see a container running, try quitting `Kitematic` and then opening it
 up again, or going to the toolbar > `View` > `Refresh Container List`.
 
-![](../docker-install/../docker-install/screenshots/container_running.png)
+![](../docker-install/screenshots/container_running.png)
 
 3. `Settings` > `Volumes` > Set local folder to `training-modules` that was
 transferred from the flash drive, using the `CHANGE` button.
