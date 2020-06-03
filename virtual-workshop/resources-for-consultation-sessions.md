@@ -1,8 +1,10 @@
-Our consultation days (Tuesday May 5th, Thursday May 7th, and the first half of Friday May 8th) are designed for you to spend your time as you would like with the support of your instructors.
+# Resources for Consultation Sessions
 
-You can review the previous day's instruction materials, work through exercise notebooks we provide, or analyze your own data.
+Our consultation sessions are designed for you to spend your time as you would like with the support of your instructors.
 
-On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation days and how to get help, please review [the Consultation days section of the Workshop Structure page](Workshop-Structure#consultation-days).
+You can review instruction materials, work through exercise notebooks we provide, or analyze your own data.
+
+On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation sessions and how to get help, please review [the Consultation sessions section of the Workshop Structure page](./workshop-structure.md#consultation-days).
 
 **Table of contents**
 
@@ -15,34 +17,34 @@ On this page, we've assembled some resources you may find helpful during these s
 - [Transcriptome indices for non-human organisms](#transcriptome-indices-for-non-human-organisms)
   - [_Mus musculus_](#mus-musculus)
   - [_Danio rerio_](#danio-rerio)
-  - [_Canis lupus familiaris_](#canis-lupus-familiaris) 
+  - [_Canis lupus familiaris_](#canis-lupus-familiaris)
 
 ## Module cheatsheets
 
-The [`modules-cheatsheets` directory](https://github.com/AlexsLemonade/training-modules/tree/2020-may/module-cheatsheets) of our [GitHub repository of training materials](https://github.com/AlexsLemonade/training-modules) contains Markdown and PDF version of "cheatsheets" that contain tables with short descriptions of functions used throughout training modules and links to documentation.
+The [`modules-cheatsheets` directory](https://github.com/AlexsLemonade/training-modules/tree/{{site.release-tag}}/module-cheatsheets) of our [GitHub repository of training materials](https://github.com/AlexsLemonade/training-modules) contains Markdown and PDF version of "cheatsheets" that contain tables with short descriptions of functions used throughout training modules and links to documentation.
 
-* Introduction to R/Tidyverse cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/2020-may/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/2020-may/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.pdf))
-* RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/2020-may/module-cheatsheets/RNA-seq-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/2020-may/module-cheatsheets/RNA-seq-cheatsheet.pdf))
+* Introduction to R/Tidyverse cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release-tag}}/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release-tag}}/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.pdf))
+* RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release-tag}}/module-cheatsheets/RNA-seq-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release-tag}}/module-cheatsheets/RNA-seq-cheatsheet.pdf))
 
 You may find these helpful as you review instruction material or work through exercise notebooks.
 
 ## Working with your own data on RStudio Server
 
-If you plan on working with your own data during consultations, you may find it helpful to leverage our RStudio Server. 
+If you plan on working with your own data during consultations, you may find it helpful to leverage our RStudio Server.
 
-You can find instructions for working with your own data on RStudio Server [here](https://github.com/AlexsLemonade/training-modules/blob/2020-may/virtual-setup/working-with-your-own-data.md#working-with-your-own-data). **Please read these instructions carefully.**
+You can find instructions for working with your own data on RStudio Server [here](../virtual-setup/working-with-your-own-data.md#working-with-your-own-data). **Please read these instructions carefully.**
 
 We'll reiterate some of the most important points from those instructions below:
 
 * As a rule of thumb, if the data you are working with would be released under controlled access, rather than made publicly available, at the time of publication of a scientific manuscript, it should not be uploaded to our RStudio Server.
 * You have 50GB of space available.
 If your data is larger than 50GB, please contact an instructor.
-* Uploading datasets larger than 1GB may require splitting things up into smaller files. 
+* Uploading datasets larger than 1GB may require splitting things up into smaller files.
 If you need help, let us know!
 
 ## Obtaining practice datasets
 
-The Childhood Cancer Data Lab built and maintains [refine.bio](https://www.refine.bio/), resource of uniformly processed transcriptomic data obtained from publicly available sources. 
+The Childhood Cancer Data Lab built and maintains [refine.bio](https://www.refine.bio/), resource of uniformly processed transcriptomic data obtained from publicly available sources.
 You can read more about how we process data in refine.bio in [our documentation](http://docs.refine.bio/en/latest/index.html).
 
 If you'd like to practice some of the skills we cover in training or gain some additional ones like making highly customizable heatmaps with the [`ComplexHeatmap`](https://bioconductor.org/packages/release/bioc/html/ComplexHeatmap.html) R package, obtaining processed data from refine.bio is a great starting point.
@@ -55,7 +57,7 @@ You can start by searching [refine.bio](https://www.refine.bio/) for keywords re
 
 In this version of our workshop, we won't work with microarray data, but there are hundreds of thousands of microarray samples available from refine.bio.
 The microarray datasets you can download from the refine.bio web interface are quantile normalized and are distributed as TSV files you can read into R using functions we cover in training.
-The metadata is included in your download in a TSV file that starts with `metadata_`. 
+The metadata is included in your download in a TSV file that starts with `metadata_`.
 
 ### RNA-seq data
 
@@ -71,7 +73,7 @@ The relevant files from `SRAdb` have already been downloaded to the RStudio Serv
 
 #### Getting a copy of the SRAdb example notebook in your home directory on RStudio Server
 
-To get an up-to-date copy of the Rmd file onto RStudio Server, first navigate to your **Terminal**. 
+To get an up-to-date copy of the Rmd file onto RStudio Server, first navigate to your **Terminal**.
 Make sure your current directory is your home directory by entering the following into Terminal and hitting Enter:
 
 ```sh
@@ -85,7 +87,7 @@ Then you're ready to download a copy of the Rmd file using [`wget`](https://en.w
 # Download the file "raw" retrieve-SRAdb-metadata.Rmd file from this training's repository
 # Here `master` specifies that this will be the most up-to-date version of the Rmd file
 # This will place the file in the current directory, which will be ~ (your home directory)
-wget https://github.com/AlexsLemonade/2020-may-training/raw/master/retrieve-SRAdb-metadata.Rmd
+wget https://github.com/AlexsLemonade/{{site.repository}}/raw/master/retrieve-SRAdb-metadata.Rmd
 ```
 
 You should see `retrieve-SRAdb-metadata.Rmd` in your home directory once the download completes.

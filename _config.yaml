@@ -1,0 +1,22 @@
+training_title: MONTH-TOPIC
+# the name of the repository (e.g., 2020-may-training)
+repository: YEAR-MONTH-TRAINING
+# full URL to the repository
+repository-url: REPOSITORY-URL
+start-date: YYYY-MM-DD
+end-date: YYYY-MM-DD
+# Specific release in AlexsLemonade/training-modules
+release-tag: SPECIFIC-RELEASE
+# The Docker user will almost always be ccdl, which is why this is here
+docker-user: ccdl
+docker-repo: DOCKER-REPOSITORY
+docker-tag: DOCKER-TAG
+# These are for loading Docker images from a file; only relevant for in-person
+docker-targz: ccdl_docker_image.tar.gz
+docker-tar: ccdl_docker_image.tar
+# The image ID and size can be obtained by running `docker images` once you have a copy of the correct image for the training
+docker-image-id: IMAGEID
+docker-size: SIZE
+# How we have historically distributed materials in-person
+training-zip: TRAINING-ZIP
+training-unzip-folder: TRAINING-UNZIP-FOLDER

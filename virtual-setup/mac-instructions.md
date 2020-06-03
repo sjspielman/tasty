@@ -100,7 +100,7 @@ Select **Quit Now**.
 Once Zoom has quit, you can click a meeting link to reopen it, rejoining the same meeting you were in, or any other meeting.
 
 You should now be all set to share your screen and fully participate in Zoom meetings and help sessions!
-For more information about how we will be using Zoom, please read about our [Zoom Procedures](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/zoom-procedures.md)
+For more information about how we will be using Zoom, please read about our [Zoom Procedures](./zoom-procedures.md)
 
 
 
@@ -143,4 +143,4 @@ You can find Slackbot (and yourself) in the left panel, under "Direct Messages".
 
 One more thing: if you end up using the voice or video calling functionality that Slack provides, you may be asked to grant the app permission to use your microphone and videocamera, as you did with Zoom.
 
-For more information about how we will be using Slack, please read about our [Slack Procedures](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/slack-procedures.md)
+For more information about how we will be using Slack, please read about our [Slack Procedures](./slack-procedures.md)

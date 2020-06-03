@@ -5,11 +5,11 @@ This guide will take you through how to get your data onto our RStudio server so
 
 ### Things to know before uploading your data
 
-- If you are uploading data from human patient sequencing samples, **please be sure that you are doing so in a manner that is consistent with participant consents and your institution’s rules**. The only data that is permissible for upload to our server is that which has been summarized to non-sequence level and has no personally identifiable information (PII) and no protected health information (PHI).
+- If you are uploading data from human patient sequencing samples, **please be sure that you are doing so in a manner that is consistent with participant consent and your institution’s rules**. The only data that is permissible for upload to our server is that which has been summarized to non-sequence level and has no personally identifiable information (PII) and no protected health information (PHI).
 
 - Initially, we have equipped you with **50 GB of space** (if the data you would like to upload is larger than this, please consult one of the CCDL team members through Slack for assistance).
 
-- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [training wiki page](https://github.com/AlexsLemonade/2020-may-training/wiki) and/or ask a CCDL team member for recommendations.
+- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../virtual-workshop/resources-for-consultation-sessions.md) and/or ask a CCDL team member for recommendations.
 
 - Note that uploading datasets that are larger than 1GB may require splitting it up into smaller files. Contact a CCDL team member if you need help splitting up any large files!
 
@@ -130,7 +130,7 @@ It will automatically be uncompressed.
 ### Reading the data into your R environment.
 
 This step is very dependent on the format of your data and what you are planning to do with it!
-If your file is a TSV, CSV, or RDS file, follow the examples in the [`intro-to-R-tidyverse/intro-to-tidyverse.Rmd` notebook](intro-to-R-tidyverse/03-intro_to_tidyverse.Rmd).
+If your file is a TSV, CSV, or RDS file, follow the examples in the `intro-to-R-tidyverse/intro-to-tidyverse.Rmd` notebook.
 
 We do NOT recommend clicking on the file in the RStudio panel to load it into your R environment, this typically won't work for anything that's not a very small file.
 

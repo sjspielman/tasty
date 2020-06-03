@@ -2,21 +2,21 @@
 
 We use Slack for communication during CCDL virtual workshops.
 
-<p><img style = "padding: 0 15px; float: left;" src = https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/master/logo/slack-cancer-data-science-logo.png width = 50></p>
+<p><img style = "padding: 0 15px; float: left;" src = "https://raw.githubusercontent.com/AlexsLemonade/OpenPBTA-analysis/master/logo/slack-cancer-data-science-logo.png" width = 50></p>
 <p style="margin-top: 20px;"> </p>
 <p>Specifically, we use the <b>Cancer Data Science Slack</b> team administered by the CCDL.
 You can join Cancer Data Science Slack by following this link: <a href="https://www.ccdatalab.org/slack">ccdatalab.org/slack</a>
 <br>
 
-All Slack communications must adhere to our [code of conduct](https://github.com/AlexsLemonade/2020-may-training/blob/master/code-of-conduct.md).
+All Slack communications must adhere to our [code of conduct](../code-of-conduct.md).
 
 #### Instructions for setting up Slack
 
 We have instructions for setting up Slack for your operating system available.
 
-* [Linux](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/linux-instructions.md#slack)
-* [Mac](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/mac-instructions.md#slack)
-* [Windows](https://github.com/AlexsLemonade/training-modules/blob/master/virtual-setup/windows-instructions.md#slack)
+* [Linux](./linux-instructions.md#slack)
+* [Mac](./mac-instructions.md#slack)
+* [Windows](./windows-instructions.md#slack)
 
 #### Table of Contents  
 
@@ -55,14 +55,14 @@ You can use the training-specific private channel to do the following:
 * Post errors and get help with debugging
 * Treat the channel as a study group – if you get stuck on an exercise notebook or your own data, post something so other participants and instructors can help you.
 
-If you have a question, it's very likely someone else in the course has the same question! 
+If you have a question, it's very likely someone else in the course has the same question!
 
-**Responses to questions should be in [threads](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-) as much as possible**, including any screenshots or images. 
+**Responses to questions should be in [threads](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-) as much as possible**, including any screenshots or images.
 To start a thread, hover over the message you want to respond to and click the start a thread icon that appears on the top right of the message:
 
 <img src = screenshots/slack-start-a-thread.png width = 300>
 
-You can then enter your response in the thread sidebar that appears on the right side of the Slack interface. 
+You can then enter your response in the thread sidebar that appears on the right side of the Slack interface.
 In general, you do not want to check the box that sends the message to the entire channel.
 
 #### Collecting feedback
@@ -73,17 +73,13 @@ We also use the training-specific private channel to poll participants via [Poll
 * What you liked about the module (anonymous, only instructors will see your answer)
 * How we can improve the module (anonymous, only instructors will see your answer)
 
-We will also ask you what you want to work on the next day on days _preceding_ consultation days.
-Your answers will be sent to course instructors only and are **not** anonymous.
-This allows instructors to group course participants based on their interests.
-
 Use the `Submit Response` button in a Polly message to enter your feedback:
 
 <img src = screenshots/slack-polly-response.png width = 500>
 
 ### Using Slack calling during training
 
-If you need help on consultation days, a course instructor may initiate a [Slack call](https://slack.com/help/articles/216771908-Make-calls-in-Slack).
+If you need help during consultation session, a course instructor may initiate a [Slack call](https://slack.com/help/articles/216771908-Make-calls-in-Slack).
 To answer a Slack call, hit the button with the phone icon on the prompt.
 
 <img src = screenshots/slack-call-prompt.png height = 300>
@@ -102,7 +98,7 @@ You can not select a specific window to share.
 
 ### Using direct messages during training
 
-If you have a question that is **_highly specific_** to your own data or a problem with your RStudio credentials, you may [direct message](https://slack.com/help/articles/212281468-What-is-a-direct-message) a CCDL staff member. 
+If you have a question that is **_highly specific_** to your own data or a problem with your RStudio credentials, you may [direct message](https://slack.com/help/articles/212281468-What-is-a-direct-message) a CCDL staff member.
 
 First, use the new message button in the top right side corner of the Slack interface.
 
@@ -120,9 +116,9 @@ In this section, we include a collection of tips that you may find helpful for u
 
 You can [add a file or image to Slack](https://slack.com/help/articles/201330736-Add-files-to-Slack) by dragging a file to the Slack window or by using the paper clip icon next to the message field:
 
-<img src = screenshots/slack-add-a-file.png width = 500> 
+<img src = screenshots/slack-add-a-file.png width = 500>
 
-#### Adding code blocks to messages 
+#### Adding code blocks to messages
 
 Code and error messages are usually easier to read when you use code formatting in Slack.
 You can either select the code block icon below the message field:
