@@ -1,5 +1,8 @@
 training_title: MONTH-TOPIC
-repository: REPOSITORY
+# the name of the repository (e.g., 2020-may-training)
+repository: YEAR-MONTH-TRAINING
+# full URL to the repository
+repository-url: REPOSITORY-URL
 start-date: YYYY-MM-DD
 end-date: YYYY-MM-DD
 # Specific release in AlexsLemonade/training-modules
