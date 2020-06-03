@@ -16,3 +16,4 @@ docker-image-id: IMAGEID
 docker-size: SIZE
 # How we have historically distributed materials in-person
 training-zip: TRAINING-ZIP
+training-unzip-folder: TRAINING-UNZIP-FOLDER
