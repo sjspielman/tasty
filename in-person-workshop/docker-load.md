@@ -53,7 +53,7 @@ You should see output like:
 
 ```
 REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
-{{site.docker-user}}/{{site.docker-info}}                            {{site.docker-tag}}               {{site.docker-image-id}}       19 minutes ago        {{site.docker-size}}
+{{site.docker-user}}/{{site.docker-repo}}                            {{site.docker-tag}}               {{site.docker-image-id}}       19 minutes ago        {{site.docker-size}}
 ```
 
 _Note that the created field may not match._
@@ -90,7 +90,7 @@ You should see output like:
 
 ```
 REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
-{{site.docker-user}}/{{site.docker-info}}                            {{site.docker-tag}}               {{site.docker-image-id}}       19 minutes ago        {{site.docker-size}}
+{{site.docker-user}}/{{site.docker-repo}}                            {{site.docker-tag}}               {{site.docker-image-id}}       19 minutes ago        {{site.docker-size}}
 ```
 
 _Note that the created field may not match._
@@ -101,7 +101,7 @@ _Note that the created field may not match._
   like. **Make sure to get rid of `<` and `>`.** Also note that your chosen PASSWORD
   cannot have a `$`.
 ```
-docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-info}}:{{site.docker-tag}} 
+docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
 ```
 
 2. Open `Kitematic` - you should see an image running. Docker assigns a random
@@ -158,7 +158,7 @@ If all else fails and Kitematic is not working for you, go to your `Terminal` or
 replace <PATH_TO_TRAINING_FOLDERS> with the absolute path to
 `training-modules` that was transferred from the flash drive.
 ```
-docker run -it --rm --mount type=volume,dst=/home/rstudio/kitematic,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=<PATH_TO_TRAINING_FOLDERS> -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-info}}:{{site.docker-tag}}
+docker run -it --rm --mount type=volume,dst=/home/rstudio/kitematic,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=<PATH_TO_TRAINING_FOLDERS> -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}}
 ```
 After starting your container this way, you can get to the RStudio window in
 a similar way as described above:
