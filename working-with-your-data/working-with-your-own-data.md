@@ -46,7 +46,12 @@ If you are retrieving your data from online, perhaps from a publicly available r
 
 ![Terminal tab](screenshots/rstudio-session-terminal.png)
 
-**Step 2)** Set up your `wget` command in a script (or notebook) using this template.
+**Step 2)** Copy over the [template script](./template-script/wget-TEMPLATE.sh).
+
+You'll find the `wget` template script in the `template-script/` folder.
+In the RStudio Server, you can click the check mark next to the file name, then go to `More` > and choose `Copy To`.
+
+**Step 3)** Set up your `wget` command in the template script we started for you.
 
 The most simple `wget` command just needs the URL to pull the file from.
 
@@ -100,7 +105,20 @@ unzip -d data/ data/some_array_data.zip
 
 [Go here](https://itsfoss.com/unzip-linux/) for more on the unzipping command.
 
-### Upload data from your own computer
+**If you have a password:**
+
+You can still use `wget` to obtain data if you need credentials.
+We don't recommend you put your password or any other credentials in the script or enter your password as part of a command, so you will want to type the following directly into the Terminal:
+
+```
+wget --user=<USERNAME> --ask-password <URL>
+```
+
+Using the `--ask-password` will prompt you to enter your password.
+
+### Upload *small* files from your own computer
+
+*This will only work for files smaller than 1GB*
 
 If the data you want to use is stored locally on your computer, here's how we recommend uploading it to the RStudio Server.
 
@@ -153,7 +171,7 @@ Click on the `More` button with a gear next to it in the lower right pane.
 
 **Step 3)** Specify the name you would like the downloaded file to have.
 
-![Export window](![Export button](screenshots/export-window.png))
+![Export window](screenshots/export-window.png)
 
 **Step 4)** Find where the file downloaded.
 Your computer may show the file in the bottom left of your browser window.
