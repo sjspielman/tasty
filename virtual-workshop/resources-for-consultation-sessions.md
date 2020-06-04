@@ -67,13 +67,13 @@ If you identify an RNA-seq experiment from refine.bio that you'd like to use wit
 To retrieve metadata associated with an RNA-seq experiment (e.g., tissue, genotype), you can use an R package called [`SRAdb`](https://www.bioconductor.org/packages/release/bioc/html/SRAdb.html).
 Your instructors have put together a detailed example of how to get a TSV file of sample attributes with the appropriate accession codes for use with RNA-seq data from refine.bio.
 
-You can view a rendered version of the R Notebook with the example here: [`retrieve-SRAdb-metadata.nb.html`](https://alexslemonade.github.io/2020-may-training/retrieve-SRAdb-metadata.nb.html)
+You can view a rendered version of the R Notebook with the example here: [`retrieve-SRAdb-metadata.nb.html`](https://alexslemonade.github.io/{{site.repository}}/working-with-your-data/retrieve-SRAdb-metadata.nb.html)
 
 The relevant files from `SRAdb` have already been downloaded to the RStudio Server in the interest of space.
 
 #### Getting a copy of the SRAdb example notebook in your home directory on RStudio Server
 
-To get an up-to-date copy of the Rmd file onto RStudio Server, first navigate to your **Terminal**.
+To get a copy of the Rmd file in your home directory that you will be able to edit, first navigate to your **Terminal**.
 Make sure your current directory is your home directory by entering the following into Terminal and hitting Enter:
 
 ```sh
@@ -81,16 +81,12 @@ Make sure your current directory is your home directory by entering the followin
 cd ~
 ```
 
-Then you're ready to download a copy of the Rmd file using [`wget`](https://en.wikipedia.org/wiki/Wget), which is a command line tool you can use to retrieve content from web servers:
+Then you're ready to copy the file with the following command:
 
 ```sh
-# Download the file "raw" retrieve-SRAdb-metadata.Rmd file from this training's repository
-# Here `master` specifies that this will be the most up-to-date version of the Rmd file
-# This will place the file in the current directory, which will be ~ (your home directory)
-wget https://github.com/AlexsLemonade/{{site.repository}}/raw/master/retrieve-SRAdb-metadata.Rmd
+cp -avr shared-data/working-with-your-data/retrieve-SRAdb-metadata.Rmd
 ```
 
-You should see `retrieve-SRAdb-metadata.Rmd` in your home directory once the download completes.
 You can open the Rmd file as normal.
 
 ## Transcriptome indices for non-human organisms
