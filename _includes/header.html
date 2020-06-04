@@ -1,12 +1,15 @@
-<header class="site-header">
+<!--
+Derived from https://github.com/jekyll/minima/blob/38a84a949f9753c4542e25f422935f59b4913053/_includes/header.html
+ minima 2.5.1
+-->
+<header class="site-header" role="banner">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-    {%- if titles_size > 0 -%}
+    {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -36,3 +39,4 @@
       </nav>
     {%- endif -%}
   </div>
+</header>
