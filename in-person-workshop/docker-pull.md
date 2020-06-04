@@ -28,24 +28,24 @@ name to your container. In the example below: "stoic_lamport".
 If you don't see a container running, try quitting `Kitematic` and then opening it
 up again, or going to the toolbar > `View` > `Refresh Container List`.
 
-![](screenshots/container_running.png)
+![](../docker-install/screenshots/container_running.png)
 
 4. `Settings` > `Volumes` > Set local folder to `training-modules` that was
 transferred from the flash drive, using the `CHANGE` button.
-![Folder](screenshots/all-02-volume.png)
+![Folder](../docker-install/screenshots/all-02-volume.png)
 
 *For Windows*: After you set `Volumes` you will may see a message in the
 lower right corner of your screen that asks if you would like to 'Share it'
 with Docker.
 Click the `Share it` button; it will ask for your credentials:  
-![Folder](screenshots/docker_permission_windows.png)  
+![Folder](../docker-install/screenshots/docker_permission_windows.png)  
 Enter your password and click `OK`.
 
 5. Navigate to RStudio window.
 
   - In a *Windows* or *Mac* in Kitematic, go to the `Settings` > `Hostname/Ports`
     tab and click on the blue lettering.
-![Folder](screenshots/all-01-network.png)
+![Folder](../docker-install/screenshots/all-01-network.png)
 
   - Alternatively, for a *Mac*, you can navigate to the RStudio window by typing
     `localhost:8787` in your web browser
