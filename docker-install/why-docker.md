@@ -1,4 +1,7 @@
-# Why Docker?
+---
+title: Why Docker?
+---
+
 ## A brief intro to Docker as a data analysis tool
 
 For this workshop, we will be conducting all of our analyses in a [Docker container](https://www.docker.com/resources/what-container).

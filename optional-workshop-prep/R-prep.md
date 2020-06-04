@@ -1,4 +1,6 @@
-# Pre-Workshop Prep for R Programming
+---
+title: Pre-Workshop Prep for R Programming
+---
 
 If you have little to no experience with R, we strongly recommend that you go through some of these swirl course materials before our workshop.
 We will iterate through these concepts in the context of gene expression data at the workshop. 

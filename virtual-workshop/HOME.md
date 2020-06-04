@@ -1,7 +1,7 @@
-
 ---
 title: CCDL Virtual Training
 ---
+
 ## {{site.training_title}}
 
 Dates: {{site.start_date}} through {{site.end_date}}

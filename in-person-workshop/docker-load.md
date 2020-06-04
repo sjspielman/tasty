@@ -1,4 +1,6 @@
-# Docker Container Set Up - from Flashdrive
+---
+title: Docker Container Set Up - from Flashdrive
+---
 
 If you have successfully installed [Docker](../docker-install/INSTALLATION-INSTRUCTIONS.md),
 and have [copied the files from the flash drive](flashdrive-instructions.md),

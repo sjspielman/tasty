@@ -1,4 +1,6 @@
-# Windows set up instructions for virtual workshops
+---
+title: Windows set up instructions for virtual workshops
+---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

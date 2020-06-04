@@ -1,6 +1,9 @@
-# CCDL Training: `<Training Title>`
+---
+title: CCDL Training
+---
+## {{site.training_title}}
 
-Dates: `<START>` through `<END>`
+Dates: {{site.start_date}} through {{site.end_date}}
 
 ## Getting Started
 

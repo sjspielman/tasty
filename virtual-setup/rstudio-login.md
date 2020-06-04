@@ -1,4 +1,6 @@
-## RStudio Server Set Up
+---
+title: RStudio Server Set Up
+---
 
 For this training, we've set up a server that hosts RStudio and allows you to run computations more quickly with our machines.
 
