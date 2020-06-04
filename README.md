@@ -43,7 +43,7 @@ _Optional_: remove the `.gitkeep` file from `slides`.
 - [ ] Update `_config.yaml` to use values that are relevant for your workshop such as the Docker repository and tag that you will be using for the workshop. [We use jekyll variable substitution as part of this template](https://jekyllrb.com/docs/includes/#passing-parameter-variables-to-includes).
 - [ ] Update `workshop/SCHEDULE.md` to point to appropriate materials for your workshop.
 	- Add relative links to PDFs in `slides` to the schedule.
-	- We recommend using [htmlpreview](https://github.com/htmlpreview/htmlpreview.github.com) to display rendered versions of R Notebooks that are tied to a specific release in the [`AlexsLemonade/training-modules`](https://github.com/AlexsLemonade/training-modules). You can use the `{{site.release-tag}}` convention used throughout the template.
+	- We recommend using [htmlpreview](https://github.com/htmlpreview/htmlpreview.github.com) to display rendered versions of R Notebooks that are tied to a specific release in the [`AlexsLemonade/training-modules`](https://github.com/AlexsLemonade/training-modules). You can use the `{{site.release_tag}}` convention used throughout the template.
 - [ ] Remove these instructions (and most likely the local development instructions below) from this README!
 We recommend that you link to `<url for repository's GitHub pages>/workshop/HOME` in the README, as this is where you will likely want most users to start to interact with the repository.
 

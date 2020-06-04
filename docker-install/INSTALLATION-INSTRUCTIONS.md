@@ -1,4 +1,6 @@
-# Installing Docker
+---
+title: Installing Docker
+---
 
 Follow the instructions below for Mac and Windows operating systems.
 When you are finished, return to the schedule for your workshop for the link to the next steps.

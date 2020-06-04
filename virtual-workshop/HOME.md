@@ -1,6 +1,10 @@
-# CCDL Virtual Training: {{site.training_title}}
+---
+title: CCDL Virtual Training
+---
 
-Dates: {{site.start-date}} through {{site.end-date}}
+## {{site.training_title}}
+
+Dates: {{site.start_date}} through {{site.end_date}}
 
 ## Getting Started
 

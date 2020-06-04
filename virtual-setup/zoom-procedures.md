@@ -1,5 +1,6 @@
-# Zoom Procedures for CCDL Virtual Workshops
-
+---
+title: Zoom Procedures for CCDL Virtual Workshops
+---
 We use [Zoom](https://zoom.us/) meetings for conducting CCDL virtual workshops.
 In this document, we will cover the procedures for joining a Zoom call and using various features for instruction and consultation sessions.
 

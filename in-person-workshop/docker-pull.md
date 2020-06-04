@@ -1,4 +1,6 @@
-# Docker Container Set Up - from Internet
+---
+title: Docker Container Set Up - from Internet
+---
 
 If you have successfully installed [Docker](../docker-install/INSTALLATION-INSTRUCTIONS.md),
 and have copied the files from the [flash drive](flashdrive-instructions.md)
@@ -14,13 +16,13 @@ provide you with all the software and packages you need for this workshop.
 
   In your respective command line interface, copy and paste the following:
 ```
-docker pull {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
+docker pull {{site.docker_user}}/{{site.docker_repo}}:{{site.docker_tag}} 
 ```
 
 2. Run the container. Change the `<PASSWORD>` in the line below to whatever you'd
   like.
 ```
-docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
+docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker_user}}/{{site.docker_repo}}:{{site.docker_tag}} 
 ```
 
 3. Open `Kitematic` - you should see an image running. Docker assigns a random
@@ -77,7 +79,7 @@ If all else fails and Kitematic is not working for you, go to your `Terminal` or
 replace <PATH_TO_TRAINING_FOLDERS> with the absolute path to
 `training-modules` that was transferred from the flash drive.
 ```
-docker run -it --rm --mount type=volume,dst=/home/rstudio/kitematic,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=<PATH_TO_TRAINING_FOLDERS> -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
+docker run -it --rm --mount type=volume,dst=/home/rstudio/kitematic,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=<PATH_TO_TRAINING_FOLDERS> -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker_user}}/{{site.docker_repo}}:{{site.docker_tag}} 
 ```
 After starting your container this way, you can get to the RStudio window in
 a similar way as described above:

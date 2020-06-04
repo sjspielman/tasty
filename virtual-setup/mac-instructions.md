@@ -1,5 +1,6 @@
-# Mac Setup Instructions for Virtual Workshops
-
+---
+title: Mac Setup Instructions for Virtual Workshops
+---
 
 ## Table of Contents
 

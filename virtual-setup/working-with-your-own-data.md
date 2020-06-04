@@ -1,4 +1,6 @@
-## Working with your own data
+---
+title: Working with your own data
+---
 
 The goal of our workshop is to equip you to do initial analyses with your own data!
 This guide will take you through how to get your data onto our RStudio server so you can begin analyzing your own data!

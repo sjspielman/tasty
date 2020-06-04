@@ -1,5 +1,6 @@
-# Using Slack for CCDL virtual workshops
-
+---
+title: Using Slack for CCDL virtual workshops
+---
 We use Slack for communication during CCDL virtual workshops.
 
 <p><img style = "padding: 0 15px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75"></p>
@@ -22,9 +23,9 @@ We have instructions for setting up Slack for your operating system available.
 
 - [How we use Slack during workshops](#how-we-use-slack-during-workshops)
   - [Using the training-specific channel](#using-the-training-specific-channel)
-     - [Introduce yourself!](#introduce-yourself)
-     - [General use](#general-use)
-     - [Collecting feedback](#collecting-feedback)
+    - [Introduce yourself!](#introduce-yourself)
+    - [General use](#general-use)
+    - [Collecting feedback](#collecting-feedback)
   - [Using Slack calling during training](#using-slack-calling-during-training)
   - [Using direct messages during training](#using-direct-messages-during-training)
 - [General Slack use](#general-slack-use)

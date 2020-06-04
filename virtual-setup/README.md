@@ -1,4 +1,6 @@
-## Setup for CCDL Virtual Workshops
+---
+title: Setup for CCDL Virtual Workshops
+---
 
 The `virtual-setup` module houses instructions specifically for CCDL virtual training workshops.
 

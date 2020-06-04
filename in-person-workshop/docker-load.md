@@ -1,4 +1,6 @@
-# Docker Container Set Up - from Flashdrive
+---
+title: Docker Container Set Up - from Flashdrive
+---
 
 If you have successfully installed [Docker](../docker-install/INSTALLATION-INSTRUCTIONS.md),
 and have [copied the files from the flash drive](flashdrive-instructions.md),
@@ -9,7 +11,7 @@ provide you with all the software and packages you need for this workshop.
 
 ## Part 1: Get the Docker image using a copy from the flash drives
 
-1. Be sure that you have copied `{{site.docker-targz}}` from the flash drive
+1. Be sure that you have copied `{{site.docker_targz}}` from the flash drive
 as was instructed in [these steps](flashdrive-instructions.md). If you do not
 have this file yet, follow [those instructions](flashdrive-instructions.md) before
 attempting to complete these next steps.
@@ -32,13 +34,13 @@ cd Desktop
 4. Once you are in your Desktop directory, you must extract the file with the following command:
 
 ```
-gunzip {{site.docker-targz}}
+gunzip {{site.docker_targz}}
 ```
 
 5. You can then load the Docker image with `docker load`:
 
 ```
-docker load -i {{site.docker-tar}}
+docker load -i {{site.docker_tar}}
 ```
 
 This will take a minute.
@@ -53,7 +55,7 @@ You should see output like:
 
 ```
 REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
-{{site.docker-user}}/{{site.docker-repo}}                            {{site.docker-tag}}               {{site.docker-image-id}}       19 minutes ago        {{site.docker-size}}
+{{site.docker_user}}/{{site.docker_repo}}                            {{site.docker_tag}}               {{site.docker_image_id}}       19 minutes ago        {{site.docker_size}}
 ```
 
 _Note that the created field may not match._
@@ -62,9 +64,9 @@ _Note that the created field may not match._
 
 2. Install 7-Zip install if you do not already have it by downloading the `64-bit x64` program here: https://www.7-zip.org/
 
-3. Right-click `{{site.docker-targz}}`.
+3. Right-click `{{site.docker_targz}}`.
 4. Go to `7-Zip` and selected `Extract Here`.
-When that has finished extraction, you should see `{{site.docker-tar}}` on your Desktop.
+When that has finished extraction, you should see `{{site.docker_tar}}` on your Desktop.
 
 5. Open your `Command Prompt` application.
 6. Navigate to your `Desktop` directory with:
@@ -75,7 +77,7 @@ cd Desktop
 7. You can load the Docker image with `docker load`:
 
 ```
-docker load -i {{site.docker-tar}}
+docker load -i {{site.docker_tar}}
 ```
 
 This will take a minute.
@@ -90,7 +92,7 @@ You should see output like:
 
 ```
 REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
-{{site.docker-user}}/{{site.docker-repo}}                            {{site.docker-tag}}               {{site.docker-image-id}}       19 minutes ago        {{site.docker-size}}
+{{site.docker_user}}/{{site.docker_repo}}                            {{site.docker_tag}}               {{site.docker_image_id}}       19 minutes ago        {{site.docker_size}}
 ```
 
 _Note that the created field may not match._
@@ -101,7 +103,7 @@ _Note that the created field may not match._
   like. **Make sure to get rid of `<` and `>`.** Also note that your chosen PASSWORD
   cannot have a `$`.
 ```
-docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}} 
+docker run -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker_user}}/{{site.docker_repo}}:{{site.docker_tag}} 
 ```
 
 2. Open `Kitematic` - you should see an image running. Docker assigns a random
@@ -158,7 +160,7 @@ If all else fails and Kitematic is not working for you, go to your `Terminal` or
 replace <PATH_TO_TRAINING_FOLDERS> with the absolute path to
 `training-modules` that was transferred from the flash drive.
 ```
-docker run -it --rm --mount type=volume,dst=/home/rstudio/kitematic,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=<PATH_TO_TRAINING_FOLDERS> -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker-user}}/{{site.docker-repo}}:{{site.docker-tag}}
+docker run -it --rm --mount type=volume,dst=/home/rstudio/kitematic,volume-driver=local,volume-opt=type=none,volume-opt=o=bind,volume-opt=device=<PATH_TO_TRAINING_FOLDERS> -e PASSWORD=<PASSWORD> -p 8787:8787 {{site.docker_user}}/{{site.docker_repo}}:{{site.docker_tag}}
 ```
 After starting your container this way, you can get to the RStudio window in
 a similar way as described above:

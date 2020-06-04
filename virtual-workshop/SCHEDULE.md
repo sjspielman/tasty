@@ -1,5 +1,7 @@
-
-# Virtual Workshop Schedule
+---
+title: Virtual Workshop Schedule
+nav_title: Schedule
+---
 
 <!--See an example from a past virtual workshop here: https://github.com/AlexsLemonade/2020-may-training/wiki/Schedule --> 
 
