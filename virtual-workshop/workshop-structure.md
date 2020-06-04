@@ -1,4 +1,7 @@
-# Workshop Structure
+---
+title: Workshop Structure
+nav_title: Structure
+---
 
 Our goals in constructing the virtual workshop structure are the following:
 

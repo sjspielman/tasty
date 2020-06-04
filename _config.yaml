@@ -25,4 +25,9 @@ docker_size: SIZE
 training_zip: TRAINING-ZIP
 training_unzip_folder: TRAINING-UNZIP-FOLDER
 
+# Theme and theme options
+theme: minima
+header_pages:
+  - virtual-workshop/SCHEDULE.md
+  - virtual-workshop/workshop-structure.md
   - virtual-workshop/workshop-materials.md

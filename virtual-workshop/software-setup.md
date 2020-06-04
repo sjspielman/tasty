@@ -1,4 +1,6 @@
-# Software Setup
+---
+title: Software Setup
+---
 
 ## Required software
 

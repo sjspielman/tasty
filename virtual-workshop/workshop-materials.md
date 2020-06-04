@@ -1,4 +1,7 @@
-# Workshop Materials
+---
+title: Workshop Materials
+nav_title: Materials
+---
 
 ### Github Repositories
 

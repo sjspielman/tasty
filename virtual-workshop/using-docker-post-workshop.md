@@ -1,4 +1,6 @@
-# Using Docker (Post-Workshop)
+---
+title: Using Docker (Post-Workshop)
+---
 
 #### Background
 
