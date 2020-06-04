@@ -13,8 +13,6 @@ This guide will take you through how to get your data onto our RStudio server so
 
 - If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../virtual-workshop/resources-for-consultation-sessions.md) and/or ask a CCDL team member for recommendations.
 
-- Note that uploading datasets that are larger than 1GB may require splitting it up into smaller files. Contact a CCDL team member if you need help splitting up any large files!
-
 - You will have access to our RStudio Server for 6 months.
 We will email you with a reminder 6 months from now so you can make sure to remove any files from our RStudio Server that you may find useful before your access is revoked and the files are deleted.
 

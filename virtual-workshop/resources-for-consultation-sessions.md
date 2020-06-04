@@ -41,8 +41,6 @@ We'll reiterate some of the most important points from those instructions below:
 * As a rule of thumb, if the data you are working with would be released under controlled access, rather than made publicly available, at the time of publication of a scientific manuscript, it should not be uploaded to our RStudio Server.
 * You have 50GB of space available.
 If your data is larger than 50GB, please contact an instructor.
-* Uploading datasets larger than 1GB may require splitting things up into smaller files.
-If you need help, let us know!
 
 ## Obtaining practice datasets
 
