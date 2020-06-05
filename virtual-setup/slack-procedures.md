@@ -15,9 +15,9 @@ All Slack communications must adhere to our [code of conduct](../code-of-conduct
 
 We have instructions for setting up Slack for your operating system available.
 
-* [Linux](./linux-instructions.md#slack)
-* [Mac](./mac-instructions.md#slack)
-* [Windows](./windows-instructions.md#slack)
+* [Linux](linux-instructions.md#slack)
+* [Mac](mac-instructions.md#slack)
+* [Windows](windows-instructions.md#slack)
 
 #### Table of Contents  
 

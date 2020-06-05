@@ -6,7 +6,7 @@ Our consultation sessions are designed for you to spend your time as you would l
 
 You can review instruction materials, work through exercise notebooks we provide, or analyze your own data.
 
-On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation sessions and how to get help, please review [the Consultation sessions section of the Workshop Structure page](./workshop-structure.md#consultation-days).
+On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation sessions and how to get help, please review [the Consultation sessions section of the Workshop Structure page](workshop-structure.md#consultation-sessions).
 
 **Table of contents**
 

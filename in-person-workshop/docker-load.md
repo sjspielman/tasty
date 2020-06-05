@@ -62,7 +62,7 @@ _Note that the created field may not match._
 
 #### Next steps for Windows 10 Pro users
 
-2. Install 7-Zip install if you do not already have it by downloading the `64-bit x64` program here: https://www.7-zip.org/
+2. Install 7-Zip install if you do not already have it by downloading the `64-bit x64` program here: <https://www.7-zip.org/>
 
 3. Right-click `{{site.docker_targz}}`.
 4. Go to `7-Zip` and selected `Extract Here`.

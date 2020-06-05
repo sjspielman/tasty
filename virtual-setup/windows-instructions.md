@@ -17,7 +17,7 @@ title: Windows set up instructions for virtual workshops
 ## Zoom
 
 If you do not have Zoom installed yet, you will need to download the client.
-To do so, go to https://zoom.us/download and click the button to download the latest version of **Zoom Client for Meetings**
+To do so, go to <https://zoom.us/download> and click the button to download the latest version of **Zoom Client for Meetings**
 
 <img src="screenshots/windows-zoom-download.png" width="500" alt="Zoom Download Page">
 
@@ -86,4 +86,4 @@ You can find Slackbot (and yourself) in the left panel, under "Direct Messages".
 
 <img src="screenshots/slack-dm-slackbot.png" alt="DM Slackbot" width = "300">
 
-For more information about how we will be using Slack, please read about our [Slack Procedures](./slack-procedures.md)
+For more information about how we will be using Slack, please read about our [Slack Procedures](slack-procedures.md)

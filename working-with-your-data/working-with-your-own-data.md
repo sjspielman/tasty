@@ -216,7 +216,7 @@ For most operating systems, you can right-click on your data folder, and choose 
 
 For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
 
-**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](./rstudio-login.md).
+**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](rstudio-login.md).
 
 **Step 3)** Use the `Upload button` to choose your compressed data folder.
 

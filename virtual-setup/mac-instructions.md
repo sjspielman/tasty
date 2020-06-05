@@ -16,7 +16,7 @@ title: Mac Setup Instructions for Virtual Workshops
 
 ### New Zoom Installation
 If you do not have Zoom installed yet, you will need to download the client.
-To do so, go to https://zoom.us/download and click the button to download the latest version of **Zoom Client for Meetings**
+To do so, go to <https://zoom.us/download> and click the button to download the latest version of **Zoom Client for Meetings**
 
 <img src="screenshots/mac-zoom-01-download.png" width="500" alt="Zoom Download Page">
 
@@ -101,7 +101,7 @@ Select **Quit Now**.
 Once Zoom has quit, you can click a meeting link to reopen it, rejoining the same meeting you were in, or any other meeting.
 
 You should now be all set to share your screen and fully participate in Zoom meetings and help sessions!
-For more information about how we will be using Zoom, please read about our [Zoom Procedures](./zoom-procedures.md)
+For more information about how we will be using Zoom, please read about our [Zoom Procedures](zoom-procedures.md)
 
 
 
@@ -109,7 +109,7 @@ For more information about how we will be using Zoom, please read about our [Zoo
 
 ### New Slack Installation
 
-If you do not already have Slack, you can download it at https://slack.com/downloads/mac.
+If you do not already have Slack, you can download it at <https://slack.com/downloads/mac>.
 You have the option to directly download the app from the Slack website there, or install it via the Mac App Store.
 If you download it directly, you will need to open the `.dmg` file and drag the Slack app to your Applications folder, as depicted in the window that appears.
 
@@ -121,7 +121,7 @@ You may be prompted to login, but ignore that for the moment.
 
 ### Logging in to the Cancer Data Science workspace
 
-Open http://ccdatalab.org/slack in your browser.
+Open <http://ccdatalab.org/slack> in your browser.
 If you have not created an account, follow the prompts to do so.
 You will be required to verify your email address first.
 Follow the link in the email to set up your account.
@@ -144,4 +144,4 @@ You can find Slackbot (and yourself) in the left panel, under "Direct Messages".
 
 One more thing: if you end up using the voice or video calling functionality that Slack provides, you may be asked to grant the app permission to use your microphone and videocamera, as you did with Zoom.
 
-For more information about how we will be using Slack, please read about our [Slack Procedures](./slack-procedures.md)
+For more information about how we will be using Slack, please read about our [Slack Procedures](slack-procedures.md)
