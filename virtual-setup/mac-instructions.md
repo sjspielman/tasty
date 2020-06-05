@@ -16,7 +16,7 @@ title: Mac Setup Instructions for Virtual Workshops
 
 ### New Zoom Installation
 If you do not have Zoom installed yet, you will need to download the client.
-To do so, go to https://zoom.us/download and click the button to download the latest version of **Zoom Client for Meetings**
+To do so, go to <https://zoom.us/download> and click the button to download the latest version of **Zoom Client for Meetings**
 
 <img src="screenshots/mac-zoom-01-download.png" width="500" alt="Zoom Download Page">
 
@@ -109,7 +109,7 @@ For more information about how we will be using Zoom, please read about our [Zoo
 
 ### New Slack Installation
 
-If you do not already have Slack, you can download it at https://slack.com/downloads/mac.
+If you do not already have Slack, you can download it at <https://slack.com/downloads/mac>.
 You have the option to directly download the app from the Slack website there, or install it via the Mac App Store.
 If you download it directly, you will need to open the `.dmg` file and drag the Slack app to your Applications folder, as depicted in the window that appears.
 
@@ -121,7 +121,7 @@ You may be prompted to login, but ignore that for the moment.
 
 ### Logging in to the Cancer Data Science workspace
 
-Open http://ccdatalab.org/slack in your browser.
+Open <http://ccdatalab.org/slack> in your browser.
 If you have not created an account, follow the prompts to do so.
 You will be required to verify your email address first.
 Follow the link in the email to set up your account.
