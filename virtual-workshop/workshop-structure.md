@@ -61,7 +61,7 @@ If you need assistance and would like to share your screen, an instructor will i
 
 ### Your instructors' roles during consultation
 
-Your instructors will be available via Slack during the consultation sessions listed in the [workshop schedule](./SCHEDULE.md).
+Your instructors will be available via Slack during the consultation sessions listed in the [workshop schedule](SCHEDULE.md).
 You may also remain in the Zoom meeting used for the day's instruction session, which will be used for breakout room functionality for grouping participants that want to work together.
 If you need to share your screen with an instructor during the a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
 

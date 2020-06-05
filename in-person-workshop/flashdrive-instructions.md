@@ -20,4 +20,4 @@ delete the original `{{site.training_zip}}` if you would like.
 4. `{{site.training_unzip_folder}}/training-modules` is the main directory we will be using.
 
 5. Now you can follow the Docker container set up instructions.
-Use the instructions linked on the [schedule](./SCHEDULE.md) for `Docker container set up`.
+Use the instructions linked on the [schedule](SCHEDULE.md) for `Docker container set up`.

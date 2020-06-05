@@ -12,8 +12,8 @@ RStudio by itself is an [integrated development environment](https://en.wikipedi
 
 To give you access to our RStudio server, we will send you a username and temporary password by direct message in Slack, after you are logged in on [Cancer Data Science](http://ccdatalab.org/slack).
 
-Go to https://rstudio.ccdatalab.org and type in your username and temporary password, and click `Sign in`.
-You may want to bookmark https://rstudio.ccdatalab.org for the duration of the workshop.
+Go to <https://rstudio.ccdatalab.org> and type in your username and temporary password, and click `Sign in`.
+You may want to bookmark <https://rstudio.ccdatalab.org> for the duration of the workshop.
 
 <img src = "screenshots/rstudio-server-login.png" width = "750">
 <br>

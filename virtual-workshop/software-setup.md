@@ -10,7 +10,7 @@ If you do not already have the software for these services installed, please fol
 All other software required for the workshop will be installed on our RStudio Server, which you can access via a web browser.
 Keep an eye out for more information about logging into RStudio.
 
-You will need to sign up for the **Cancer Data Science** Slack workspace at http://ccdatalab.org/slack. Please use your full name in your profile, so we can find you easily and add you to the private meeting channel.
+You will need to sign up for the **Cancer Data Science** Slack workspace at <http://ccdatalab.org/slack>. Please use your full name in your profile, so we can find you easily and add you to the private meeting channel.
 
 Please take a look at our procedures to familiarize yourself with how we will be using these platforms throughout training:
 

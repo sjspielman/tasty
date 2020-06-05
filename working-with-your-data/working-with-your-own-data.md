@@ -44,7 +44,7 @@ If you are retrieving your data from online, perhaps from a publicly available r
 
 ![Terminal tab](screenshots/rstudio-session-terminal.png)
 
-**Step 2)** Copy over the [wget template script](./template-script/wget-TEMPLATE.sh).
+**Step 2)** Copy over the [wget template script](template-script/wget-TEMPLATE.sh).
 
 You'll find the `wget` template script in the `template-script/` folder.
 In the RStudio Server, you can click the check mark next to the file name, then go to `More` > and choose `Copy To`.
@@ -165,7 +165,7 @@ For most operating systems, you can right-click on your data folder, and choose 
 
 For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
 
-**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](./rstudio-login.md).
+**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](rstudio-login.md).
 
 **Step 3)** Use the `Upload button` to choose your compressed data folder.
 

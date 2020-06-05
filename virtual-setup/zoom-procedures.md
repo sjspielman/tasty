@@ -8,9 +8,9 @@ In this document, we will cover the procedures for joining a Zoom call and using
 
 We have instructions for setting up Zoom for your operating system available.
 
-* [Linux](./virtual-setup/linux-instructions.md#zoom)
-* [Mac](./virtual-setup/mac-instructions.md#zoom)
-* [Windows](./virtual-setup/windows-instructions.md#zoom)
+* [Linux](linux-instructions.md#zoom)
+* [Mac](mac-instructions.md#zoom)
+* [Windows](windows-instructions.md#zoom)
 
 #### Table of Contents
 
@@ -129,7 +129,7 @@ You will see the following window while you are in the waiting room.
 An instructor will let you into the meeting.
 To make this process as smooth as possible, **please use a display name that will make it easy to match to your registration form and admit you into the Zoom call.**
 
-If you have trouble connecting, [please send an instructor a direct message on Slack](./slack-procedures.md#using-direct-messages-during-training) or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
+If you have trouble connecting, [please send an instructor a direct message on Slack](slack-procedures.md#using-direct-messages-during-training) or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
 
 **Join the call with computer audio** if you see the prompt shown below.
 You will also have the option to test your audio and video set up.
