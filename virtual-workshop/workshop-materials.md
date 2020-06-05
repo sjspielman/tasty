@@ -9,7 +9,7 @@ CCDL training materials are available on Github, in either this repository or ou
 
 ### Slides
 
-PDF versions of the slides we present in this workshop can be found in the [slides directory]({{site.repository_url}}/tree/master/slides) of the `{{site.repository}}` repository, and are also linked to directly from the [schedule](./SCHEDULE.md).
+PDF versions of the slides we present in this workshop can be found in the [slides directory]({{site.repository_url}}/tree/master/slides) of the `{{site.repository}}` repository, and are also linked to directly from the [schedule](SCHEDULE.md).
 
 ### Module Structure
 

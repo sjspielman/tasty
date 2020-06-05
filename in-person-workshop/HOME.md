@@ -13,5 +13,5 @@ Dates: {{site.start_date}} through {{site.end_date}}
 
 <!-- Introduce general schedule here -->
 
-**For more details on the schedule for each day, [click here](./SCHEDULE.md).**
+**For more details on the schedule for each day, [click here](SCHEDULE.md).**
 

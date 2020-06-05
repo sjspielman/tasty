@@ -86,4 +86,4 @@ You can find Slackbot (and yourself) in the left panel, under "Direct Messages".
 
 <img src="screenshots/slack-dm-slackbot.png" alt="DM Slackbot" width = "300">
 
-For more information about how we will be using Slack, please read about our [Slack Procedures](./slack-procedures.md)
+For more information about how we will be using Slack, please read about our [Slack Procedures](slack-procedures.md)
