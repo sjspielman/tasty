@@ -8,9 +8,9 @@ In this document, we will cover the procedures for joining a Zoom call and using
 
 We have instructions for setting up Zoom for your operating system available.
 
-* [Linux](./virtual-setup/linux-instructions.md#zoom)
-* [Mac](./virtual-setup/mac-instructions.md#zoom)
-* [Windows](./virtual-setup/windows-instructions.md#zoom)
+* [Linux](linux-instructions.md#zoom)
+* [Mac](mac-instructions.md#zoom)
+* [Windows](windows-instructions.md#zoom)
 
 #### Table of Contents
 
