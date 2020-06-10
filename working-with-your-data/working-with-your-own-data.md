@@ -5,13 +5,13 @@ title: Working with your own data
 The goal of our workshop is to equip you to do initial analyses with your own data!
 This guide will take you through how to get your data onto our RStudio server so you can begin analyzing your own data!
 
-### Things to know before uploading your data
+## Things to know before uploading your data
 
 - If you are uploading data from human patient sequencing samples, **please be sure that you are doing so in a manner that is consistent with participant consent and your institution’s rules**. The only data that is permissible for upload to our server is that which has been summarized to non-sequence level and has no personally identifiable information (PII) and no protected health information (PHI).
 
 - Initially, we have equipped you with **50 GB of space** (if the data you would like to upload is larger than this, please consult one of the CCDL team members through Slack for assistance).
 
-- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../virtual-workshop/resources-for-consultation-sessions.md) and/or ask a CCDL team member for recommendations.
+- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../workshop/resources-for-consultation-sessions.md) and/or ask a CCDL team member for recommendations.
 
 - You will have access to our RStudio Server for 6 months.
 We will email you with a reminder 6 months from now so you can make sure to remove any files from our RStudio Server that you may find useful before your access is revoked and the files are deleted.
@@ -22,11 +22,17 @@ We will email you with a reminder 6 months from now so you can make sure to remo
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-  - [Upload data that is online (from a url)](#upload-data-that-is-online-from-a-url)
-  - [Upload data that is on a ssh server](#upload-data-that-is-on-a-ssh-server)
-  - [Upload *small* files from your own computer](#upload-small-files-from-your-own-computer)
-  - [Reading the data into your R environment.](#reading-the-data-into-your-r-environment)
-- [Downloading files](#downloading-files)
+- [Load data that is online (from a url)](#load-data-that-is-online-from-a-url)
+- [Load data from an a ssh server](#load-data-from-an-a-ssh-server)
+- [Upload large files (> 1Gb) from your own computer](#upload-large-files--1gb-from-your-own-computer)
+  - [Install FileZilla on Mac](#install-filezilla-on-mac)
+  - [Install FileZilla on Windows](#install-filezilla-on-windows)
+  - [Install FileZilla on Ubuntu](#install-filezilla-on-ubuntu)
+  - [Linking FileZilla to the RStudio Server](#linking-filezilla-to-the-rstudio-server)
+  - [Using FileZilla to upload files to the RStudio Server](#using-filezilla-to-upload-files-to-the-rstudio-server)
+  - [Using FileZilla to download files to your computer](#using-filezilla-to-download-files-to-your-computer)
+- [Upload *small* files (<1 Gb) from your own computer](#upload-small-files-1-gb-from-your-own-computer)
+- [Download *small* files (<1Gb) to your computer](#download-small-files-1gb-to-your-computer)
 - [Installing packages](#installing-packages)
   - [Finding what packages are installed](#finding-what-packages-are-installed)
   - [Installing a new package](#installing-a-new-package)
@@ -36,7 +42,7 @@ We will email you with a reminder 6 months from now so you can make sure to remo
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### Upload data that is online (from a url)
+## Load data that is online (from a url)
 
 If you are retrieving your data from online, perhaps from a publicly available repository, we encourage you to use the terminal command `wget`.
 `wget` works for `http://` `https://` and `ftp://` URLs.
@@ -114,7 +120,7 @@ wget --user=<USERNAME> --ask-password <URL>
 ```
 Using the `--ask-password` will prompt you to enter your password.
 
-### Upload data that is on a ssh server
+## Load data from an a ssh server
 
 If you are retrieving your data from an [**s**ecure **sh**ell (ssh) server](https://searchsecurity.techtarget.com/definition/Secure-Shell), like one your institution or lab may host data on, we encourage you to use [the terminal command `scp`](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) to copy over your files you'd like to analyze to our server.
 (Make sure the data does not violate any of the [privacy issues described above](#things-to-know-before-uploading-your-data).)
@@ -202,7 +208,117 @@ scp -r <username@server>:<FOLDER_FROM_FILE_PATH> <FOLDER_TO_SAVE_TO>
 In either situation you will likely be prompted to enter your password.
 You can enter it interactively; it's best to not have the password written in a script.
 
-### Upload *small* files from your own computer
+## Upload large files (> 1Gb) from your own computer
+
+FileZilla is a GUI that helps transfer local files to remote servers like our RStudio Server.
+We recommend setting up FileZilla if your dataset is larger than a Gb or if you will transfer files to and from the RStudio Server.
+
+### Install FileZilla on Mac
+
+Go to [FileZilla's website](https://filezilla-project.org/download.php?type=client) to download the FileZilla Client.
+
+Click the big green `Download` button.
+
+Click `Download` on this next page for `FileZilla` this is the only free option but will have the functionality you need.
+
+<img src="screenshots/filezilla-download-install.png">
+
+After download is complete, you'll find the `FileZilla`'s `.app.tar.bz2` file in your download files or you can click on it in the corner of your web browser's screen.
+Double click on the file to install.
+
+You may want to move the App file to where your other applications are stored.
+
+### Install FileZilla on Windows
+
+Go to [FileZilla's website](https://filezilla-project.org/download.php?type=client) to download the FileZilla Client.
+
+Click the big green `Download` button.
+
+Click `Download` on this next page for `FileZilla` this is the only free option but will have the functionality you need.
+
+<img src="screenshots/filezilla-download-install.png">
+
+After download is complete, you'll find the `FileZilla` `.exe` file in your download files or you can click on it in the corner of your web browser's screen.
+
+Double click on the file to install to begin installation.
+
+You'll be asked if you want to `Allow FileZilla to make changes` click `Yes`.  
+
+There will be a series of steps (like below) you need to click `Next` and `Accept` to them.
+
+<img src="screenshots/filezilla-windows.png" width="600">
+
+### Install FileZilla on Ubuntu
+
+Navigate to the Ubuntu Software Center and search for FileZilla.
+Select FileZilla and then click the `Install` button.
+
+Alternatively, you can install FileZilla via the command line with:
+
+```
+sudo apt-get update
+sudo apt-get install filezilla
+```
+
+### Linking FileZilla to the RStudio Server
+
+Open up the FileZilla application.
+At the top of the FileZilla screen, you can enter in the address and your credentials for our RStudio Server (send a message to one of our staff if you forgot your username or password).
+
+<img src="screenshots/filezilla-bar.png">
+
+
+For `Host`, type in `rstudio.ccdatalab.org`.  
+For `Username`, type in the username you use to login in to our RStudio server.  
+For `Password` type in the password you use to login in to our RStudio server.  
+For `Port`, type in `22`.  
+
+
+Then click the blue `Quickconnect` button.
+FileZilla may ask you if you want it to remember your passwords.
+We'd suggest creating a master password or using `Do not save password`.
+
+<img src="screenshots/filezilla-password.png" width="500">
+
+Next, FileZilla will ask you if you should trust our RStudio Server.
+You can check the box for `Always trust this host` if you don't want to be asked this again.
+Then click `OK`.
+
+<img src="screenshots/filezilla-trust-server.png" width="500">
+
+### Using FileZilla to upload files to the RStudio Server
+
+The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
+
+On the right side, navigate to the folder you'd like to upload the files to on the RStudio Server.
+
+Then, on the left, navigate to the file or folder on your computer you'd like to upload the RStudio Server.
+On a Mac, you will likely be asked to allow FileZilla to have access to your files.
+Click `OK` for each time.
+
+<img src="screenshots/filezilla-permission.png" width="400">
+
+For the folder or file you want to upload, right click on it and choose `Upload`.
+
+<img src="screenshots/filezilla-upload.png" width="400">
+
+A progress bar on the bottom of the screen will tell you approximately how long it will take to upload.
+
+### Using FileZilla to download files to your computer
+
+The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
+
+On the left side, navigate to the folder you'd like to download the files to on your computer.
+
+Then, on the right, navigate to the file or folder on the RStudio Server you'd like to download to your computer.
+
+For the folder or file you want to download, right click on it and choose `Download`.
+
+<img src="screenshots/filezilla-download.png" width="400">
+
+A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
+
+## Upload *small* files (<1 Gb) from your own computer
 
 *This will only work for files smaller than 1GB*
 
@@ -233,16 +349,7 @@ This may take some time, particularly if you have a large dataset.
 When the server is finished uploading your data, you should see your file in your `home` directory!
 It will automatically be uncompressed.
 
-### Reading the data into your R environment.
-
-This step is very dependent on the format of your data and what you are planning to do with it!
-If your file is a TSV, CSV, or RDS file, follow the examples in the `intro-to-R-tidyverse/intro-to-tidyverse.Rmd` notebook.
-
-We do NOT recommend clicking on the file in the RStudio panel to load it into your R environment, this typically won't work for anything that's not a very small file.
-
-Plus, for reproducibility purposes, you should write the data reading step into your notebook analyses!
-
-## Downloading files
+## Download *small* files (<1Gb) to your computer
 
 Any files on the RStudio server you would like to save to your computer you can export.
 
