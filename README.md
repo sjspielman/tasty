@@ -80,3 +80,11 @@ The following instructions are for Mac OS and have only been used on Mojave.
 2. Install Jekyll (`gem install jekyll`).
 3. Run `bundle install` from the root of this repository, where the `Gemfile` is located.
 4. Run `bundle exec jekyll serve` and navigate to the server address.
+
+If you've already followed the steps above and are in a new shell, run the following steps to build locally:
+
+```
+rbenv shell 2.7.1
+rbenv rehash
+bundle exec jekyll serve  
+```
