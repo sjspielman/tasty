@@ -176,13 +176,25 @@ To bring up chat, click the chat icon in the control bar.
 
 ### Joining a breakout room
 
-If you need 1:1 help during instruction, the host of the Zoom meeting will assign you and an available instructor to a breakout room so the instructor can provide assistance.
-When this happens, you will see a prompt like the one below.
-Click `Join Breakout Room`.
+The host of the Zoom meeting will assign you to a breakout room if you need 1:1 help and during certain periods of instruction.
+
+When you are assigned to a breakout room, you will see a prompt like the one below.
+Click `Join Breakout Room` to go to the breakout room.
 
 <img src = "screenshots/zoom-join-breakout-room.png" width = "500">
 
-If you are assigned to a Zoom breakout room during a consultation session, the process for joining a breakout room is the same.
+If you were accidentally to hit `Later` **_or_** if you need to return to the breakout room after returning to the main session, you can click the `Join Breakout Room` icon in your control bar.
+
+<img src = "screenshots/zoom-participant-control-join-breakout-room.png" width = "500">
+
+That will bring up the popup window shown below; click `Join Breakout Room`.
+
+<img src = "screenshots/zoom-join-breakout-room-rejoin.png" width = "500">
+
+When you're in a breakout room, you may receive messages from the host.
+Those messages will appear as green banners at the top of your Zoom window.
+
+<img src = "screenshots/zoom-breakout-room-msg-from-host.png" width="400">
 
 ### Sharing your screen in Zoom
 
@@ -204,18 +216,20 @@ To shop sharing your screen, click `Stop Share` at the top of the Zoom window.
 
 <img src = "screenshots/zoom-breakout-stop-screen-sharing.png" width = "750">
 
-To ask for help from the meeting host while in a breakout room, use the `Ask for Help` icon in the controls.
-
-<img src = "screenshots/zoom-breakout-ask-for-help.png" width = "750">
-
 ### Returning to the main session
 
-To return to the main session, select `Leave Breakout Room` from the control panel.
+To return to the main session, select `Leave Room` from the control panel.
 **Note that you will need to stop sharing your screen to leave the breakout room.**
 
 <img src = "screenshots/zoom-breakout-leave-room.png" width = "750">
 
-You may receive messages from the host or a notification that the host is closing all breakout rooms while in a breakout room.
+This will bring up a pop up that will give you the option to leave the Zoom call or leave the breakout room. Be sure you select `Leave Breakout Room` or else you will need use the Zoom link in your email or the training Slack channel to rejoin the meeting!
+
+<img src = "screenshots/zoom-to-leave-or-not-to-leave.png" width="400">
+
+If the host of the meeting closes the breakout rooms at the end of a session, you may see a prompt with a countdown; you can use the `Return to the Main Session` button to return before the countdown ends.
+
+<img src = "screenshots/zoom-breakout-room-countdown.png" width = "400">
 
 ## Zoom during consultation
 
