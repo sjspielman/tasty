@@ -15,7 +15,7 @@ The image we use will allow you to access an RStudio Server in your local contai
 
 #### Docker installation
 
-You can find instructions for installing Docker on Mac OS or Windows 10 Pro [here](../workshop/INSTALLATION-INSTRUCTIONS.md).
+You can find instructions for installing Docker on Mac OS or Windows 10 Pro [here](../docker-install/INSTALLATION-INSTRUCTIONS.md).
 _Note: Windows Home has only recently become supported and requires different steps than what is linked above ([Docker documentation](https://docs.docker.com/docker-for-windows/install-windows-home/))._
 
 #### Obtaining the Docker image
