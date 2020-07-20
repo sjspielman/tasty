@@ -54,7 +54,8 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 **During consultation sessions**, you can work through exercise notebooks included as part of the course, with your own data, or with publicly available data related to your research.
 
 The main method we use for communication durion consultation sessions is Slack.
-You can use the training-specific private channel to post errors, get help with debugging, and interact with other participants as they work through exercises.
+You can use the training-specific private channel to [post errors](./posting-errors-guidelines.md), get help with debugging, and interact with other participants as they work through exercises.
+We recommend you follow the [posting for error help guidelines](./posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.
 
 Zoom is the platform that we use to facilitate sharing your screen with an instructor, which may come in handy during consultation.
 If you need assistance and would like to share your screen, an instructor will initiate a Zoom call in Slack.
@@ -69,6 +70,7 @@ If you need to share your screen with an instructor during the a consultation da
 
 Our goal during consultation days is to make sure you get the support you need from instructors, to facilitate peer-to-peer learning, and to maximize the information that is available to everyone a form that is discoverable in the future.
 For these reasons, the main process for communication on consultation days is the training-specific Slack channel.
+We recommend following these [posting for error help guidelines](posting-errors-guidelines.md) when you request help for errors you encounter in your code.
 
 _Remember – if you have a question, another person in the course almost certainly has the same question!_
 
@@ -79,7 +81,7 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 | If this happens | Use this platform |
 |-----------------|-------------------|
 | I have a question about yesterday's instruction | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
-| I have a question about an exercise notebook | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) - if you're seeing an error, please include the file name and line number |
+| I have a question about an exercise notebook | Please use the [guidelines for posting for help](posting-errors-guidelines.md) and post in the [training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel)|
 | I am having an issue that requires me to share my screen | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) - an instructor will initiate a Zoom meeting that you can [join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack) |
 | I would like to be paired up with other participants | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
 | I have a question that is **_highly specific_** to my data | [Use Slack to direct message a CCDL staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |

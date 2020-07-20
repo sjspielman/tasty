@@ -34,3 +34,5 @@ A description of our plans and goals for the workshop can be found on the [Works
 During instruction sessions, CCDL staff will lead you through course material using [Zoom](../virtual-setup/zoom-procedures.md), [Slack](../virtual-setup/slack-procedures.md), and [RStudio Server](../virtual-setup/rstudio-login.md). We will record instruction and provide it to workshop attendees so they can revisit it outside of workshop hours or in case they experience disruptions during live instruction.
 
 During [consultation sessions](resources-for-consultation-sessions.md), CCDL staff will be available to answer questions and provide 1:1 assistance as you work through exercise notebooks we provide or work with your own transcriptomic data. We’ll use Zoom and Slack for these days, too.
+
+We recommend you follow these [posting error help guidelines](posting-error-guidelines.md) so you can maximize others' abilities to help you resolve your error.
