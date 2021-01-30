@@ -30,6 +30,7 @@ _More detailed instructions and/or improvements coming soon._
 *You can optionally turn these checkboxes into issues on your new repository.*
 
 - [ ] Turn on GitHub pages under `Settings`.
+- [ ] _Optional but highly recommended:_ Turn on branch protection for the repository's default branch (e.g., `main`) such that pull requests are required before merging.
 - [ ] _Optional:_ Delete or alter the issue templates (`.github/ISSUE_TEMPLATE`); the ones that will be included are tailored for the template repository.
 - [ ] Delete the irrelevant `*-workshop` folder. 
 If your workshop is a virtual workshop, remove the `in-person-workshop` folder. 
