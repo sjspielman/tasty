@@ -1,5 +1,7 @@
 ---
 title: CCDL Training
+nav_title: Home
+permalink: /
 ---
 ## {{site.training_title}}
 
