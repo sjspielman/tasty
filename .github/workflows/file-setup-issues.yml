@@ -91,7 +91,7 @@ jobs:
         with:
           title: Final version of schedule
           content-filepath: ./setup-issue-templates/final-schedule.md
-          labels: automated training issue, schedule
+          labels: automated training issue, schedule, blocked
 
       # Issue for updating README
       - name: Create issue for updating README
