@@ -30,6 +30,7 @@ _More detailed instructions and/or improvements coming soon._
 *You can optionally turn these checkboxes into issues on your new repository.*
 
 - [ ] Turn on GitHub pages under `Settings`.
+- [ ] _Optional but highly recommended:_ Turn on branch protection for the repository's default branch (e.g., `main`) such that pull requests are required before merging.
 - [ ] _Optional:_ Delete or alter the issue templates (`.github/ISSUE_TEMPLATE`); the ones that will be included are tailored for the template repository.
 - [ ] Delete the irrelevant `*-workshop` folder. 
 If your workshop is a virtual workshop, remove the `in-person-workshop` folder. 
@@ -41,6 +42,8 @@ Changing this folder name will make several links in the repository work–there
 - [ ] Add PDF copies of your slides to `slides`.
 _Optional_: remove the `.gitkeep` file from `slides`.
 - [ ] Update `_config.yaml` to use values that are relevant for your workshop such as the Docker repository and tag that you will be using for the workshop. [We use jekyll variable substitution as part of this template](https://jekyllrb.com/docs/includes/#passing-parameter-variables-to-includes).
+- [ ] Update the pages that will appear in the header (`header_pages:`) in `_config.yaml` as needed.
+Any page that appears in the header should have a navigation title (`nav_title:`) in its YAML header.
 - [ ] Update `workshop/SCHEDULE.md` to point to appropriate materials for your workshop.
 	- Add relative links to PDFs in `slides` to the schedule.
 	- We recommend using [htmlpreview](https://github.com/htmlpreview/htmlpreview.github.com) to display rendered versions of R Notebooks that are tied to a specific release in the [`AlexsLemonade/training-modules`](https://github.com/AlexsLemonade/training-modules). You can use the `{{site.release_tag}}` convention used throughout the template.

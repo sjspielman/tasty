@@ -1,5 +1,7 @@
 ---
 title: CCDL Virtual Training
+nav_title: Home
+permalink: /
 ---
 
 ## {{site.training_title}}
