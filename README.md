@@ -27,7 +27,8 @@ _More detailed instructions and/or improvements coming soon._
 
 ## Customizing the new repository for an individual training workshop
 
-*You can optionally turn these checkboxes into issues on your new repository.*
+To customize this repository for an individual workshop, you should follow the checklist below.
+You can use GitHub Actions to trigger creating issues that correspond to these items (see [below](#manually-triggering-issue-creation-with-github-actions)).
 
 - [ ] Turn on GitHub pages under `Settings`.
 - [ ] _Optional but highly recommended:_ Turn on branch protection for the repository's default branch (e.g., `main`) such that pull requests are required before merging.
@@ -50,6 +51,11 @@ Any page that appears in the header should have a navigation title (`nav_title:`
 - [ ] Remove these instructions (and most likely the local development instructions below) from this README!
 We recommend that you link to `<url for repository's GitHub pages>/workshop/HOME` in the README, as this is where you will likely want most users to start to interact with the repository.
 
+### Manually triggering issue creation with GitHub Actions
+
+If you would like to automatically create issues corresponding to the tasks that are required for customizing this repository, you can manually trigger a workflow once you have created your new repo.
+Navigate to `Actions` and select `Manually trigger issue creation for standard set up` from under `All workflows`. 
+Use the `Run workflow` drop down menu; you will be required to input the appropriate `training-modules` release tag for your training workshop.
 
 ## Local development 
 
