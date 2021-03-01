@@ -81,7 +81,7 @@ Your instructors have put together a detailed example of how to get a TSV file o
 
 You can view a rendered version of the R Notebook with the example here: [`retrieve-SRAdb-metadata.nb.html`](https://alexslemonade.github.io/{{site.repository}}/working-with-your-data/retrieve-SRAdb-metadata.nb.html)
 
-The relevant files from `SRAdb` have already been downloaded to the RStudio Server in the interest of space.
+The relevant files from `SRAdb` have already been downloaded to the RStudio Server in the interest of space
 
 #### Getting a copy of the SRAdb example notebook in your home directory on RStudio Server
 
