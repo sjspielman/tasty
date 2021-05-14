@@ -1,1 +1,2 @@
-Turn on GitHub pages under `Settings` > `Options` > `GitHub Pages`. Use the default branch as the Source.
+Turn on GitHub pages under `Settings` > `Pages`. 
+Use the default branch and `root` directory as the Source.
