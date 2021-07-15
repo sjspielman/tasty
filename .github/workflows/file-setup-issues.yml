@@ -100,3 +100,11 @@ jobs:
           title: Update README to be user-facing (remove instructions)
           content-filepath: ./setup-issue-templates/user-facing-readme.md
           labels: automated training issue
+
+      # Issue for updating course website to reflect workshop's content
+      - name: Create issue for revising workshop content
+        uses: peter-evans/create-issue-from-file@v2.3.2
+        with:
+          title: Ensure that descriptions of and links to workshop content are up-to-date
+          content-filepath: ./setup-issue-templates/tailor-to-workshop-content.md
+          labels: automated training issue
