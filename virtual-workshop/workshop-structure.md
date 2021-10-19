@@ -44,7 +44,7 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 | If this happens | Use this platform |
 |-----------------|-------------------|
 | I need something clarified before we move on with instruction | [Use Zoom chat to message the meeting host with your question or use the `Raise Hand` button on Zoom](../virtual-setup/zoom-procedures.md#interacting-with-instructors-and-providing-feedback) |
-| I am stuck with an error message and am no longer able to follow the hands-on exercise | [Use Zoom chat](../virtual-setup/zoom-procedures.md#chat) to [message the meeting host and let them know you need 1:1 assistance](../virtual-setup/zoom-procedures.md#asking-for-11-help-during-instruction) - they will pair you with an available instruction in a [Zoom breakout room](../virtual-setup/zoom-procedures.md#joining-a-breakout-room) |
+| I am stuck with an error message and am no longer able to follow the hands-on exercise | [Use Zoom chat](../virtual-setup/zoom-procedures.md#chat) to [message the meeting host and let them know you need 1:1 assistance](../virtual-setup/zoom-procedures.md#asking-for-11-help-during-instruction) - they will pair you with an available instructor in a [Zoom breakout room](../virtual-setup/zoom-procedures.md#joining-a-breakout-room) |
 | I have a general or conceptual question that can be addressed later in the lecture or asynchronously | Post in the [training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
 | I am having trouble with my login credentials | [Use Slack to direct message a CCDL staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) that is not leading instruction or the host of the Zoom meeting |
 | I am having technical difficulties that preclude me from using Zoom and Slack | Email [training@ccdatalab.org](mailto:training@ccdatalab.org) |
@@ -53,7 +53,7 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 
 **During consultation sessions**, you can work through exercise notebooks included as part of the course, with your own data, or with publicly available data related to your research.
 
-The main method we use for communication durion consultation sessions is Slack.
+The main method we use for communication during consultation sessions is Slack.
 You can use the training-specific private channel to [post errors](./posting-errors-guidelines.md), get help with debugging, and interact with other participants as they work through exercises.
 We recommend you follow the [posting for error help guidelines](./posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.
 
@@ -64,11 +64,11 @@ If you need assistance and would like to share your screen, an instructor will i
 
 Your instructors will be available via Slack during the consultation sessions listed in the [workshop schedule](SCHEDULE.md).
 You may also remain in the Zoom meeting used for the day's instruction session, which will be used for breakout room functionality for grouping participants that want to work together.
-If you need to share your screen with an instructor during the a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
+If you need to share your screen with an instructor during a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
 
 ### Using communication platforms during consultation sessions
 
-Our goal during consultation days is to make sure you get the support you need from instructors, to facilitate peer-to-peer learning, and to maximize the information that is available to everyone a form that is discoverable in the future.
+Our goal during consultation days is to make sure you get the support you need from instructors, to facilitate peer-to-peer learning, and to maximize the information that is available to everyone in a form that is discoverable in the future.
 For these reasons, the main process for communication on consultation days is the training-specific Slack channel.
 We recommend following these [posting for error help guidelines](posting-errors-guidelines.md) when you request help for errors you encounter in your code.
 

@@ -13,7 +13,7 @@ PDF versions of the slides we present in this workshop can be found in the [slid
 
 ### Module Structure
 
-In the `training-modules` repository, each individual module is in found a subfolder of the main page, along with folders containing cheat sheets and setup instructions.
+In the `training-modules` repository, each individual module is found in a subfolder of the main page, along with folders containing cheat sheets and setup instructions.
 
 In this training workshop, we will be using the following modules:
 
@@ -29,10 +29,11 @@ The layout of the `training-modules` folders follow a common general structure.
 
 In these folders, you will notice that there may be two or three versions of some notebook files.
 For example, there may be a `01-intro_to_base_R-live.Rmd`, a `01-intro_to_base_R.Rmd`, and a `01-intro_to_base_R.nb.html`.
+
 - The version with `-live.Rmd` at the end is an incomplete version of the notebook, missing some code that will be filled in during the workshop.
 - The `.Rmd` file (with no `-live`) is a fully completed version of the notebook, useful for reference in case you might have missed any steps during the workshop.
 - The `.nb.html` version of the file is a rendered web page of the notebook.
-This file can be downloaded or viewed via the links in the README file that you will see at the bottom of file listing for each module.
+This file can be downloaded or viewed via the links in the README file that you will see at the bottom of the file listing for each module.
 
 Cheatsheets that review key functions and concepts are found in the [module-cheatsheets folder](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/module-cheatsheets).
 These are formatted both as markdown files and PDFs, with the latter likely most useful for reference.
