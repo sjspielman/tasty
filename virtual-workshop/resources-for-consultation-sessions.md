@@ -14,13 +14,13 @@ On this page, we've assembled some resources you may find helpful during these s
 - [Module cheatsheets](#module-cheatsheets)
 - [Working with your own data on RStudio Server](#working-with-your-own-data-on-rstudio-server)
 - [Obtaining practice datasets](#obtaining-practice-datasets)
-  	- [refine.bio](#refinebio)
-   	 	- [Microarray data on refine.bio](#microarray-data-on-refinebio)
-   	 	- [Bulk RNA-seq data on refine.bio](#bulk-rna-seq-data-on-refinebio)
-	- [Single-cell RNA-seq data](#single-cell-rna-seq-data)
-   	 	- [_Tabula Muris_ data](#tabula-muris-data)
-   	 	- [Human Cell Atlas data](#human-cell-atlas-data)
-   	 	- [Reading `loom` format data in R](#reading-loom-format-data-in-r) 
+  - [refine.bio](#refinebio)
+    - [Microarray data on refine.bio](#microarray-data-on-refinebio)
+    - [Bulk RNA-seq data on refine.bio](#bulk-rna-seq-data-on-refinebio)
+  - [Single-cell RNA-seq data](#single-cell-rna-seq-data)
+    - [_Tabula Muris_ data](#tabula-muris-data)
+    - [Human Cell Atlas data](#human-cell-atlas-data)
+    - [Reading `loom` format data in R](#reading-loom-format-data-in-r)
 - [Transcriptome indices for common organisms](#transcriptome-indices-for-common-organisms)
   - [_Homo sapiens_](#homo-sapiens)
   - [_Mus musculus_](#mus-musculus)
@@ -62,7 +62,7 @@ See the ["Getting Started" section](https://alexslemonade.github.io/refinebio-ex
 
 You can start by searching [refine.bio](https://www.refine.bio/) for keywords relevant to your scientific questions and filtering to the organism and technology (e.g., microarray vs. RNA-seq; refine.bio contains both) you're interested in.
 
-### Microarray data on refine.bio
+#### Microarray data on refine.bio
 
 In this version of our workshop, we won't work with microarray data, but there are hundreds of thousands of microarray samples available from refine.bio.
 The microarray datasets you can download from the refine.bio web interface are quantile normalized and are distributed as TSV files you can read into R using functions we cover in training.
@@ -70,7 +70,7 @@ The metadata is included in your download in a TSV file that starts with `metada
 You may find our [microarray example notebooks](https://alexslemonade.github.io/refinebio-examples/02-microarray/00-intro-to-microarray.html) for working with refine.bio data helpful with your [differential expression](https://alexslemonade.github.io/refinebio-examples/02-microarray/differential-expression_microarray_01_2-groups.html), [dimension reduction](https://alexslemonade.github.io/refinebio-examples/02-microarray/dimension-reduction_microarray_01_pca.html), or [GSEA pathway analyses](https://alexslemonade.github.io/refinebio-examples/02-microarray/pathway-analysis_microarray_02_gsea.html), to name a few.
 Note that our training material is largely RNA-seq specific, so if you obtain microarray data from refine.bio, you should not expect to use the exact same code as we do in training.
 
-### Bulk RNA-seq data on refine.bio
+#### Bulk RNA-seq data on refine.bio
 
 The format of the RNA-seq data you can download from the web interface of refine.bio data will be slightly different from what we cover in training.
 We summarize our data to the gene-level with `tximport` ([docs](http://docs.refine.bio/en/latest/main_text.html#tximport)), instead of `tximeta` like we do in training, before you download it.
