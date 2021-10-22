@@ -36,7 +36,10 @@ header_pages:
   - workshop/SCHEDULE.md
   - workshop/workshop-structure.md
   - workshop/workshop-materials.md
+  - workshop/resources-for-consultation-sessions.md
+  - working-with-your-data/working-with-your-own-data.md
+  - workshop/posting-errors-guidelines.md
 author: Childhood Cancer Data Lab
-# email: user@site
+email: training@ccdatalab.org
 twitter_username: CancerDataLab
 github_username:  AlexsLemonade
