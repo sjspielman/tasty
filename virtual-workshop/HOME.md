@@ -49,4 +49,4 @@ We will record instruction and provide it to workshop attendees so they can revi
 During [consultation sessions](resources-for-consultation-sessions.md), CCDL staff will be available to answer questions and provide 1:1 assistance as you work through exercise notebooks we provide or work with your own transcriptomic data.
 We’ll use Zoom and Slack for these days, too.
 
-We recommend you follow these [posting error help guidelines](posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.
+We recommend you follow these [guidelines for posting errors](posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.
