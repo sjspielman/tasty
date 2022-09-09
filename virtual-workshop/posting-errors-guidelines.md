@@ -2,13 +2,10 @@
 title: Guidelines for posting an error to Slack
 nav_title: Posting an Error
 ---
-<p><img style = "padding: 0 15px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75"></p>
-<p style="margin-top: 20px;"> </p>
-<p>We use the <b>Cancer Data Science Slack</b> team administered by the CCDL for communication.
-If you haven't joined Cancer Data Science Slack yet, you will need to follow the 
-<a href="https://alexslemonade.github.io/{{site.repository}}/virtual-setup/slack-procedures.md">
-set up procedures described here</a>.</p>
-<br>
+<img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
+We use the **Cancer Data Science Slack** team administered by the CCDL for communication.
+If you haven't joined Cancer Data Science Slack yet, you will need to follow the [setup procedures described here](../virtual-setup/slack-procedures.md).
+
 During and after the workshop, we encourage you to post your code error question to your Slack training channel.
 But asking questions about code in such a way that others can readily help you can be tricky and is a skill in itself!
 
@@ -17,7 +14,7 @@ Following these guidelines will take more time but it will increase your chances
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents** 
+**Table of Contents**
 
 - [What information should a question about code include?](#what-information-should-a-question-about-code-include)
 - [A troubleshooting example](#a-troubleshooting-example)
@@ -64,13 +61,13 @@ Below is a screenshot of what this error would look like when encountering it on
 ### Step 1) Do what you can to try to solve the error yourself (but don't tire yourself out!)
 
 The best way to learn how to solve errors in code is to figure them out yourself.
-So try to explore the error a bit - but we are also here to help you so don't hesitate to ask for help! 
+So try to explore the error a bit - but we are also here to help you so don't hesitate to ask for help!
 (_If you are feeling exasperated by your error, skip to Step 2_).
 
 We recommend looking over our [debugging guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00b-debugging_resources.md) which can explain what some of the most common errors mean.
 The debugging guide also has tips on first steps to take which may help you get to the root of the problem.
 
-**A short list of things to try:**  
+**A short list of things to try:**
 
 - Try to identify which part of your code appears to be the problem through trying smaller parts of the code and seeing if the error still occurs (called chunking).
 In the chunking example below, each highlighted portion is something you could run by itself to test.
@@ -96,10 +93,10 @@ For our example error, here's how each of the "four points" (and the optional on
 
 - Note that line numbers change as you've added code, so line numbers as a reference aren't as helpful.
 
-*For our example:*  
+*For our example:*
 <img src = "screenshots/where-is-the-error.png" width = "600">
 
-#### What is the goal of this code?  
+#### What is the goal of this code?
 
 - Describing your end goals for this code will provide context for others so they can tailor their advice with your goal in mind.
     *Examples of information you may want to include (whenever it is applicable):*
@@ -115,7 +112,7 @@ For our example error, here's how each of the "four points" (and the optional on
 
 - Sometimes you can bypass an error completely by using an alternative strategy altogether, but your helper won't be able to suggest an alternative if they don't know your ultimate goal.
 
-*For our example:*  
+*For our example:*
 <img src = "screenshots/what-is-the-goal.png" width = "600">
 
 #### What is the code that is producing this error?
@@ -126,10 +123,10 @@ Formatting your code makes it easier for others to distinguish between your code
 - Screenshots are not ideal because others can't copy your code from a screenshot.
 Being able to copy and paste the code itself makes it much easier for others to help you, and to provide a reply with code that you can copy!
 
-*For our example:*  
+*For our example:*
 <img src = "screenshots/what-is-the-code.png" width = "600">
 
-#### What is the error or problematic outcome?  
+#### What is the error or problematic outcome?
 
 - Include any error messages verbatim.
 Also preferably not a screenshot so others can copy-paste for Google searching (A reminder to also try Google searching yourself before posting - It's often surprisingly helpful!).
@@ -137,10 +134,10 @@ Also preferably not a screenshot so others can copy-paste for Google searching (
      - *Example*: "This data.frame I'm showing in my code, called `cool_df` doesn't have row names when I look at it in my environment panel".
 - Context around when the error appears versus when it does not can be helpful clues to your reader.
 
-*For our example:*  
+*For our example:*
 <img src = "screenshots/what-is-the-error.png" width = "600">
 
-#### (Optional) What have you tried thus far?  
+#### (Optional) What have you tried thus far?
 
 - This is considered an optional point because we understand you also may not know where to begin (and that is definitely okay - we are here to help!)
 
@@ -148,7 +145,7 @@ Also preferably not a screenshot so others can copy-paste for Google searching (
 
 - If you have tried solutions you have found posted online, including the links to those solutions is helpful.
 
-*For our example:*  
+*For our example:*
 <img src = "screenshots/what-have-you-tried.png" width = "600">
 
 ### Step 3) Post to Slack!
@@ -159,7 +156,7 @@ First, navigate to your particular workshop's training channel.
 
 To keep new questions and responses from getting lost in the messaging board, we strongly encourage you to make a "headline" that is one post and put the longer description you crafted in step 2 in the thread of your headline.
 
-*For our example:*  
+*For our example:*
 <img src = "screenshots/error-headline.png" width = "600">
 
 To navigate to Slack threads, you can can click speech bubble in the corner of your post:
