@@ -4,7 +4,7 @@ title: Using Slack for CCDL virtual workshops
 
 
 <img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
-Specifically, we use the **Cancer Data Science Slack** team administered by the CCDL.
+Specifically, we use the **Cancer Data Science Slack** team administered by the Data Lab.
 You can join Cancer Data Science Slack by following this link: [ccdatalab.org/slack](https://www.ccdatalab.org/slack)
 
 
