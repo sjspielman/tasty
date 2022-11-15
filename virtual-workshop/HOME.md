@@ -1,12 +1,12 @@
 ---
-title: CCDL Virtual Training
+title: Data Lab Virtual Training
 nav_title: Home
 permalink: /
 ---
 
 
 <img style = "padding: 0px 15px; float: right;" img src = "workshop/screenshots/CCDL_2021_Logo-x-ALSF_RGB.png" width = "300">
-The **[Childhood Cancer Data Lab (CCDL)](https://www.ccdatalab.org/)** develops tools and training programs to empower childhood cancer researchers to utilize  data to make more robust discoveries.
+The **[Childhood Cancer Data Lab (Data Lab)](https://www.ccdatalab.org/)** develops tools and training programs to empower childhood cancer researchers to utilize  data to make more robust discoveries.
 The Childhood Cancer Data Lab is an initiative of **[Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/)**.
 
 ## {{site.training_title}}
