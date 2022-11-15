@@ -3,8 +3,9 @@ title: Guidelines for posting an error to Slack
 nav_title: Posting an Error
 ---
 <img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
-We use the **Cancer Data Science Slack** team administered by the Data Lab team for communication.
+We use the **Cancer Data Science Slack** workspace, administered by the Data Lab team, for communication.
 If you haven't joined Cancer Data Science Slack yet, you will need to follow the [setup procedures described here](../virtual-setup/slack-procedures.md).
+
 During and after the workshop, we encourage you to post your code error question to your Slack training channel.
 But asking questions about code in such a way that others can readily help you can be tricky and is a skill in itself!
 

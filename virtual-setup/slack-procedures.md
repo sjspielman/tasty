@@ -1,13 +1,12 @@
 ---
 title: Using Slack for CCDL virtual workshops
 ---
-We use Slack for communication during CCDL virtual workshops.
 
-<p><img style = "padding: 0 15px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75"></p>
-<p style="margin-top: 20px;"> </p>
-<p>Specifically, we use the <b>Cancer Data Science Slack</b> team administered by the CCDL.
-You can join Cancer Data Science Slack by following this link: <a href="https://www.ccdatalab.org/slack">ccdatalab.org/slack</a></p>
-<br>
+
+<img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
+Specifically, we use the **Cancer Data Science Slack** team administered by the Data Lab.
+You can join Cancer Data Science Slack by following this link: [ccdatalab.org/slack](https://www.ccdatalab.org/slack)
+
 
 All Slack communications must adhere to our [code of conduct](../code-of-conduct.md).
 
@@ -19,7 +18,7 @@ We have instructions for setting up Slack for your operating system available.
 * [Mac](mac-instructions.md#slack)
 * [Windows](windows-instructions.md#slack)
 
-#### Table of Contents  
+#### Table of Contents
 
 - [How we use Slack during workshops](#how-we-use-slack-during-workshops)
   - [Using the training-specific channel](#using-the-training-specific-channel)
