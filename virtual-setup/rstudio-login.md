@@ -3,6 +3,7 @@ title: RStudio Server Set Up
 ---
 
 For this training, we've set up a server that hosts RStudio and allows you to run computations more quickly with our machines.
+In other words, you will be programming in R via this server, and _you do not need to download R or RStudio for this workshop._
 
 In this tutorial, we will get you set up with our server.
 In our [RStudio guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.md) and our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) we will work on becoming more comfortable with R and RStudio for programing.
@@ -50,32 +51,15 @@ Re-enter your username and new password, and you should return to the session pa
 
 <img src = "screenshots/rstudio-signout.png" width = "300">
 
-If you forget your password at any time, Slack one of the CCDL team members to assist you.
+If you forget your password at any time, Slack one of the Data Lab team members to assist you.
 
-### RStudio Server workspaces page
-
-While in a session, in the upper right corner, you should see these buttons:
-
-<img src = "screenshots/rstudio-session-buttons.png" width = "300">
-
-Clicking on the house button will bring you to the workspaces page.
-On the workspaces page, you will be able to see and manage all your currently running sessions.
-
-<img src = "screenshots/rstudio-workspaces.png" width = "750">
-
-Click on any session to return to it.
-Or, you can start a new session with the `+ New Session` button.
-We kindly ask you shut down any sessions you aren't using so we conserve computing power.
-You can do this by clicking the `Quit` button next to any session list.
 
 ## Stopping/Starting RStudio sessions
 
-Click on a session in the list to return to it.
-If you have no sessions running, use the `+ New Session` button.
 
 You can stop your current R session with the orange circular on/off button in the upper right corner:
 
-<img src = "screenshots/rstudio-session-buttons.png" width = "500">
+<img src = "screenshots/rstudio-session-buttons.png" width = "300">
 <br>
 <br>
 
@@ -96,15 +80,12 @@ Note again that we recommend *not* saving the `.Rdata` Workspace file.
 
 Stopping your R Session with the orange button will briefly show you this screen:
 
-<img src = "screenshots/rstudio-session-ended.png" width = "750">
+<img src = "screenshots/rstudio-session-ended.png" width = "500">
 <br>
 <br>
 
-Then re-route you to the workspaces page, where you will see the session you were using, is no longer listed.
+Click "Start a new session," and a fresh RStudio session will launch.
 
-<img src = "screenshots/rstudio-workspaces-empty.png" width = "750">
-<br>
-<br>
 
 You will want to do this each time you switch to notebooks.
 
@@ -119,9 +100,10 @@ Back on the session page, you are able to see the current files in your `home` d
 In your `home` directory, you will find the `training-modules` folder that contains our course materials and the `shared-data` that contains the data we will be using in the modules.
 The files in these folders are accessible in each R session you start.
 Starting and stopping R sessions will refresh what is in your `Environment` tab in the upper right panel.
-We go into more detail on the R environment and other RStudio navigating tidbits in our [guide to RStudio](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.md) as well as our [first intro to R notebook](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/01-intro_to_base_R.Rmd).
+We go into more detail on the R environment and other RStudio navigating tidbits in our [guide to RStudio](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/00a-rstudio_guide.md) as well as our [first intro to R notebook](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/01-intro_to_base_R.Rmd).
 
-As always, please reach out to our CCDL team through Slack if you have any questions!
+
+As always, please reach out to our Data Lab team through Slack if you have any questions!
 
 ## A troubleshooting note:
 
@@ -134,14 +116,8 @@ A not uncommon problem, upon trying to re-login to RStudio Server, is to see thi
 Quitting your internet browser completely and restarting it will *usually* remedy this.
 
 To avoid this problem to begin with, it helps to log out of RStudio Server before leaving for the day.
-You can log out either by clicking the "Sign Out" button in your session page:
+You can log out by clicking the "Sign Out" button in your session page:
 
 <img src = "screenshots/rstudio-signout.png" width = "300">
 
-or by going to the workspaces page (click on the house button) and clicking the `Logout` button next to your username (here the username is `trainee`) in the upper right corner.
-
-<img src = "screenshots/rstudio-logout.png" width = "200">
-<br>
-<br>
-
-If this problem persists, please contact one of our CCDL staff for assistance.
+If this problem persists, please contact one of the Data Lab staff for assistance.
