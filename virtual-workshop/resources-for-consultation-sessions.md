@@ -16,6 +16,7 @@ On this page, we've assembled some resources you may find helpful during these s
 - [Obtaining practice datasets](#obtaining-practice-datasets)
   - [refine.bio](#refinebio)
     - [Bulk RNA-seq data on refine.bio](#bulk-rna-seq-data-on-refinebio)
+    - [Microarray data on refine.bio](#microarray-data-on-refinebio)
   - [Single-cell RNA-seq data](#single-cell-rna-seq-data)
     - [The Single-Cell Pediatric Cancer Atlas (ScPCA)](#the-single-cell-pediatric-cancer-atlas-scpca)
     - [The `scRNAseq` Bioconductor package](#the-scrnaseq-bioconductor-package)
@@ -74,6 +75,14 @@ See this nice [`DESeq2` vignette](https://bioconductor.org/packages/release/bioc
 You can read more about using `DESeq2` with refine.bio data [here](https://alexslemonade.github.io/refinebio-examples/03-rnaseq/00-intro-to-rnaseq.html#about-deseq2).
 
 If you identify an RNA-seq experiment from refine.bio that you'd like to use with `DESeq2` (specifically with `DESeqDataSetFromMatrix()`), you can begin by following the instructions in the ["Obtain the dataset from refine.bio"](https://alexslemonade.github.io/refinebio-examples/03-rnaseq/clustering_rnaseq_01_heatmap.html#23_Obtain_the_dataset_from_refinebio) section of any of our RNA-seq refine.bio example notebooks and continue following the steps up until the ["Create a DESeqDataset"](https://alexslemonade.github.io/refinebio-examples/03-rnaseq/clustering_rnaseq_01_heatmap.html#44_Create_a_DESeqDataset) section, as these steps remain pretty much the same across notebooks. Note that you will also need the associated metadata file, which is included in your download in a TSV file that starts with `metadata_`, to create a `DESeqDataSet` object.
+
+#### Microarray data on refine.bio
+
+In this version of our workshop, we won't work with microarray data, but there are hundreds of thousands of microarray samples available from refine.bio.
+The microarray datasets you can download from the refine.bio web interface are quantile normalized and are distributed as TSV files you can read into R using functions we cover in training.
+The metadata is included in your download in a TSV file that starts with `metadata_`.
+You may find our [microarray example notebooks](https://alexslemonade.github.io/refinebio-examples/02-microarray/00-intro-to-microarray.html) for working with refine.bio data helpful with your [differential expression](https://alexslemonade.github.io/refinebio-examples/02-microarray/differential-expression_microarray_01_2-groups.html), [dimension reduction](https://alexslemonade.github.io/refinebio-examples/02-microarray/dimension-reduction_microarray_01_pca.html), or [GSEA pathway analyses](https://alexslemonade.github.io/refinebio-examples/02-microarray/pathway-analysis_microarray_02_gsea.html), to name a few.
+Note that our training material is largely RNA-seq specific, so if you obtain microarray data from refine.bio, you should not expect to use the exact same code as we do in training.
 
 ### Single-cell RNA-seq data
 
