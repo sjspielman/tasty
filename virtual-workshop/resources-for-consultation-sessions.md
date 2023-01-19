@@ -1,26 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Module cheatsheets](#module-cheatsheets)
-- [Working with your own data on RStudio Server](#working-with-your-own-data-on-rstudio-server)
-- [Obtaining practice datasets](#obtaining-practice-datasets)
-  - [refine.bio](#refinebio)
-    - [Bulk RNA-seq data on refine.bio](#bulk-rna-seq-data-on-refinebio)
-  - [Single-cell RNA-seq data](#single-cell-rna-seq-data)
-    - [The Single-Cell Pediatric Cancer Atlas (ScPCA)](#the-single-cell-pediatric-cancer-atlas-scpca)
-    - [The `scRNAseq` Bioconductor package](#the-scrnaseq-bioconductor-package)
-    - [_Tabula Muris_ data](#_tabula-muris_-data)
-    - [Human Cell Atlas data](#human-cell-atlas-data)
-    - [Reading `loom` format data in R](#reading-loom-format-data-in-r)
-- [Transcriptome indices for common organisms](#transcriptome-indices-for-common-organisms)
-  - [_Homo sapiens_](#_homo-sapiens_)
-  - [_Mus musculus_](#_mus-musculus_)
-  - [_Danio rerio_](#_danio-rerio_)
-  - [_Canis lupus familiaris_](#_canis-lupus-familiaris_)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ---
 title: Resources for Consultation Sessions
 nav_title: Resources
