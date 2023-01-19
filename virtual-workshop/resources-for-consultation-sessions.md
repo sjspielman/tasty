@@ -17,6 +17,8 @@ On this page, we've assembled some resources you may find helpful during these s
   - [refine.bio](#refinebio)
     - [Bulk RNA-seq data on refine.bio](#bulk-rna-seq-data-on-refinebio)
   - [Single-cell RNA-seq data](#single-cell-rna-seq-data)
+    - [The Single-Cell Pediatric Cancer Atlas (ScPCA)](#the-single-cell-pediatric-cancer-atlas-scpca)
+    - [The `scRNAseq` Bioconductor package](#the-scrnaseq-bioconductor-package)
     - [_Tabula Muris_ data](#tabula-muris-data)
     - [Human Cell Atlas data](#human-cell-atlas-data)
     - [Reading `loom` format data in R](#reading-loom-format-data-in-r)
