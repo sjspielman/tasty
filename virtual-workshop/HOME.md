@@ -40,10 +40,10 @@ Please take a look at our procedures to familiarize yourself with how we will be
 A description of our plans and goals for the workshop can be found on the [Workshop Structure document](workshop-structure.md). Please also refer to the [schedule](SCHEDULE.md) for information about timing and links relevant to each day.
 An overview of the modules we will cover and associated links can be found on the [Workshop Materials document](workshop-materials.md).
 
-During instruction sessions, CCDL staff will lead you through course material using [Zoom](../virtual-setup/zoom-procedures.md), [Slack](../virtual-setup/slack-procedures.md), and [RStudio Server](../virtual-setup/rstudio-login.md).
+During instruction sessions, Data Lab staff will lead you through course material using [Zoom](../virtual-setup/zoom-procedures.md), [Slack](../virtual-setup/slack-procedures.md), and [RStudio Server](../virtual-setup/rstudio-login.md).
 We will record instruction and provide it to workshop attendees so they can revisit it outside of workshop hours or in case they experience disruptions during live instruction.
 
-During [consultation sessions](resources-for-consultation-sessions.md), CCDL staff will be available to answer questions and provide 1:1 assistance as you work through exercise notebooks we provide or work with your own transcriptomic data.
+During [consultation sessions](resources-for-consultation-sessions.md), Data Lab staff will be available to answer questions and provide 1:1 assistance as you work through exercise notebooks we provide or work with your own transcriptomic data.
 We’ll use Zoom and Slack for these days, too.
 
 We recommend you follow these [guidelines for posting errors](posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.

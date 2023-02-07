@@ -1,5 +1,5 @@
 ---
-title: CCDL Training
+title: ALSF Data Lab Training
 nav_title: Home
 permalink: /
 ---

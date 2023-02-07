@@ -5,7 +5,7 @@ nav_title: Materials
 
 ### Github Repositories
 
-CCDL training materials are available on Github, in either this repository or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
+Data Lab training materials are available on Github, in either this repository or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
 
 ### Slides
 

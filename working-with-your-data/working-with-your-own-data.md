@@ -10,14 +10,14 @@ This guide will take you through how to get your data onto our RStudio server so
 
 - If you are uploading data from human patient sequencing samples, **please be sure that you are doing so in a manner that is consistent with participant consent and your institution’s rules**. The only data that is permissible for upload to our server is that which has been summarized to non-sequence level and has no personally identifiable information (PII) and no protected health information (PHI).
 
-- Initially, we have equipped you with **50 GB of space** (if the data you would like to upload is larger than this, please consult one of the CCDL team members through Slack for assistance).
+- Initially, we have equipped you with **50 GB of space** (if the data you would like to upload is larger than this, please consult one of the Data Lab team members through Slack for assistance).
 
-- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../workshop/resources-for-consultation-sessions.md) and/or ask a CCDL team member for recommendations.
+- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../workshop/resources-for-consultation-sessions.md) and/or ask a Data Lab team member for recommendations.
 
 - You will have access to our RStudio Server for 6 months.
 We will email you with a reminder 6 months from now so you can make sure to remove any files from our RStudio Server that you may find useful before your access is revoked and the files are deleted.
 
-- As always, please Slack one of the CCDL team members if you need help with anything (that is what we are here for!).
+- As always, please Slack one of the Data Lab team members if you need help with anything (that is what we are here for!).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -420,7 +420,7 @@ Note that the checkmarks in the `Packages` tab indicate which packages are loade
 
 Here we will take you through the most common R package installation steps and the most common roadblocks.
 However, [*package dependencies*](http://r-pkgs.had.co.nz/description.html#dependencies), packages needing other packages to work (and specific versions of them!), can make this a [hairy process](https://en.wikipedia.org/wiki/Dependency_hell).
-Because of this, we encourage you to reach out to one of the CCDL team members for assistance if you encounter problems beyond the scope of this brief introduction!
+Because of this, we encourage you to reach out to one of the Data Lab team members for assistance if you encounter problems beyond the scope of this brief introduction!
 
 #### install.packages()
 

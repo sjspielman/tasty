@@ -1,8 +1,8 @@
 ---
-title: Setup for CCDL Virtual Workshops
+title: Setup for Data Lab Virtual Workshops
 ---
 
-The `virtual-setup` module houses instructions specifically for CCDL virtual training workshops.
+The `virtual-setup` module houses instructions specifically for Data Lab virtual training workshops.
 
 #### Table of Contents
 
@@ -12,4 +12,4 @@ The `virtual-setup` module houses instructions specifically for CCDL virtual tra
 * Set Up Instructions for Slack and Zoom
   * [Linux](linux-instructions.md)
   * [Mac](mac-instructions.md)
-  * [Windows](windows-instructions.md) 
+  * [Windows](windows-instructions.md)
