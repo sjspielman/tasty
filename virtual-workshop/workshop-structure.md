@@ -91,8 +91,8 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 
 ## Presentations
 
-We will reconvene in a Zoom meeting on Friday at 2pm Eastern for presentations.
-You will give a short (5 minutes or less) presentation on what you worked on during the week to the rest of the group.
+We will reconvene in a Zoom meeting on Friday afternoon after the consultation session for presentations.
+You will be invited to give a short (5 minutes or less) presentation on what you worked on during the week to the rest of the group.
 This is meant to be a low-pressure opportunity to reflect on what you've learned!
 The content and format of the presentation is entirely up to you.
 Here are some examples of what people have presented in the past at our workshops:
