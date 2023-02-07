@@ -65,12 +65,14 @@ The most simple `wget` command just needs the URL to pull the file from.
 
 *Template:*
 ```
-wget <URL>
+wget '<URL>'
 ```
+
+The quote characters are not always required, but are a good practice in case the URL includes any strange characters that might cause problems.
 
 *Specific example:* Here's an example of us downloading a file from ArrayExpress
 ```
-wget https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip
+wget 'https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip'
 ```
 
 By default, the file will be saved to the current directory and the file name it had from its origin (so with the above example `E-GEOD-67851.processed.1.zip`).
@@ -80,7 +82,7 @@ For that, we can use the `-O`, or `output` option with our `wget` command and sp
 
 *Template:*
 ```
-wget -O <FILE_PATH_TO_SAVE_TO> <URL>
+wget -O <FILE_PATH_TO_SAVE_TO> '<URL>'
 ```
 
 *Specific example: using the -O option* Here's another example an example where we will download that same array express file, but instead save it to a `data` folder and call it `some_array_data.zip`.
@@ -114,7 +116,7 @@ You can double check that you successfully made a new folder by running `ls` aga
 Now we are ready to wget data and copy it to our `data/` folder.
 
 ```
-wget -O data/some_array_data.zip https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip
+wget -O data/some_array_data.zip 'https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip'
 ```
 
 `-O` is one of many `wget` command options.
@@ -146,7 +148,7 @@ You can still use `wget` to obtain data if you need credentials.
 We don't recommend you put your password or any other credentials in the script or enter your password as part of a command, so you will want to type the following directly into the Terminal:
 
 ```
-wget --user=<USERNAME> --ask-password <URL>
+wget --user=<USERNAME> --ask-password '<URL>'
 ```
 Using the `--ask-password` will prompt you to enter your password.
 
