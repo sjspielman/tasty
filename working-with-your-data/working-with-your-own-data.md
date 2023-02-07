@@ -85,7 +85,7 @@ For that, we can use the `-O`, or `output` option with our `wget` command and sp
 wget -O <FILE_PATH_TO_SAVE_TO> '<URL>'
 ```
 
-*Specific example: using the -O option* Here's another example an example where we will download that same array express file, but instead save it to a `data` folder and call it `some_array_data.zip`.
+*Specific example: using the -O option* Here's another example where we will download that same array express file, but instead save it to a `data` folder and call it `some_array_data.zip`.
 (Best to keep the file extension consistent to avoid troubles!)
 
 
