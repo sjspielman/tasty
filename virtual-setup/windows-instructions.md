@@ -1,5 +1,5 @@
 ---
-title: Windows set up instructions for virtual workshops
+title: Windows Setup Instructions for Virtual Workshops
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
