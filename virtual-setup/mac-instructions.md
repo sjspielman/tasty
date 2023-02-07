@@ -2,15 +2,19 @@
 title: Mac Setup Instructions for Virtual Workshops
 ---
 
-## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-  - [Zoom](#zoom)
-    - [New Zoom Installation](#new-zoom-installation)
-    - [Set Up Preferences](#set-up-preferences)
-    - [Screen sharing permissions](#screen-sharing-permissions)
-  - [Slack](#slack)
-    - [New Slack Installation](#new-slack-installation)
-    - [Logging in to the Cancer Data Science workspace](#logging-in-to-the-cancer-data-science-workspace)
+- [Zoom](#zoom)
+  - [New Zoom Installation](#new-zoom-installation)
+  - [Set Up Preferences](#set-up-preferences)
+  - [Screen sharing permissions](#screen-sharing-permissions)
+- [Slack](#slack)
+  - [New Slack Installation](#new-slack-installation)
+  - [Logging in to the Cancer Data Science workspace](#logging-in-to-the-cancer-data-science-workspace)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Zoom
 
@@ -82,7 +86,7 @@ If the Zoom Application does not appear in the list, click the "**+**" button  b
 
 <img src="screenshots/mac-zoom-12a-accessibility-select.png" alt="Accessibility selection" width="600">
 
-There is one more place where permissions will need to be given to Zoom to allow screen sharing, and that is the **Screen Recording** section of the same preferences pane.  
+There is one more place where permissions will need to be given to Zoom to allow screen sharing, and that is the **Screen Recording** section of the same preferences pane.
 
 <img src="screenshots/mac-zoom-13-recording-prefs.png" alt="Screen recording Preferences" width="600">
 

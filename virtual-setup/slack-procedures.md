@@ -18,7 +18,9 @@ We have instructions for setting up Slack for your operating system available.
 * [Mac](mac-instructions.md#slack)
 * [Windows](windows-instructions.md#slack)
 
-#### Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [How we use Slack during workshops](#how-we-use-slack-during-workshops)
   - [Using the training-specific channel](#using-the-training-specific-channel)
@@ -30,6 +32,8 @@ We have instructions for setting up Slack for your operating system available.
 - [General Slack use](#general-slack-use)
     - [Attaching a file or image](#attaching-a-file-or-image)
     - [Adding code blocks to messages](#adding-code-blocks-to-messages)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How we use Slack during workshops
 

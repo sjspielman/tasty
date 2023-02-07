@@ -9,7 +9,9 @@ You can review instruction materials, work through exercise notebooks we provide
 
 On this page, we've assembled some resources you may find helpful during these sessions. For more information about the structure of consultation sessions and how to get help, please review [the Consultation sessions section of the Workshop Structure page](workshop-structure.md#consultation-sessions).
 
-**Table of contents**
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [Module cheatsheets](#module-cheatsheets)
 - [Working with your own data on RStudio Server](#working-with-your-own-data-on-rstudio-server)
@@ -28,6 +30,8 @@ On this page, we've assembled some resources you may find helpful during these s
   - [_Mus musculus_](#mus-musculus)
   - [_Danio rerio_](#danio-rerio)
   - [_Canis lupus familiaris_](#canis-lupus-familiaris)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Module cheatsheets
 
