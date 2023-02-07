@@ -46,7 +46,7 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 | I need something clarified before we move on with instruction | [Use Zoom chat to message the meeting host with your question or use the `Raise Hand` button on Zoom](../virtual-setup/zoom-procedures.md#interacting-with-instructors-and-providing-feedback) |
 | I am stuck with an error message and am no longer able to follow the hands-on exercise | [Use Zoom chat](../virtual-setup/zoom-procedures.md#chat) to [message the meeting host and let them know you need 1:1 assistance](../virtual-setup/zoom-procedures.md#asking-for-11-help-during-instruction) - they will pair you with an available instructor in a [Zoom breakout room](../virtual-setup/zoom-procedures.md#joining-a-breakout-room) |
 | I have a general or conceptual question that can be addressed later in the lecture or asynchronously | Post in the [training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
-| I am having trouble with my login credentials | [Use Slack to direct message a CCDL staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) that is not leading instruction or the host of the Zoom meeting |
+| I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) that is not leading instruction or the host of the Zoom meeting |
 | I am having technical difficulties that preclude me from using Zoom and Slack | Email [training@ccdatalab.org](mailto:training@ccdatalab.org) |
 
 ## Consultation sessions
@@ -74,7 +74,7 @@ We recommend following these [posting for error help guidelines](posting-errors-
 
 _Remember – if you have a question, another person in the course almost certainly has the same question!_
 
-<!--In addition, because the CCDL team is also currently all-remote, keeping most communication to the training-specific Slack channel allows us to better coordinate our efforts and make sure you get the support you need.-->
+<!--In addition, because the Data Lab team is also currently all-remote, keeping most communication to the training-specific Slack channel allows us to better coordinate our efforts and make sure you get the support you need.-->
 
 You can read more about how we use Zoom and Slack in the [Zoom procedures](../virtual-setup/zoom-procedures.md) and [Slack procedures](../virtual-setup/slack-procedures.md) documentation. We've put together the table below to serve as a guide at a glance.
 
@@ -84,15 +84,15 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../vi
 | I have a question about an exercise notebook | Please use the [guidelines for posting for help](posting-errors-guidelines.md) and post in the [training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel)|
 | I am having an issue that requires me to share my screen | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) - an instructor will initiate a Zoom meeting that you can [join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack) |
 | I would like to be paired up with other participants | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
-| I have a question that is **_highly specific_** to my data | [Use Slack to direct message a CCDL staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |
-| I am having trouble with my login credentials | [Use Slack to direct message a CCDL staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |
+| I have a question that is **_highly specific_** to my data | [Use Slack to direct message a Data Lab staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |
+| I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |
 | I am having technical difficulties that preclude me from using Zoom and Slack | Email [training@ccdatalab.org](mailto:training@ccdatalab.org) |
 
 
 ## Presentations
 
-We will reconvene in a Zoom meeting on Friday at 2pm Eastern for presentations.
-You will give a short (5 minutes or less) presentation on what you worked on during the week to the rest of the group.
+We will reconvene in a Zoom meeting on Friday afternoon after the consultation session for presentations.
+You will be invited to give a short (5 minutes or less) presentation on what you worked on during the week to the rest of the group.
 This is meant to be a low-pressure opportunity to reflect on what you've learned!
 The content and format of the presentation is entirely up to you.
 Here are some examples of what people have presented in the past at our workshops:

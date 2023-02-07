@@ -6,15 +6,18 @@ title: Linux Set Up Instructions for Virtual Workshops
 Our instructions generally follow the software provider's instructions, which we link below.
 For other Linux distros, please see the instructions from the software providers.*
 
-## Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-  - [Zoom](#zoom)
-    - [New Zoom Installation](#new-zoom-installation)
-    - [Set Up Preferences](#set-up-preferences)
-  - [Slack](#slack)
-    - [New Slack Installation](#new-slack-installation)
-    - [Logging in to the Cancer Data Science workspace](#logging-in-to-the-cancer-data-science-workspace)
+- [Zoom](#zoom)
+  - [New Zoom Installation](#new-zoom-installation)
+  - [Set Up Preferences](#set-up-preferences)
+- [Slack](#slack)
+  - [New Slack Installation](#new-slack-installation)
+  - [Logging in to the Cancer Data Science workspace](#logging-in-to-the-cancer-data-science-workspace)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## Zoom
 
 ### New Zoom Installation
@@ -39,14 +42,14 @@ sudo apt install gdebi
 
 You will prompted for your admin password.
 
-Search your computer for GDebi and double click it. 
+Search your computer for GDebi and double click it.
 Open the Zoom DEB installer wih GDebi; you can use `Ctrl+O` and then open the Zoom `deb` file.
 
 Select `Install Package` to install Zoom.
 
 <img src = "screenshots/linux-zoom-gdebi-install.png" width = "450">
 
-To open Zoom, search your computer and double-click the icon to open it. 
+To open Zoom, search your computer and double-click the icon to open it.
 The following window will come up, which you can use to log in and set up preferences.
 
 <img src = "screenshots/linux-zoom-sign-in.png" width = "450">
@@ -69,7 +72,7 @@ Navigate to `Share Screen` preferences, uncheck `Enter full screen when a partic
 
 ### New Slack Installation
 
-If you do not already have Slack installed, you can download it at <https://slack.com/downloads/linux>. 
+If you do not already have Slack installed, you can download it at <https://slack.com/downloads/linux>.
 Depending on your distribution, download either the `deb` or `rpm` file.
 The following instructions are using the DEB installer on Ubuntu ([Instructions from Slack](https://slack.com/help/articles/212924728-Download-Slack-for-Linux--beta-)).
 

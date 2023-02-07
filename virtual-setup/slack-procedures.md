@@ -1,5 +1,5 @@
 ---
-title: Using Slack for CCDL virtual workshops
+title: Using Slack for Data Lab virtual workshops
 ---
 
 
@@ -18,7 +18,9 @@ We have instructions for setting up Slack for your operating system available.
 * [Mac](mac-instructions.md#slack)
 * [Windows](windows-instructions.md#slack)
 
-#### Table of Contents
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
 - [How we use Slack during workshops](#how-we-use-slack-during-workshops)
   - [Using the training-specific channel](#using-the-training-specific-channel)
@@ -31,11 +33,13 @@ We have instructions for setting up Slack for your operating system available.
     - [Attaching a file or image](#attaching-a-file-or-image)
     - [Adding code blocks to messages](#adding-code-blocks-to-messages)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## How we use Slack during workshops
 
 Course instructors will add you to a private channel specific to your training a few days before the start of your training workshop.
 
-If you are not added to the training specific channel by 3 days prior to the start of training or are having trouble getting started with Slack, please [direct message](#using-direct-messages-during-training) a CCDL staff member (`Chante Bethell`, `Ally Hawkins`, `Jen O'Malley` or `Josh Shapiro`) in Cancer Data Science Slack or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
+If you are not added to the training specific channel by 3 days prior to the start of training or are having trouble getting started with Slack, please [direct message](#using-direct-messages-during-training) a Data Lab staff member (`Chante Bethell`, `Ally Hawkins`, `Jen O'Malley`,  `Josh Shapiro`, or `Stephanie Spielman`) in Cancer Data Science Slack or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
 
 ### Using the training-specific channel
 
@@ -98,13 +102,13 @@ You can not select a specific window to share.
 
 ### Using direct messages during training
 
-If you have a question that is **_highly specific_** to your own data or a problem with your RStudio credentials, you may [direct message](https://slack.com/help/articles/212281468-What-is-a-direct-message) a CCDL staff member.
+If you have a question that is **_highly specific_** to your own data or a problem with your RStudio credentials, you may [direct message](https://slack.com/help/articles/212281468-What-is-a-direct-message) a Data Lab staff member.
 
 First, use the new message button in the top right side corner of the Slack interface.
 
 <img src = "screenshots/slack-compose-new-message.png" width="300">
 
-You are then able to search for the CCDL instructors – `Chante Bethell`, `Ally Hawkins`, `Jen O'Malley` or `Josh Shapiro` – and compose your message.
+You are then able to search for the Data Lab instructors – `Chante Bethell`, `Ally Hawkins`, `Jen O'Malley`, `Josh Shapiro`, or `Stephanie Spielman` – and compose your message.
 
 Course instructors may direct you to the training-specific channel for more general questions or to another instructor where appropriate.
 

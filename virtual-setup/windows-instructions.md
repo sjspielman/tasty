@@ -1,16 +1,14 @@
 ---
-title: Windows set up instructions for virtual workshops
+title: Windows Setup Instructions for Virtual Workshops
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Windows set up instructions for virtual workshops](#windows-set-up-instructions-for-virtual-workshops)
-  - [Zoom Installation and Setup](#zoom-installation-and-setup)
-    - [New Installation](#new-installation)
-    - [Set Up Preferences](#set-up-preferences)
-  - [Slack](#slack)
+- [Zoom](#zoom)
+  - [Set Up Preferences](#set-up-preferences)
+- [Slack](#slack)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
