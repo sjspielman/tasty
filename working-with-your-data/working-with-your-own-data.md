@@ -26,15 +26,15 @@ We will email you with a reminder 6 months from now so you can make sure to remo
 - [Things to know before uploading your data](#things-to-know-before-uploading-your-data)
 - [Load data that is online (from a url)](#load-data-that-is-online-from-a-url)
 - [Load data from an a ssh server](#load-data-from-an-a-ssh-server)
-- [Upload large files (> 1Gb) from your own computer](#upload-large-files--1gb-from-your-own-computer)
+- [Upload large files (\> 1Gb) from your own computer](#upload-large-files--1gb-from-your-own-computer)
   - [Install FileZilla on Mac](#install-filezilla-on-mac)
   - [Install FileZilla on Windows](#install-filezilla-on-windows)
   - [Install FileZilla on Ubuntu](#install-filezilla-on-ubuntu)
   - [Linking FileZilla to the RStudio Server](#linking-filezilla-to-the-rstudio-server)
   - [Using FileZilla to upload files to the RStudio Server](#using-filezilla-to-upload-files-to-the-rstudio-server)
   - [Using FileZilla to download files to your computer](#using-filezilla-to-download-files-to-your-computer)
-- [Upload *small* files (<1 Gb) from your own computer](#upload-small-files-1-gb-from-your-own-computer)
-- [Download *small* files (<1Gb) to your computer](#download-small-files-1gb-to-your-computer)
+- [Upload *small* files (\<1 Gb) from your own computer](#upload-small-files-1-gb-from-your-own-computer)
+- [Download *small* files (\<1Gb) to your computer](#download-small-files-1gb-to-your-computer)
 - [Installing packages](#installing-packages)
   - [Finding what packages are installed](#finding-what-packages-are-installed)
   - [Installing a new package](#installing-a-new-package)
@@ -76,15 +76,42 @@ wget https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processe
 By default, the file will be saved to the current directory and the file name it had from its origin (so with the above example `E-GEOD-67851.processed.1.zip`).
 
 Likely you will want to be more specific about where you are saving the file to and what you are calling it.
-For that, we can use the `-O`, or `output` option with our `wget` command and specify a file path.  
+For that, we can use the `-O`, or `output` option with our `wget` command and specify a file path.
 
 *Template:*
 ```
 wget -O <FILE_PATH_TO_SAVE_TO> <URL>
 ```
 
-*Specific example:* Here's an example where we will download that same array express file, but instead save it to the `data` folder and call it `some_array_data.zip`.
+*Specific example: using the -O option* Here's another example an example where we will download that same array express file, but instead save it to a `data` folder and call it `some_array_data.zip`.
 (Best to keep the file extension consistent to avoid troubles!)
+
+
+Before we `wget` the files, we should create a `data/` folder to save to.
+Most often we will want to create this in a project-specific directory.
+[Keeping our files organized](https://www.thinkingondata.com/how-to-organize-data-science-projects/) can save us from some headaches in the future.
+
+
+Let's assume that we have already created a directory called `training_project` to hold all of my project files.
+That directory is in my home directory.
+
+```
+# Navigate to the project directory
+cd ~/training_project
+
+# List the folders and files of our current directory
+ls
+```
+
+If the `ls` command does not include `data` in its print out, it means we will need to make a `data` folder with the `mkdir` command.
+
+```
+# Make a new data folder
+mkdir data
+```
+
+You can double check that you successfully made a new folder by running `ls` again.
+Now we are ready to wget data and copy it to our `data/` folder.
 
 ```
 wget -O data/some_array_data.zip https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip
@@ -245,7 +272,7 @@ After download is complete, you'll find the `FileZilla` `.exe` file in your down
 
 Double click on the file to install to begin installation.
 
-You'll be asked if you want to `Allow FileZilla to make changes` click `Yes`.  
+You'll be asked if you want to `Allow FileZilla to make changes` click `Yes`.
 
 There will be a series of steps (like below) you need to click `Next` and `Accept` to them.
 
@@ -271,10 +298,10 @@ At the top of the FileZilla screen, you can enter in the address and your creden
 <img src="screenshots/filezilla-bar.png">
 
 
-For `Host`, type in `rstudio.ccdatalab.org`.  
-For `Username`, type in the username you use to login in to our RStudio server.  
-For `Password` type in the password you use to login in to our RStudio server.  
-For `Port`, type in `22`.  
+For `Host`, type in `rstudio.ccdatalab.org`.
+For `Username`, type in the username you use to login in to our RStudio server.
+For `Password` type in the password you use to login in to our RStudio server.
+For `Port`, type in `22`.
 
 
 Then click the blue `Quickconnect` button.
@@ -347,7 +374,7 @@ A mini screen will pop up asking you to choose the file you want to upload:
 ![Choose file](screenshots/upload-choose-file.png)
 
 Choose your compressed data file, and click `OK`.
-This may take some time, particularly if you have a large dataset.  
+This may take some time, particularly if you have a large dataset.
 
 When the server is finished uploading your data, you should see your file in your `home` directory!
 It will automatically be uncompressed.
@@ -431,7 +458,7 @@ In this example, we'll install a package called `GenomicFeatures`.
 BiocManager::install("GenomicFeatures")
 ```
 
-You should get a similar successful installation message as in the previous section.  
+You should get a similar successful installation message as in the previous section.
 
 Or if it failed to install, it will give you a `non-zero exit status` message.
 
