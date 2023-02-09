@@ -75,7 +75,7 @@ brew install rbenv ruby-build
 ```
 Alternatively, you can install with [rbenv-installer](https://github.com/rbenv/rbenv-installer#rbenv-installer) which will work even without Homebrew (though it uses Homebrew if you have it).
 
-2. Install rbenv for your shell for your shell.
+2. Install rbenv for your shell.
 Since this will depend on which shell you are using, you will want to run `rbenv init` to find the correct command to add you your shell configuration file.
 Note that this command does _not_ actually perform the initialization: it only prints instructions for what line to add to which file!
 Be sure to add that line to the _end_ of the configuration file indicated.
