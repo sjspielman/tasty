@@ -65,7 +65,8 @@ It can be helpful to build the GitHub pages site locally to check that passing p
 
 Installing the dependencies for GitHub pages is best done in a separate ruby environment, managed by [rbenv](https://github.com/rbenv/) and [Bundler](https://bundler.io)
 
-The following instructions are for installation on Mac OS.
+The following instructions were tested for installation on macOS, but installation on other systems should be similar.
+
 1. [Install rbenv](https://github.com/rbenv/rbenv#installation).
 The easiest, and recommended, installation is through Homebrew:
 ```
