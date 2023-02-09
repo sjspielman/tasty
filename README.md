@@ -75,20 +75,20 @@ brew install rbenv ruby-build
 ```
 Alternatively, you can install with [rbenv-installer](https://github.com/rbenv/rbenv-installer#rbenv-installer) which will work even without Homebrew (though it uses Homebrew if you have it).
 
-2. Initialize rbenv and install it for your shell:
-```
- # run this and follow the printed instructions:
-rbenv init
-```
-Start a new shell to initialize `rbenv`.
+2. Install rbenv for your shell for your shell.
+Since this will depend on which shell you are using, you will want to run `rbenv init` to find the correct command to add you your shell configuration file.
+Note that this command does _not_ actually perform the initialization: it only prints instructions for what line to add to which file!
+Be sure to add that line to the _end_ of the configuration file indicated.
 
-3. Install a current stable ruby version
+4. Once you have modifided your shell configuration, start a new shell to initialize `rbenv`.
+
+5. Install a current stable ruby version
   ```
   # install and set up v3.1.3 of Ruby
   rbenv install 3.1.3
   ```
 
-4. Activate your ruby version. Here you have a few options:
+6. Activate your ruby version. Here you have a few options:
 
    a. If you want to set the global ruby version that will be used wherever you use `ruby`, you can use
    ```
@@ -101,12 +101,12 @@ Start a new shell to initialize `rbenv`.
    ```
    This will create a `.ruby-version` file that will automatically activate this version of ruby whenever you are in this directory.
 
-5. Now you should be ready to install Bundler:
+7. Now you should be ready to install Bundler:
 ```
 gem install bundler
 ```
 
-6. Finally, run `bundle install` from the root of this repository, where the `Gemfile` is located.
+8. Finally, run `bundle install` from the root of this repository, where the `Gemfile` is located.
 This will install all additional dependencies.
 
 ### Running a local jekyll server
