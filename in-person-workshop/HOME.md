@@ -1,9 +1,8 @@
 ---
-title: ALSF Data Lab Training
 nav_title: Home
 permalink: /
 ---
-## {{site.training_title}}
+# {{site.training_title}}
 
 Dates: {{site.start_date}} through {{site.end_date}}
 
