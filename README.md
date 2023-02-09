@@ -82,10 +82,10 @@ Be sure to add that line to the _end_ of the configuration file indicated.
 
 4. Once you have modifided your shell configuration, start a new shell to initialize `rbenv`.
 
-5. Install a current stable ruby version
+5. Install a current stable ruby version 
   ```
   # install and set up v3.1.3 of Ruby
-  rbenv install 3.1.3
+  rbenv install 3.1.3 && rbenv rehash
   ```
 
 6. Activate your ruby version. Here you have a few options:
