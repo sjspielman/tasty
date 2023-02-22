@@ -68,7 +68,7 @@ Installing the dependencies for GitHub pages is best done in a separate ruby env
 The following instructions were tested for installation on macOS, but installation on other systems should be similar.
 
 1. [Install rbenv](https://github.com/rbenv/rbenv#installation).
-The easiest, and recommended, installation is through Homebrew:
+The easiest, and recommended, installation is through [Homebrew](https://brew.sh/):
 ```
 # install rbenv
 brew update
