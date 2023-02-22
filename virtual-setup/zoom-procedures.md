@@ -1,7 +1,7 @@
 ---
-title: Zoom Procedures for CCDL Virtual Workshops
+title: Zoom Procedures for Data Lab Virtual Workshops
 ---
-We use [Zoom](https://zoom.us/) meetings for conducting CCDL virtual workshops.
+We use [Zoom](https://zoom.us/) meetings for conducting Data Lab virtual workshops.
 In this document, we will cover the procedures for joining a Zoom call and using various features for instruction and consultation sessions.
 
 #### Instructions for setting up Zoom
@@ -66,7 +66,7 @@ See the Zoom installation instructions for your operating system for more inform
 
 #### Participant pane
 
-The participant pane will both allow you to identify the host and co-hosts of the meeting (CCDL staff) and to provide feedback during instruction.
+The participant pane will both allow you to identify the host and co-hosts of the meeting (Data Lab staff) and to provide feedback during instruction.
 
 To bring up the participant pane, click the participants icon in the middle of the controls at the bottom of the Zoom window.
 
@@ -89,14 +89,14 @@ The chat pane will appear below the participant pane.
 <img src = "screenshots/zoom-chat-pane.png" height = "750">
 
 **You should direct your questions to the host of the meeting** by selecting their name from the dropdown menu of the Chat window.
-In general, the "host" will not be the instructor, but another member of the CCDL who will coordinate questions and feedback.
+In general, the "host" will not be the instructor, but another member of the Data Lab who will coordinate questions and feedback.
 
 <img src = "screenshots/zoom-chat-dropdown.png" width = "300">
 
 
 ## Joining a Zoom call
 
-CCDL staff will provide you with a link to join a Zoom call for each day during training.
+Data Lab staff will provide you with a link to join a Zoom call for each day during training.
 _Please do not share this link._
 
 On the first day of instruction, we will ask you to introduce yourself on the Zoom call so please be ready with computer audio (more on that below).
@@ -156,7 +156,7 @@ When we are recording, you will be notified by a banner in the top corner of the
 We plan to distribute these recordings to other course participants in your specific training session or as part of training for additional workshop instructors.
 We will not post these videos publicly.
 
-_Note: Consent for video recordings is included in the [CCDL training workshop waiver](../ccdl-training-waiver.pdf) signed prior to the start of the training workshop._
+_Note: Consent for video recordings is included in the [Data Lab training workshop waiver](../ccdl-training-waiver.pdf) signed prior to the start of the training workshop._
 
 ## Using Zoom breakout rooms
 

@@ -1,5 +1,4 @@
 ---
-title: Data Lab Virtual Training
 nav_title: Home
 permalink: /
 ---
@@ -9,7 +8,7 @@ permalink: /
 The **[Childhood Cancer Data Lab (Data Lab)](https://www.ccdatalab.org/)** develops tools and training programs to empower childhood cancer researchers to utilize  data to make more robust discoveries.
 The Childhood Cancer Data Lab is an initiative of **[Alex's Lemonade Stand Foundation](https://www.alexslemonade.org/)**.
 
-## {{site.training_title}}
+# {{site.training_title}}
 
 Dates: {{site.start_date}} through {{site.end_date}}
 
