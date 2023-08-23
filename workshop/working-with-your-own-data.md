@@ -12,7 +12,7 @@ This guide will take you through how to get your data onto our RStudio server so
 
 - Initially, we have equipped you with **50 GB of space** (if the data you would like to upload is larger than this, please consult one of the Data Lab team members through Slack for assistance).
 
-- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Resources for Consultation Sessions page](../workshop/resources-for-consultation-sessions.md) and/or ask a Data Lab team member for recommendations.
+- If you don't have your own data that you are looking to analyze, but would like real transcriptomic datasets to practice with, see the [Workshop Resources page](workshop-resources.md) and/or ask a Data Lab team member for recommendations.
 
 - You will have access to our RStudio Server for 6 months.
 We will email you with a reminder 6 months from now so you can make sure to remove any files from our RStudio Server that you may find useful before your access is revoked and the files are deleted.
