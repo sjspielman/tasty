@@ -53,7 +53,7 @@ If you are retrieving your data from online, perhaps from a publicly available r
 
 ![Terminal tab](screenshots/rstudio-session-terminal.png)
 
-**Step 2)** Copy over the [wget template script]({{site.repository_url}}/tree/master/working-with-your-data/template-scripts/wget-TEMPLATE.sh).
+**Step 2)** Copy over the [wget template script]({{site.repository_url}}/tree/master/additional-resources/template-scripts/wget-TEMPLATE.sh).
 
 You'll find the `wget` template script in the `shared-data/template-scripts/` directory.
 In the RStudio Server, you can click the check mark next to the file name, then go to `More` > and choose `Copy To` to make a copy with a new name somewhere convenient in your home directory.
