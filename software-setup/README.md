@@ -1,8 +1,8 @@
 ---
-title: Setup for Data Lab Virtual Workshops
+title: Setup Software for Data Lab Workshops
 ---
 
-The `virtual-setup` module houses instructions specifically for Data Lab virtual training workshops.
+The `software-setup` module houses instructions specifically for Data Lab virtual training workshops.
 
 #### Table of Contents
 

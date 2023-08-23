@@ -4,7 +4,7 @@ nav_title: Posting an Error
 ---
 <img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
 We use the **Cancer Data Science Slack** workspace, administered by the Data Lab team, for communication.
-If you haven't joined Cancer Data Science Slack yet, you will need to follow the [setup procedures described here](../virtual-setup/slack-procedures.md).
+If you haven't joined Cancer Data Science Slack yet, you will need to follow the [setup procedures described here](../software-setup/slack-procedures.md).
 
 During and after the workshop, we encourage you to post your code error question to your Slack training channel.
 But asking questions about code in such a way that others can readily help you can be tricky and is a skill in itself!
@@ -54,7 +54,7 @@ To demonstrate what we mean by these guidelines we will walk through an example.
 
 In this example, we're using our exercise notebook `04a-intro_to_R_exercise.Rmd`.
 
-Below is a screenshot of what this error would look like when encountering it on [our RStudio Server](../virtual-setup/rstudio-login.md).
+Below is a screenshot of what this error would look like when encountering it on [our RStudio Server](../software-setup/rstudio-login.md).
 
 <img src = "screenshots/file.path-error.png" width = "800">
 
@@ -75,7 +75,7 @@ In the chunking example below, each highlighted portion is something you could r
 
 <img src = "screenshots/chunking_code.png" width = "500">
 
-- [Restart your R Session](../virtual-setup/rstudio-login.md#stoppingstarting-rstudio-sessions) and go back to the beginning of your notebook to re-run all of your code in order to make sure you haven't missed any vital steps! Order matters!
+- [Restart your R Session](../software-setup/rstudio-login.md#stoppingstarting-rstudio-sessions) and go back to the beginning of your notebook to re-run all of your code in order to make sure you haven't missed any vital steps! Order matters!
 
 ### Step 2) Draft out the description of your error post.
 
@@ -117,7 +117,7 @@ For our example error, here's how each of the "four points" (and the optional on
 
 #### What is the code that is producing this error?
 
-- [Use backticks (```) to format your code.](../virtual-setup/slack-procedures.md#adding-code-blocks-to-messages) (How to do this in the next step).
+- [Use backticks (```) to format your code.](../software-setup/slack-procedures.md#adding-code-blocks-to-messages) (How to do this in the next step).
 Formatting your code makes it easier for others to distinguish between your code and the words in your post where you are otherwise describing the problem.
 
 - Screenshots are not ideal because others can't copy your code from a screenshot.

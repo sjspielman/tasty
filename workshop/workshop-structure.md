@@ -16,11 +16,11 @@ This document is designed to give you an idea of what your participation in the 
 ## Instruction sessions
 
 **During instruction sessions**, you will call into a Zoom meeting and log into [our RStudio Server](https://rstudio.ccdatalab.org).
-An instructor may present some slides to introduce the material and then they will instruct you to navigate to [rstudio.ccdatalab.org](https://rstudio.ccdatalab.org), [enter your RStudio login credentials](../virtual-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the course material.
+An instructor may present some slides to introduce the material and then they will instruct you to navigate to [rstudio.ccdatalab.org](https://rstudio.ccdatalab.org), [enter your RStudio login credentials](../software-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the course material.
 Typically you will be asked to navigate to a specific R Notebook file and you will execute steps at the same time as your instructor.
-You will have access to [a private training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) in [Cancer Data Science Slack](https://www.ccdatalab.org/slack) that you can use as a forum to post questions.
+You will have access to [a private training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) in [Cancer Data Science Slack](https://www.ccdatalab.org/slack) that you can use as a forum to post questions.
 This channel will be monitored by instructors.
-Instruction will be [recorded and distributed to course participants](../virtual-setup/zoom-procedures.md#zoom-recordings) (not posted publicly).
+Instruction will be [recorded and distributed to course participants](../software-setup/zoom-procedures.md#zoom-recordings) (not posted publicly).
 
 
 ### Your instructors' roles during instruction
@@ -39,14 +39,14 @@ We will clearly identify the role of each instructor at the beginning of instruc
 
 To make sure all your needs are addressed, we've put together a plan for how the communication platforms we use during instruction are intended to work together.
 
-You can read more about how we use Zoom and Slack in the [Zoom procedures](../virtual-setup/zoom-procedures.md) and [Slack procedures](../virtual-setup/slack-procedures.md) documentation, but we've put together the table below to serve as a guide at a glance.
+You can read more about how we use Zoom and Slack in the [Zoom procedures](../software-setup/zoom-procedures.md) and [Slack procedures](../software-setup/slack-procedures.md) documentation, but we've put together the table below to serve as a guide at a glance.
 
 | If this happens | Use this platform |
 |-----------------|-------------------|
-| I need something clarified before we move on with instruction | [Use Zoom chat to message the meeting host with your question or use the `Raise Hand` button on Zoom](../virtual-setup/zoom-procedures.md#interacting-with-instructors-and-providing-feedback) |
-| I am stuck with an error message and am no longer able to follow the hands-on exercise | [Use Zoom chat](../virtual-setup/zoom-procedures.md#chat) to [message the meeting host and let them know you need 1:1 assistance](../virtual-setup/zoom-procedures.md#asking-for-11-help-during-instruction) - they will pair you with an available instructor in a [Zoom breakout room](../virtual-setup/zoom-procedures.md#joining-a-breakout-room) |
-| I have a general or conceptual question that can be addressed later in the lecture or asynchronously | Post in the [training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
-| I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) that is not leading instruction or the host of the Zoom meeting |
+| I need something clarified before we move on with instruction | [Use Zoom chat to message the meeting host with your question or use the `Raise Hand` button on Zoom](../software-setup/zoom-procedures.md#interacting-with-instructors-and-providing-feedback) |
+| I am stuck with an error message and am no longer able to follow the hands-on exercise | [Use Zoom chat](../software-setup/zoom-procedures.md#chat) to [message the meeting host and let them know you need 1:1 assistance](../software-setup/zoom-procedures.md#asking-for-11-help-during-instruction) - they will pair you with an available instructor in a [Zoom breakout room](../software-setup/zoom-procedures.md#joining-a-breakout-room) |
+| I have a general or conceptual question that can be addressed later in the lecture or asynchronously | Post in the [training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) |
+| I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../software-setup/slack-procedures.md#using-direct-messages-during-training) that is not leading instruction or the host of the Zoom meeting |
 | I am having technical difficulties that preclude me from using Zoom and Slack | Email [training@ccdatalab.org](mailto:training@ccdatalab.org) |
 
 ## Consultation sessions
@@ -64,7 +64,7 @@ If you need assistance and would like to share your screen, an instructor will i
 
 Your instructors will be available via Slack during the consultation sessions listed in the [workshop schedule](SCHEDULE.md).
 You may also remain in the Zoom meeting used for the day's instruction session, which will be used for breakout room functionality for grouping participants that want to work together.
-If you need to share your screen with an instructor during a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
+If you need to share your screen with an instructor during a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../software-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
 
 ### Using communication platforms during consultation sessions
 
@@ -76,16 +76,16 @@ _Remember – if you have a question, another person in the course almost certai
 
 <!--In addition, because the Data Lab team is also currently all-remote, keeping most communication to the training-specific Slack channel allows us to better coordinate our efforts and make sure you get the support you need.-->
 
-You can read more about how we use Zoom and Slack in the [Zoom procedures](../virtual-setup/zoom-procedures.md) and [Slack procedures](../virtual-setup/slack-procedures.md) documentation. We've put together the table below to serve as a guide at a glance.
+You can read more about how we use Zoom and Slack in the [Zoom procedures](../software-setup/zoom-procedures.md) and [Slack procedures](../software-setup/slack-procedures.md) documentation. We've put together the table below to serve as a guide at a glance.
 
 | If this happens | Use this platform |
 |-----------------|-------------------|
-| I have a question about yesterday's instruction | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
-| I have a question about an exercise notebook | Please use the [guidelines for posting for help](posting-errors-guidelines.md) and post in the [training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel)|
-| I am having an issue that requires me to share my screen | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) - an instructor will initiate a Zoom meeting that you can [join from Slack](../virtual-setup/zoom-procedures.md#joining-a-zoom-call-from-slack) |
-| I would like to be paired up with other participants | Post in [the training-specific Slack channel](../virtual-setup/slack-procedures.md#using-the-training-specific-channel) |
-| I have a question that is **_highly specific_** to my data | [Use Slack to direct message a Data Lab staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |
-| I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../virtual-setup/slack-procedures.md#using-direct-messages-during-training) |
+| I have a question about yesterday's instruction | Post in [the training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) |
+| I have a question about an exercise notebook | Please use the [guidelines for posting for help](posting-errors-guidelines.md) and post in the [training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel)|
+| I am having an issue that requires me to share my screen | Post in [the training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) - an instructor will initiate a Zoom meeting that you can [join from Slack](../software-setup/zoom-procedures.md#joining-a-zoom-call-from-slack) |
+| I would like to be paired up with other participants | Post in [the training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) |
+| I have a question that is **_highly specific_** to my data | [Use Slack to direct message a Data Lab staff member](../software-setup/slack-procedures.md#using-direct-messages-during-training) |
+| I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../software-setup/slack-procedures.md#using-direct-messages-during-training) |
 | I am having technical difficulties that preclude me from using Zoom and Slack | Email [training@ccdatalab.org](mailto:training@ccdatalab.org) |
 
 
@@ -102,4 +102,4 @@ Here are some examples of what people have presented in the past at our workshop
 * Walked through a set of slides that included tools they've used in the past and how they compare to what they learned during the workshop
 * Identified some publicly available data sets relevant to their scientific questions and talked about next steps
 
-When it is your turn to present, you will [share your screen on Zoom](../virtual-setup/zoom-procedures.md#sharing-your-screen-in-zoom) and [unmute yourself](../virtual-setup/zoom-procedures.md#audio).
+When it is your turn to present, you will [share your screen on Zoom](../software-setup/zoom-procedures.md#sharing-your-screen-in-zoom) and [unmute yourself](../software-setup/zoom-procedures.md#audio).
