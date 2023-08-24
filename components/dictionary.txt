@@ -11,6 +11,7 @@ Buttner
 CanFam
 Canis
 Cao
+chatbot
 cheatsheets
 compositional
 customizable
@@ -18,12 +19,14 @@ Danio
 DCP
 DESeq
 DESeqDataset
+dropdown
 DropSeq
 EmptyDrops
 Ensembl
 epitope
 et
 familiaris
+GDebi
 GRCh
 GRCm
 GRCz
@@ -37,6 +40,7 @@ jekyll
 Korsunsky
 Luecken
 Lun
+LTS
 macOS
 miQC
 Muris
@@ -54,6 +58,7 @@ scRNA
 scType
 SingleCellExperiment
 SingleR
+Slackbot
 Stoeckius
 Tabula
 Theis
@@ -62,6 +67,7 @@ transcriptome
 transcriptomic
 TSV
 Tung
+uncheck
 YAML
 Zakeri
 zebrafish
