@@ -6,6 +6,7 @@ Benchmarking
 Bioinformatics
 bp
 Bruning
+bulletpoint
 Buttner
 CanFam
 Canis
@@ -32,6 +33,7 @@ HCA
 Hemburg
 hg
 Hippen
+jekyll
 Korsunsky
 Luecken
 Lun
@@ -42,6 +44,7 @@ musculus
 OSCA
 pre
 Pre
+README
 rerio
 RStudio
 scCODA
@@ -59,5 +62,6 @@ transcriptome
 transcriptomic
 TSV
 Tung
+YAML
 Zakeri
 zebrafish
