@@ -108,7 +108,7 @@ Resources are listed by topic and in alphabetical order, not in order of recomme
 - [An introduction to the SingleCellExperiment class - Bioconductor](https://www.bioconductor.org/packages/devel/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html)
 - [Analysis of single cell RNA-seq data - Hemburg Lab](https://www.singlecellcourse.org/)
 - [Current best practices in single-cell RNA-seq analysis: a tutorial - Luecken and Theis (2019)](https://doi.org/10.15252/msb.20188746)
-- [Orchestraing Single-cell Analysis with Bioconductor - Bioconductor](https://bioconductor.org/books/3.16/OSCA/)
+- [Orchestrating Single-cell Analysis with Bioconductor - Bioconductor](https://bioconductor.org/books/3.16/OSCA/)
 
 ### Alignment and quantification of gene expression
 
