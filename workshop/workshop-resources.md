@@ -24,7 +24,7 @@ The [`modules-cheatsheets` directory](https://github.com/AlexsLemonade/training-
 * Introduction to R/Tidyverse cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release_tag}}/module-cheatsheets/intro-to-R-tidyverse-cheatsheet.pdf))
 * Bulk RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/module-cheatsheets/RNA-seq-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release_tag}}/module-cheatsheets/RNA-seq-cheatsheet.pdf))
 * Introduction to single-cell RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/module-cheatsheets/scRNA-seq-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release_tag}}/module-cheatsheets/scRNA-seq-cheatsheet.pdf))
-* Advanced to single-cell RNA-seqmodule cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/module-cheatsheets/scRNA-seq-advanced-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release_tag}}/module-cheatsheets/scRNA-seq-advanced-cheatsheet.pdf))
+* Advanced to single-cell RNA-seq module cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/module-cheatsheets/scRNA-seq-advanced-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release_tag}}/module-cheatsheets/scRNA-seq-advanced-cheatsheet.pdf))
 * Converting among single-cell data formats cheatsheet ([View Markdown](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/module-cheatsheets/sce-conversion-cheatsheet.md), [Download PDF](https://github.com/AlexsLemonade/training-modules/raw/{{site.release_tag}}/module-cheatsheets/sce-conversion-cheatsheet.pdf))
 
 You may find these helpful as you review instruction material or work through exercise notebooks.
@@ -53,4 +53,4 @@ Resources include how to find practice datasets to work with as well as informat
 
 See [this page](../additional-resources/single-cell-resources.md) for more resources on working with scRNA-seq.
 
-Resources include how to find practice datasets to work with as well as a list of exertnal resources for performing common analyses in scRNA-seq data.
+Resources include how to find practice datasets to work with as well as a list of external resources for performing common analyses in scRNA-seq data.

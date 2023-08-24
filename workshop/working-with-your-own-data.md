@@ -53,7 +53,7 @@ If you are retrieving your data from online, perhaps from a publicly available r
 
 ![Terminal tab](screenshots/rstudio-session-terminal.png)
 
-**Step 2)** Copy over the [wget template script]({{site.repository_url}}/tree/master/additional-resources/template-scripts/wget-TEMPLATE.sh).
+**Step 2)** Copy over the [`wget` template script]({{site.repository_url}}/tree/master/additional-resources/template-scripts/wget-TEMPLATE.sh).
 
 You'll find the `wget` template script in the `shared-data/template-scripts/` directory.
 In the RStudio Server, you can click the check mark next to the file name, then go to `More` > and choose `Copy To` to make a copy with a new name somewhere convenient in your home directory.
@@ -113,7 +113,7 @@ mkdir data
 ```
 
 You can double check that you successfully made a new folder by running `ls` again.
-Now we are ready to wget data and copy it to our `data/` folder.
+Now we are ready to `wget` data and copy it to our `data/` folder.
 
 ```
 wget -O data/some_array_data.zip 'https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip'
@@ -438,7 +438,7 @@ install.packages("ggforce")
 
 You should see output in the Console that shows some download bars, and finally some output that looks like this:
 
-![ggforce installed](screenshots/ggforce-package.png)
+![`ggforce` installed](screenshots/ggforce-package.png)
 
 If your package installation is NOT successful, you'll see some sort of message like :
 
