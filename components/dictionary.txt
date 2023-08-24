@@ -1,3 +1,4 @@
+ableist
 al
 Alevin
 ALSF
@@ -8,10 +9,12 @@ bioinformatics
 bp
 Bruning
 bulletpoint
+Bundler
 Buttner
 CanFam
 Canis
 Cao
+Carpentries
 ccdatalab
 chatbot
 cheatsheet
@@ -46,6 +49,7 @@ HCA
 Hemburg
 hg
 Hippen
+Homebrew
 jekyll
 Korsunsky
 Luecken
@@ -53,8 +57,10 @@ Lun
 LTS
 macOS
 miQC
+modifided
 Muris
 musculus
+nonconsensual
 OSCA
 PHI
 PII
@@ -72,6 +78,7 @@ se
 SingleCellExperiment
 SingleR
 Slackbot
+socio
 Stoeckius
 subfolder
 Tabula
@@ -80,10 +87,12 @@ tidyverse
 TPMs
 transcriptome
 transcriptomic
+transphobic
 TSV
 Tung
 uncheck
 unmute
+videoconferences
 YAML
 Zakeri
 zebrafish
