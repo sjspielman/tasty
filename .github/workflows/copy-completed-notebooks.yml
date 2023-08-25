@@ -15,6 +15,7 @@ on:
           - "Introduction to R and Tidyverse"
           - "Introduction to single-cell RNA-seq"
           - "Advanced single-cell RNA-seq"
+          - "Bulk RNA-seq"
         required: true
       training-modules-tag:
         type: string
@@ -37,16 +38,17 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v3
         with:
-          path: main
+          path: website
 
       - name: Configure git
         run: |
-          # use global flag since we have multiple repos here
-          git config --global --add safe.directory "${GITHUB_WORKSPACE}"
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
+          # Configure git for just the `website` repo local credentials
+          cd website
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          cd ..
 
-      - name: Get HTML completed notebooks from training-modules
+      - name: Copy HTML completed notebooks from training-modules
         shell: bash
         run: |
           # The completed notebooks to copy will depend on which workshop module this is.
@@ -54,48 +56,36 @@ jobs:
           #  Intro R: intro_to_R_tidyverse/
           #  Intro scRNA-seq: intro_to_R_tidyverse/ and scRNA-seq/
           #  Advanced scRNA-seq: advanced-scRNA-seq/
+          #  bulk RNA-seq: RNA-seq/
 
-          # the url for for this tag of the training-modules repo where files will be downloaded from
-          base_url=https://raw.githubusercontent.com/AlexsLemonade/training-modules/${{ github.event.inputs.training-modules-tag }}
+          target_path=website/completed-notebooks/
 
-          ########### Get paths for files to copy, for the given module ############
+          # Copy notebooks over depending on which training module is being taught
+          case "${{ github.event.inputs.training-module }}" in
 
-          # We have to cd into training-modules to ensure correct paths come out of `ls`
-          cd training-modules
+            "Introduction to R and Tidyverse")
+              cp training-modules/intro-to-R-tidyverse/[0-9]*.html ${target_path}
+              ;;
 
-          # First, intro-to-R-tidyverse notebooks for the intro R workshop
-          if [[ "${{ github.event.inputs.training-module }}" == "Introduction to R and Tidyverse" ]]; then
-            notebook_files=`ls intro-to-R-tidyverse/*html`
-          fi
+            "Introduction to single-cell RNA-seq")
+              cp training-modules/intro-to-R-tidyverse/[0-9]*.html ${target_path}
+              cp training-modules/scRNA-seq/[0-9]*.html ${target_path}
+              ;;
 
-          # Second, intro-to-R-tidyverse notebooks and scRNA-seq notebooks for the intro scRNA-seq workshop
-          if [[ "${{ github.event.inputs.training-module }}" == "Introduction to single-cell RNA-seq" ]]; then
-            notebook_files=`ls intro-to-R-tidyverse/*html scRNA-seq/*html`
-          fi
+            "Advanced single-cell RNA-seq")
+              cp training-modules/scRNA-seq-advanced/[0-9]*.html ${target_path}
+              ;;
 
-          # Third, scRNA-seq-advanced notebooks for the advanced scRNA-seq workshop
-          if [[ "${{ github.event.inputs.training-module }}" == "Advanced single-cell RNA-seq" ]]; then
-            notebook_files=`ls scRNA-seq-advanced/*html`
-          fi
-
-          # Now, we have to navigate back to the completed-notebooks directory
-          cd ../main/completed-notebooks
-
-          # curl completed notebook htmls into main/completed-notebooks
-          for path in ${notebook_files}
-          do
-            # test that the path is to an .html file, error if not
-            # note that at least one notebook is only .html, NOT .nb.html, so we'll just use .html
-            [[ $path != *.html ]] && echo "'$path' is not an .html file." && exit 1
-            echo ${base_url}/${path}
-            curl --fail -sO ${base_url}/${path}
-          done
+            "Bulk RNA-seq")
+              cp training-modules/RNA-seq/[0-9]*.html ${target_path}
+              ;;
+          esac
 
       - name: Create PR with rendered notebooks
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         id: cpr
         with:
-          path: main # must be a RELATIVE path to _this_ repo
+          path: website # must be a RELATIVE path to _this_ repo
           commit-message: Copy completed notebooks from training-modules@${{ github.event.inputs.training-modules-tag }}
           signoff: false
           branch: auto_copy_completed_notebooks
@@ -104,7 +94,7 @@ jobs:
           body: |
             ### Description:
             This PR was auto-generated from github actions
-              - Copy completed HTML notebooks from training-modules repository, tag ${{ github.event.inputs.training-modules-tag }}
+              - Copy completed notebooks for the "${{ github.event.inputs.training-module }}" module from the `training-modules` repository, tag `${{ github.event.inputs.training-modules-tag }}`
           labels: |
             automated
           reviewers: $GITHUB_ACTOR
