@@ -67,7 +67,6 @@ PII
 pre
 README
 rerio
-rstudio
 RStudio
 scCODA
 scDC
