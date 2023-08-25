@@ -55,28 +55,33 @@ jobs:
           #  Advanced scRNA-seq: advanced-scRNA-seq/
           #  bulk RNA-seq: RNA-seq/
 
+          # Path to copy notebooks to
           target_path=website/completed-notebooks/
 
-          # Copy notebooks over depending on which training module is being taught
+          # Create array of directories from which notebooks should be copied
           case "${{ github.event.inputs.training-module }}" in
 
             "Introduction to R and Tidyverse")
-              cp training-modules/intro-to-R-tidyverse/[0-9]*.html ${target_path}
+              modules=("intro-to-R-tidyverse")
               ;;
 
             "Introduction to single-cell RNA-seq")
-              cp training-modules/intro-to-R-tidyverse/[0-9]*.html ${target_path}
-              cp training-modules/scRNA-seq/[0-9]*.html ${target_path}
+              modules=("intro-to-R-tidyverse" "scRNA-seq")
               ;;
 
             "Advanced single-cell RNA-seq")
-              cp training-modules/scRNA-seq-advanced/[0-9]*.html ${target_path}
+              modules=("scRNA-seq-advanced")
               ;;
 
             "Bulk RNA-seq")
-              cp training-modules/RNA-seq/[0-9]*.html ${target_path}
+              modules=("RNA-seq")
               ;;
           esac
+
+          # Copy all completed notebooks from the given directories
+          for module in ${modules[@]}; do
+            cp training-modules/${module}/[0-9]*.html ${target_path}
+          done
 
       - name: Create PR with rendered notebooks
         uses: peter-evans/create-pull-request@v5
