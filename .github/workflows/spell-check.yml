@@ -32,6 +32,7 @@ jobs:
 
       - name: Archive spelling errors
         uses: actions/upload-artifact@v3
+        if: ${{ steps.spell_check_run.outputs.sp_chk_results > 0 }}
         with:
           name: spell-check-results
           path: spell_check_errors.tsv
