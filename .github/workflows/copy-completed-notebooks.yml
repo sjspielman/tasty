@@ -74,13 +74,13 @@ jobs:
               ;;
 
             "Bulk RNA-seq")
-              modules=("RNA-seq")
+              modules=("intro-to-R-tidyverse", "RNA-seq")
               ;;
           esac
 
           # Copy all completed notebooks from the given directories
           for module in ${modules[@]}; do
-            cp training-modules/${module}/[0-9]*.html ${target_path}
+            cp training-modules/${module}/[0-9]*.html ${target_path}/${module}
           done
 
       - name: Create PR with rendered notebooks
