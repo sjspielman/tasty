@@ -13,7 +13,7 @@ end_date: YYYY-MM-DD
 release_tag: master
 
 #### Workshop information ####
-workshop_type: WORKSHOP    # Update this value to either: "remote" or "inperson"
+workshop_type: WORKSHOP    # Update this value to either: "remote" or "in-person"
 workshop_content: WORKSHOP # Update this value to either: "intro-r", "intro-bulk", "intro-single-cell", or "advanced-single-cell"
 
 
