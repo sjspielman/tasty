@@ -1,13 +1,14 @@
----
-title: Workshop Structure
-nav_title: Structure
----
+{% comment %}
+Retain this comment as a reminder that:
+- HTML commenting doesn't work here
+- MUST keep a fully blank line before starting content.
+{% endcomment %}
 
 Our goals in constructing the virtual workshop structure are the following:
 
-* You will be introduced to `<workshop content>` through a series of hands-on exercises.
-* You are able to ask questions and receive 1:1 assistance as needed during instruction. Because our instruction is almost entirely through hands-on exercises, we want to make sure we can help you through any difficulties or errors you may encounter.
-* You have the opportunity to practice the skills you learn during instruction in consultation sessions with the support of your instructors.
+* You will be introduced to `<workshop content>` through a series of hands-on, interactive lessons.
+* You are able to ask questions and receive 1:1 assistance as needed during instruction. Because our instruction is almost entirely through hands-on lessons, we want to make sure we can help you through any difficulties or errors you may encounter.
+* You have the opportunity to practice the skills you learn during instruction in consultation sessions with the support of your instructors, and/or using exercise notebooks we have provided.
 * You receive consultation about the data you are working with to answer your research questions.
 * You have opportunities to interact with other participants working on similar problems.
 
