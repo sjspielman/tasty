@@ -19,8 +19,17 @@ In this training workshop, we will be using the following modules:
 
 <!--List the specific modules you will be using and use permalinks to a specific release-->
 
-- [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
-- [RNA-Seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/RNA-seq)
+{% if site.workshop_content == "intro-r" %}
+  - [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
+{% elsif site.workshop_content == "intro-single-cell" %}
+  - [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
+  - [Intro to single-cell RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/scRNA-seq)
+{% elsif site.workshop_content == "intro-bulk" %}
+  - [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
+  - [Intro to Bulk RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/RNA-seq)
+{% elsif site.workshop_content == "advanced-single-cell" %}
+  - [Advanced single-cell RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/scRNA-seq-advanced)
+{% endif %}
 
 
 The layout of the `training-modules` folders follow a common general structure.
