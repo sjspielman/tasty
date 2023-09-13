@@ -1,6 +1,6 @@
 <!-- Please update this file to reflect logistics for the workshop being taught. -->
 
-Find helpful information related to health and safety, the workshop location, and more.
+This page provides logistical information for the workshop location, lodging and transportation, and health and safety.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
