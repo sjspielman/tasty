@@ -3,9 +3,9 @@ title: Workshop Materials
 nav_title: Materials
 ---
 
-### Github Repositories
+### GitHub Repositories
 
-Data Lab training materials are available on Github, in either this repository or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
+Data Lab training materials are available on GitHub, in either this repository or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
 
 ### Slides
 
@@ -40,4 +40,4 @@ These are formatted both as markdown files and PDFs, with the latter likely most
 
 ### RStudio Server
 
-Notebooks and data files required for participation in the workshop will be preloaded for each user on the RStudio server.
+Notebooks and data files required for participation in the workshop will be pre-loaded for each user on the RStudio server.

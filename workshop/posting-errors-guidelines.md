@@ -106,7 +106,7 @@ For our example error, here's how each of the "four points" (and the optional on
        - What information is included the data?
        - What are the columns?
        - What are the rows?
-    - What'd your desired output?
+    - What's your desired output?
        - What kind of results are you looking for e.g. a plot, a table, processed/filtered data?
        - What kind of file *e.g.* `.TSV`, `.fastq`?
 
@@ -201,7 +201,7 @@ Or click on the `replies` button below your post:
 
 <img src = "screenshots/replies-slack.png" width = "400">
 
-It's in the Slack thread that you should hopefully see a response that helps you fix your error! :tada:
+It's in the Slack thread that you should hopefully see a response that helps you fix your error!  🎉
 
 <img src = "screenshots/slack-thread.png" width = "350">
 

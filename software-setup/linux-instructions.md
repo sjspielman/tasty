@@ -4,7 +4,7 @@ title: Linux Set Up Instructions for Virtual Workshops
 
 *Note: These instructions were tested on Ubuntu 18.04 LTS.
 Our instructions generally follow the software provider's instructions, which we link below.
-For other Linux distros, please see the instructions from the software providers.*
+For other Linux distributions, please see the instructions from the software providers.*
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -43,7 +43,7 @@ sudo apt install gdebi
 You will prompted for your admin password.
 
 Search your computer for GDebi and double click it.
-Open the Zoom DEB installer wih GDebi; you can use `Ctrl+O` and then open the Zoom `deb` file.
+Open the Zoom DEB installer with GDebi; you can use `Ctrl+O` and then open the Zoom `deb` file.
 
 Select `Install Package` to install Zoom.
 

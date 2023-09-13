@@ -17,7 +17,7 @@ Please take a look at our procedures to familiarize yourself with how we will be
 * [Zoom procedures](../software-setup/zoom-procedures.md)
 * [Slack procedures](../software-setup/slack-procedures.md)
 
-### MacOS
+### macOS
 
 * [Zoom instructions](../software-setup/mac-instructions.md#zoom)
 * [Slack instructions](../software-setup/mac-instructions.md#slack)

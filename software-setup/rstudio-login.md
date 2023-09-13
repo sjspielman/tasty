@@ -6,7 +6,7 @@ For this training, we've set up a server that hosts RStudio and allows you to ru
 In other words, you will be programming in R via this server, and _you do not need to download R or RStudio for this workshop._
 
 In this tutorial, we will get you set up with our server.
-In our [RStudio guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.md) and our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) we will work on becoming more comfortable with R and RStudio for programing.
+In our [RStudio guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.md) and our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) we will work on becoming more comfortable with R and RStudio for programming.
 RStudio by itself is an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) or IDE that makes it easier to program in R.
 
 ### Logging in
