@@ -92,8 +92,15 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../so
 
 ## Presentations
 
-On the last day of the workshop, we will reconvene after consulation sessions over Zoom for participant presentations, a low-pressure opportunity to briefly share with the group what you've learned during the workshop.
+We will reconvene in a Zoom meeting on Friday afternoon after the consultation session for presentations.
+You will be invited to give a short (5 minutes or less) presentation on what you worked on during the week to the rest of the group.
+This is meant to be a low-pressure opportunity to reflect on what you've learned!
+The content and format of the presentation is entirely up to you.
+Here are some examples of what people have presented in the past at our workshops:
+
+* Talked through part of an exercise notebook, highlighting where they ran into issues and how they figured it out
+* Shown a visualization they made with their own data
+* Walked through a set of slides that included tools they've used in the past and how they compare to what they learned during the workshop
+* Identified some publicly available data sets relevant to their scientific questions and talked about next steps
 
 When it is your turn to present, you will [share your screen on Zoom](../software-setup/zoom-procedures.md#sharing-your-screen-in-zoom) and [unmute yourself](../software-setup/zoom-procedures.md#audio).
-
-Read more about participant presentations [here](../../additional-resources/presentation-information.html). <!-- use .html since this file (workshop-structure) is %include%'d in workshop-information.-->
