@@ -4,6 +4,7 @@ Alevin
 ALSF
 ArrayExpress
 AUCell
+Bala
 Benchmarking
 bioinformatics
 bp
@@ -21,7 +22,9 @@ cheatsheet
 cheatsheets
 checkmarks
 compositional
+COVID
 customizable
+Cynwyd
 Danio
 DCP
 DESeq
@@ -31,7 +34,11 @@ dropdown
 DropSeq
 ecure
 ecursively
+elsif
 EmptyDrops
+endcase
+endcomment
+endif
 Ensembl
 epitope
 et
@@ -50,13 +57,16 @@ Hemburg
 hg
 Hippen
 Homebrew
+Homewood
 jekyll
 Korsunsky
 Luecken
 Lun
 LTS
+Lyft
 macOS
 miQC
+md
 modifided
 Muris
 musculus
@@ -89,6 +99,7 @@ transcriptomic
 transphobic
 TSV
 Tung
+Uber
 uncheck
 unmute
 videoconferences
