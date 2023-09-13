@@ -17,7 +17,7 @@ This document is designed to give you an idea of what your participation in the 
 ## Instruction sessions
 
 **During instruction sessions**, you will call into a Zoom meeting and log into [our RStudio Server](https://rstudio.ccdatalab.org).
-An instructor may present some slides to introduce the material and then they will instruct you to navigate to [rstudio.ccdatalab.org](https://rstudio.ccdatalab.org), [enter your RStudio login credentials](../software-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the course material.
+An instructor may present some slides to introduce the material and then they will instruct you to navigate to [https://rstudio.ccdatalab.org](https://rstudio.ccdatalab.org), [enter your RStudio login credentials](../software-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the course material.
 Typically you will be asked to navigate to a specific R Notebook file and you will execute steps at the same time as your instructor.
 You will have access to [a private training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) in [Cancer Data Science Slack](https://www.ccdatalab.org/slack) that you can use as a forum to post questions.
 This channel will be monitored by instructors.

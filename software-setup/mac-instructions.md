@@ -72,13 +72,13 @@ Turning these settings off will make it easier to interact with other windows du
 
 ### Screen sharing permissions
 
-MacOS has gotten stricter and stricter about security, so you will have to grant a few more permissions from the **System Preferences** application to allow for screen sharing to work.
+macOS has gotten stricter and stricter about security, so you will have to grant a few more permissions from the **System Preferences** application to allow for screen sharing to work.
 Open **System Preferences** from the Apple menu or the Dock, and choose **Security & Privacy**, then click on the **Privacy** button at the top.
 Click on the lock icon in the lower left and enter your administrator password to allow changes.
 
 <img src="screenshots/mac-zoom-11-security-prefs.png" alt="Security preferences" width="600">
 
-In the lect sidebar, select **Accessibility**, and make sure the checkbox next to **zoom.us** in the "Allow the aps below to control your computer" list is selected, as shown.
+In the left sidebar, select **Accessibility**, and make sure the checkbox next to **zoom.us** in the "Allow the apps below to control your computer" list is selected, as shown.
 
 <img src="screenshots/mac-zoom-12-accessibility-prefs.png" alt="Accessibility permissions" width="600">
 
@@ -146,6 +146,6 @@ You can find Slackbot (and yourself) in the left panel, under "Direct Messages".
 
 <img src="screenshots/slack-dm-slackbot.png" alt="DM Slackbot" width = "300">
 
-One more thing: if you end up using the voice or video calling functionality that Slack provides, you may be asked to grant the app permission to use your microphone and videocamera, as you did with Zoom.
+One more thing: if you end up using the voice or video calling functionality that Slack provides, you may be asked to grant the app permission to use your microphone and camera, as you did with Zoom.
 
 For more information about how we will be using Slack, please read about our [Slack Procedures](slack-procedures.md)

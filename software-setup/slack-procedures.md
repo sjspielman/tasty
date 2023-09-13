@@ -133,6 +133,6 @@ Or you can type three backticks <code>```</code> into the message field and form
 
 <img src = "screenshots/slack-backticks.gif" width = "600">
 
-You are then ready to paste your code or error message into the grey code block.
+You are then ready to paste your code or error message into the gray code block.
 
 **If you have questions or are having trouble with Slack features, please reach out to us via direct message or, if direct messaging is not working, please email [training@ccdatalab.org](mailto:training@ccdatalab.org).**

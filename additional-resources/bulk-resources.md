@@ -2,7 +2,7 @@
 title: Resources for Working with Bulk RNA-seq
 ---
 
-On this page, we've assembled some resources you may find helpful for working with _bulk transriptomic data_, include bulk RNA-seq and microarray data.
+On this page, we've assembled some resources you may find helpful for working with _bulk transcriptomic data_, include bulk RNA-seq and microarray data.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
