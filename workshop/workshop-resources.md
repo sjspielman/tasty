@@ -41,7 +41,9 @@ We'll reiterate some of the most important points from those instructions below:
 * You have 50GB of space available.
 If your data is larger than 50GB, please contact an instructor.
 
-## Resources for getting started with R programming
+## Topic-specific resources 
+
+### Getting started with R programming
 
 See [this page](../additional-resources/R-resources.md) for recommendations on getting started with R programming, as well as some links to useful external resources on R.
 ## Resources for bulk transcriptomics data
