@@ -1,5 +1,5 @@
 ---
-title: Setup Software for Data Lab Workshops
+title: Set Up Software for Data Lab Workshops
 ---
 
 The `software-setup` module houses instructions specifically for Data Lab virtual training workshops.
