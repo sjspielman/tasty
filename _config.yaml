@@ -14,7 +14,7 @@ release_tag: master
 
 #### Workshop information ####
 workshop_type: WORKSHOP    # Update this value to either: "remote" or "in-person"
-workshop_content: WORKSHOP # Update this value to either: "intro-r", "intro-bulk", "intro-single-cell", or "advanced-single-cell"
+workshop_content: WORKSHOP # Update this value to one of: "intro-r", "intro-bulk", "intro-single-cell", or "advanced-single-cell"
 
 #### Instructor names ####
 # This variable should be filled with a list of team members leading a given workshop
