@@ -39,7 +39,7 @@ We have instructions for setting up Slack for your operating system available.
 
 Course instructors will add you to a private channel specific to your training a few days before the start of your training workshop.
 
-If you are not added to the training specific channel by 3 days prior to the start of training or are having trouble getting started with Slack, please [direct message](#using-direct-messages-during-training) a Data Lab staff member (`Chante Bethell`, `Ally Hawkins`, `Jen O'Malley`,  `Josh Shapiro`, or `Stephanie Spielman`) in Cancer Data Science Slack or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
+If you are not added to the training specific channel by 3 days prior to the start of training or are having trouble getting started with Slack, please [direct message](#using-direct-messages-during-training) a Data Lab staff member ({{site.instructors}}) in Cancer Data Science Slack or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
 
 ### Using the training-specific channel
 
@@ -108,7 +108,7 @@ First, use the new message button in the top right side corner of the Slack inte
 
 <img src = "screenshots/slack-compose-new-message.png" width="300">
 
-You are then able to search for the Data Lab instructors – `Chante Bethell`, `Ally Hawkins`, `Jen O'Malley`, `Josh Shapiro`, or `Stephanie Spielman` – and compose your message.
+You are then able to search for the Data Lab instructors – {{site.instructors}} – and compose your message.
 
 Course instructors may direct you to the training-specific channel for more general questions or to another instructor where appropriate.
 
