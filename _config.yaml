@@ -18,7 +18,11 @@ workshop_content: WORKSHOP # Update this value to one of: "intro-r", "intro-bulk
 
 #### Instructor names ####
 # This array should be filled with a list of team members leading a given workshop
-instructors: ["Ally Hawkins", "Jen O'Malley", "Josh Shapiro", "Stephanie Spielman"]
+instructors: 
+  - Ally Hawkins
+  - Jen O'Malley
+  - Josh Shapiro
+  - Stephanie Spielman
 
 #### Docker information #####
 # The Docker user will almost always be ccdl, which is why this is here

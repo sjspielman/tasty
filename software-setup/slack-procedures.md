@@ -41,8 +41,9 @@ Course instructors will add you to a private channel specific to your training a
 
 If you are not added to the training specific channel by 3 days prior to the start of training or are having trouble getting started with Slack, please [direct message](#using-direct-messages-during-training) a Data Lab staff member (
 {%- for name in site.instructors -%}
-{% if forloop.last == false %} `{{name}}`,{% else %} or `{{name}}` {% endif %}
-{%- endfor -%}) in Cancer Data Science Slack or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
+{% if forloop.last == false %}`{{name}}`, {% else %} or `{{name}}`{% endif %}
+{%- endfor -%}
+) in Cancer Data Science Slack or email [training@ccdatalab.org](mailto:training@ccdatalab.org).
 
 <br>
 
@@ -116,7 +117,8 @@ First, use the new message button in the top right side corner of the Slack inte
 You are then able to search for the Data Lab instructors –
 {%- for name in site.instructors -%}
 {% if forloop.last == false %} `{{name}}`,{% else %} or `{{name}}` {% endif %}
-{%- endfor -%}  – and compose your message.
+{%- endfor -%}
+– and compose your message.
 
 Course instructors may direct you to the training-specific channel for more general questions or to another instructor where appropriate.
 

@@ -109,7 +109,7 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../so
 
 ### Participant presentations
 
-On the last afternoon of the workshop, we will reconvene after the consultation session for (optional) participant presentations.
+On the last afternoon of the workshop, we will reconvene after the consultation session for participant presentations.
 You will be invited to give a short (5 minutes or less) presentation on what you worked on during the week to the rest of the group.
 This is meant to be a _low-pressure opportunity_ to reflect on what you've learned!
 The content and format of the presentation is entirely up to you.
