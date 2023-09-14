@@ -1,19 +1,7 @@
+
 <!-- Please update this file to reflect logistics for the workshop being taught. -->
 
-This page provides logistical information for the workshop location, lodging and transportation, and health and safety.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-### Table of Contents
-
-- [Workshop Location](#workshop-location)
-  - [Transportation](#transportation)
-  - [Nearby Lodging](#nearby-lodging)
-- [Travel Reimbursement](#travel-reimbursement)
-- [Health and Safety](#health-and-safety)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Workshop Location
 
@@ -24,6 +12,7 @@ The Amenity Suite is the first room you will see after exiting the elevator.
 Please note that Bala Plaza is an office park with multiple buildings.
 If you have trouble finding the building or the room on the first day of training, please use Slack to direct message `Jen O'Malley`.
 
+## Travel logistics
 ### Transportation
 
 **Driving**
@@ -40,7 +29,7 @@ If you have trouble finding the building or the room on the first day of trainin
 
 * Many of the hotels in the area are within walking distance, or are a short Uber or Lyft ride, to One Bala Plaza.
 
-### Nearby Lodging
+#### Nearby Lodging
 
 The following hotels are within 1 mile of the workshop location.
 
@@ -49,7 +38,7 @@ The following hotels are within 1 mile of the workshop location.
 * [Homewood Suites by Hilton Philadelphia-City Avenue](https://www.hilton.com/en/hotels/phlcahw-homewood-suites-philadelphia-city-avenue)
 * [Residence Inn Philadelphia Bala Cynwyd](https://www.marriott.com/en-us/hotels/phlrb-residence-inn-philadelphia-bala-cynwyd/overview/)
 
-## Travel Reimbursement
+### Travel Reimbursement
 
 Travel reimbursement up to $500 is available for participants who reside more than 50 miles from the workshop location.
 If you requested travel reimbursement, you will receive a reimbursement form after the workshop ends.
@@ -68,7 +57,7 @@ To qualify for reimbursement:
 
 Alex's Lemonade Stand Foundation's Childhood Cancer Data Lab will comply with any governmental requirements related to health and safety.
 We encourage workshop participants to adhere to US governmental guidance.
-You may wish to review the [CDC COVID-19 by County guidance](https://www.cdc.gov/coronavirus/2019-ncov/your-health/covid-by-county.html) and the [Montgomery County, Pennsylvania COVID-19 community level](https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=Pennsylvania&data-type=CommunityLevels&list_select_county=42091&null=CommunityLevels) when planning for workshop attendance.
+You may wish to review the [CDC COVID-19 by County guidance](https://www.cdc.gov/coronavirus/2019-ncov/your-health/covid-by-county.html) when planning for workshop attendance.
 
 If you are feeling sick, please do not attend the workshop.
 We will not withhold your deposit if you cannot attend because you are sick.
