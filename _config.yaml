@@ -17,8 +17,8 @@ workshop_type: WORKSHOP    # Update this value to either: "remote" or "in-person
 workshop_content: WORKSHOP # Update this value to one of: "intro-r", "intro-bulk", "intro-single-cell", or "advanced-single-cell"
 
 #### Instructor names ####
-# This variable should be filled with a list of team members leading a given workshop
-instructors: "`Ally Hawkins`, `Jen O'Malley`, `Josh Shapiro`, or `Stephanie Spielman`"
+# This array should be filled with a list of team members leading a given workshop
+instructors: ["Ally Hawkins", "Jen O'Malley", "Josh Shapiro", "Stephanie Spielman"]
 
 #### Docker information #####
 # The Docker user will almost always be ccdl, which is why this is here
