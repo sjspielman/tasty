@@ -19,8 +19,18 @@ In this training workshop, we will be using the following modules:
 
 <!--List the specific modules you will be using and use permalinks to a specific release-->
 
-- [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
-- [RNA-Seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/RNA-seq)
+{% case site.workshop_content  %}
+{% when "intro-r" %}
+  - [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
+{% when "intro-single-cell" %}
+  - [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
+  - [Intro to single-cell RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/scRNA-seq)
+{% when "intro-bulk" %}
+  - [Intro to R and the Tidyverse](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/intro-to-R-tidyverse)
+  - [Intro to Bulk RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/RNA-seq)
+{% when "advanced-single-cell" %}
+  - [Advanced single-cell RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/scRNA-seq-advanced)
+{% endcase %}
 
 
 The layout of the `training-modules` folders follow a common general structure.
