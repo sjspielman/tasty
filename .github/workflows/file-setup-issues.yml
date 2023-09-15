@@ -69,6 +69,14 @@ jobs:
           content-filepath: ./setup-issue-templates/workshop-release.md
           labels: automated training issue
 
+      # Issue for copying completed notebooks from training-modules
+      - name: Create issue for copying completed notebooks
+        uses: peter-evans/create-issue-from-file@v4.0.0
+        with:
+          title: Create ${{ github.event.inputs.tag }} release of training-modules
+          content-filepath: ./setup-issue-templates/copy-completed-notebooks.md
+          labels: automated training issue, blocked
+
       # Issue for creating a final version of schedule
       - name: Create final schedule issue
         uses: peter-evans/create-issue-from-file@v4.0.0
