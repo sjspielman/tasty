@@ -9,7 +9,7 @@ title: Software setup instructions
 
 ## RStudio Server
 
-Note that you will **not** need to install R or RStudio on your computer.
+You will **not** need to install R or RStudio on your computer.
 Instead, we have set up an RStudio Server for this workshop which you can access entirely via browser.
 Please refer to [these instructions](rstudio-login.md) for setting up your RStudio Server account.
 
