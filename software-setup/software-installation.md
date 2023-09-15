@@ -24,7 +24,7 @@ If you do not have Zoom installed yet, you will need to download the Desktop cli
 
 ### Enabling screen share
 
-One way that we'll use Zoom is via screen-sharing; it is important that you are able to share your screen with us so we can help you, as needed in 1:1 consulations sessions or in breakout rooms.
+One way that we'll use Zoom is via screen-sharing; it is important that you are able to share your screen with us so we can help you, as needed in 1:1 consultations sessions or in breakout rooms.
 
 If you are working on a Mac, you will need to grant Zoom permissions to be able to use screen share, as follows:
 
