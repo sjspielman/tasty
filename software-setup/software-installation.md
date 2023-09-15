@@ -17,13 +17,13 @@ Please refer to [these instructions](rstudio-login.md) for setting up your RStud
 
 ## Zoom setup instructions
 
+We will use Zoom for all remote workshop sessions, as described in our [Workshop Logistics](../workshop/workshop-logistics.md) and [Zoom Procedures](zoom-procedures.md) pages.
 ### Installing Zoom
 
 If you do not have Zoom installed yet, you will need to download the Desktop client from <https://zoom.us/download>.
 
 ### Enabling screen share
 
-We will use Zoom for all remote workshop sessions, as described in our [Workshop Logistics](../workshop/workshop-logistics.md) and [Zoom Procedures](zoom-procedures.md) pages.
 One way that we'll use Zoom is via screen-sharing; it is important that you are able to share your screen with us so we can help you, as needed in 1:1 consulations sessions or in breakout rooms.
 
 If you are working on a Mac, you will need to grant Zoom permissions to be able to use screen share, as follows:

@@ -19,7 +19,7 @@ Dates: {{site.start_date}} through {{site.end_date}}
 
 * Please review the [Code of Conduct](../code-of-conduct.md).
 * If you are new to using R, we've [assembled some resources for getting starting with R](../additional-resources/R-resources.md#pre-workshop-prep-for-r-programming) that can optionally help prepare you for the workshop.
-* Please review the [software platforms](../software-setup/software-setup-instructions.md) we will be using to familiarize yourself with our procedures.
+* Please review the [software platforms](../software-setup/software-installation.md) we will be using to familiarize yourself with our procedures.
   * You will also need to install
 {%- case site.workshop_type -%}
 {% when "remote" %}
