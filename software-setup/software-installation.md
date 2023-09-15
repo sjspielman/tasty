@@ -62,7 +62,7 @@ We will use Slack to communicate with you both during and after the workshop, as
 ### Installing Slack
 
 While Slack can be used directly from the browser at (<https://slack.com>), we recommend that you download Slack to be able to use its full features.
-Download Slack from this link: <https://slack.com/downloads>, which will automatically direct you to the download page for your operating system.
+Download Slack from this link <https://slack.com/downloads>, which will automatically direct you to the download page for your operating system.
 
 ### Joining the Cancer Data Science Slack
 
