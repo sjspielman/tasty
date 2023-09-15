@@ -4,14 +4,6 @@ title: Zoom Procedures for Data Lab Virtual Workshops
 We use [Zoom](https://zoom.us/) meetings for conducting Data Lab virtual workshops.
 In this document, we will cover the procedures for joining a Zoom call and using various features for instruction and consultation sessions.
 
-#### Instructions for setting up Zoom
-
-We have instructions for setting up Zoom for your operating system available.
-
-* [Linux](linux-instructions.md#zoom)
-* [Mac](mac-instructions.md#zoom)
-* [Windows](windows-instructions.md#zoom)
-
 #### Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
