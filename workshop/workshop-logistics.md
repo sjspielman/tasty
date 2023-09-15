@@ -12,23 +12,20 @@ nav_title: Logistics
     {% include_relative participant-information.md %}
 {% endif %}
 
-<!-- Define workshop content based on `site.workshop_content` -->
-
-{% case site.workshop_content  %}
-{% when "intro-r" %}
-  {% assign workshop_content = "the R programming language" %}
-{% when "intro-single-cell" %}
-  {% assign workshop_content = "the R programming language and the fundamentals of scRNA-seq analysis" %}
-{% when "intro-bulk" %}
-  {% assign workshop_content = "the R programming language and the fundamentals of bulk RNA-seq analysis" %}
-{% when "advanced-single-cell" %}
-  {% assign workshop_content = "advanced scRNA-seq analyses" %}
-{% endcase %}
 ## Workshop Structure
 
 Our goals for the workshop include the following:
 
-* You will be introduced to {{ workshop_content }} through a series of hands-on, interactive lessons.
+* You will be introduced to {%- case site.workshop_content -%}
+{% when "intro-r" %}
+  the R programming language
+{% when "intro-single-cell" %}
+  the R programming language and the fundamentals of scRNA-seq analysis
+{% when "intro-bulk" %}
+  the R programming language and the fundamentals of bulk RNA-seq analysis
+{% when "advanced-single-cell" %}
+  advanced scRNA-seq analyses
+{%- endcase -%} through a series of hands-on, interactive lessons.
 * You are able to ask questions and receive 1:1 assistance as needed during instruction. Because our instruction is almost entirely through hands-on lessons, we want to make sure we can help you through any difficulties or errors you may encounter.
 * You have the opportunity to practice the skills you learn during instruction in consultation sessions with the support of your instructors, and/or using exercise notebooks we have provided.
 * You receive consultation about the data you are working with to answer your research questions.
