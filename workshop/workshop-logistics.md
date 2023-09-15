@@ -25,8 +25,7 @@ Our goals for the workshop include the following:
 {%- when "intro-bulk" -%}
   the R programming language and the fundamentals of bulk RNA-seq analysis
 {%- when "advanced-single-cell" -%}
-  advanced scRNA-seq analyses
-{% endcase %}
+  advanced scRNA-seq analyses {% endcase %}
 through a series of hands-on, interactive lessons.
 * You are able to ask questions and receive 1:1 assistance as needed during instruction. Because our instruction is almost entirely through hands-on lessons, we want to make sure we can help you through any difficulties or errors you may encounter.
 * You have the opportunity to practice the skills you learn during instruction in consultation sessions with the support of your instructors, and/or using exercise notebooks we have provided.
