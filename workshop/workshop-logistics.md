@@ -17,7 +17,7 @@ nav_title: Logistics
 Our goals for the workshop include the following:
 
 * You will be introduced to
-{% case workshop_content %}
+{% case site.workshop_content %}
 {%- when "intro-r" -%}
  the R programming language
 {%- when "intro-single-cell" -%}
