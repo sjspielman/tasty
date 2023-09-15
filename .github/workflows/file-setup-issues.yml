@@ -45,14 +45,6 @@ jobs:
           content-filepath: ./setup-issue-templates/update-config.md
           labels: automated training issue
 
-      # Issue for header pages
-      - name: Create issue for setting up header pages
-        uses: peter-evans/create-issue-from-file@v4.0.0
-        with:
-          title: Update the pages that will appear in the header
-          content-filepath: ./setup-issue-templates/update-header-pages.md
-          labels: automated training issue
-
       # Issue for adding PDF versions of slides
       - name: Create issue for slides
         uses: peter-evans/create-issue-from-file@v4.0.0

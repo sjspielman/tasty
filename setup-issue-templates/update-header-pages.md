@@ -1,1 +1,0 @@
-Update the pages that will appear in the header (`header_pages:`) in `_config.yaml`. Any page that appears in the header should have a navigation title (`nav_title:`) in its YAML header.
