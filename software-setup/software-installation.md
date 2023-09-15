@@ -24,7 +24,7 @@ If you do not have Zoom installed yet, you will need to download the Desktop cli
 
 ### Enabling screen share
 
-We will me making extensive use of Zoom screen sharing, both from our computers and yours.
+We will be making extensive use of Zoom screen sharing, both from our computers and yours.
 It is important that you are able to share your screen with us so we can help you more easily in 1:1 consultation sessions or breakout rooms, and for the final presentations.
 
 If you are working on a Mac, you will need to grant Zoom permissions to be able to use screen share, as follows:
@@ -36,6 +36,7 @@ Follow [this link](https://support.zoom.us/hc/en-us/articles/360016688031) for f
 {% endcomment %}
 
 #### For macOS version 13 (Ventura) and higher
+
 * Open "System Settings"
 * Navigate to "Privacy & Security"
 * Click "Screen Recording"
@@ -44,6 +45,7 @@ Follow [this link](https://support.zoom.us/hc/en-us/articles/360016688031) for f
 
 
 #### For macOS version 12 (Monterey) and lower
+
 * Open "System Preferences"
 * Navigate to "Security & Privacy"
 * Click "Privacy", and then select "Accessibility" from the sidebar.
@@ -61,6 +63,7 @@ We will use Slack to communicate with you both during and after the workshop, as
 
 While Slack can be used directly from the browser at (<https://slack.com>), we recommend that you download Slack to be able to use its full features.
 Download Slack from this link: <https://slack.com/downloads>, which will automatically direct you to the download page for your operating system.
+
 ### Joining the Cancer Data Science Slack
 
 Open <http://ccdatalab.org/slack> in your browser.
