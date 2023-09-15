@@ -73,7 +73,7 @@ jobs:
       - name: Create issue for copying completed notebooks
         uses: peter-evans/create-issue-from-file@v4.0.0
         with:
-          title: Create ${{ github.event.inputs.tag }} release of training-modules
+          title: Copy completed notebooks to training website
           content-filepath: ./setup-issue-templates/copy-completed-notebooks.md
           labels: automated training issue, blocked
 

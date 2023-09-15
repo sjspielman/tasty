@@ -49,7 +49,6 @@ FileZilla's
 forloop
 Gb
 GDebi
-GHA
 GRCh
 GRCm
 GRCz
