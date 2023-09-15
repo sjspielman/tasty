@@ -24,7 +24,8 @@ If you do not have Zoom installed yet, you will need to download the Desktop cli
 
 ### Enabling screen share
 
-One way that we'll use Zoom is via screen-sharing; it is important that you are able to share your screen with us so we can help you, as needed in 1:1 consultations sessions or in breakout rooms.
+We will be making extensive use of Zoom screen sharing, both from our computers and yours.
+It is important that you are able to share your screen with us so we can help you more easily in 1:1 consultation sessions or breakout rooms, and for the final presentations.
 
 If you are working on a Mac, you will need to grant Zoom permissions to be able to use screen share, as follows:
 
@@ -34,7 +35,8 @@ Zoom's instructions are not yet updated for Ventura, but we could write instead:
 Follow [this link](https://support.zoom.us/hc/en-us/articles/360016688031) for full instructions on how to grant Zoom these permissions, if you have not previously done so.
 {% endcomment %}
 
-#### For macOS Ventura and higher
+#### For macOS version 13 (Ventura) and higher
+
 * Open "System Settings"
 * Navigate to "Privacy & Security"
 * Click "Screen Recording"
@@ -42,7 +44,8 @@ Follow [this link](https://support.zoom.us/hc/en-us/articles/360016688031) for f
   * If the Zoom app is not listed, click the plus sign to add Zoom to the list (you can find it in your Applications folder), and then toggle it on
 
 
-#### For macOS Monterey and lower
+#### For macOS version 12 (Monterey) and lower
+
 * Open "System Preferences"
 * Navigate to "Security & Privacy"
 * Click "Privacy", and then select "Accessibility" from the sidebar.
@@ -59,10 +62,7 @@ We will use Slack to communicate with you both during and after the workshop, as
 ### Installing Slack
 
 While Slack can be used directly from the browser at (<https://slack.com>), we recommend that you download Slack to be able to use its full features.
-Follow the download and installation instructions for your given operating system:
-
-* [Windows download link](https://slack.com/downloads/instructions/windows)
-* [macOS download link](https://slack.com/downloads/mac)
+Download Slack from this link <https://slack.com/downloads>, which will automatically direct you to the download page for your operating system.
 
 ### Joining the Cancer Data Science Slack
 
