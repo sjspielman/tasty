@@ -34,7 +34,7 @@ Zoom's instructions are not yet updated for Ventura, but we could write instead:
 Follow [this link](https://support.zoom.us/hc/en-us/articles/360016688031) for full instructions on how to grant Zoom these permissions, if you have not previously done so.
 {% endcomment %}
 
-#### For macOS Ventura and higher
+#### For macOS version 13 (Ventura) and higher
 * Open "System Settings"
 * Navigate to "Privacy & Security"
 * Click "Screen Recording"
@@ -42,7 +42,7 @@ Follow [this link](https://support.zoom.us/hc/en-us/articles/360016688031) for f
   * If the Zoom app is not listed, click the plus sign to add Zoom to the list (you can find it in your Applications folder), and then toggle it on
 
 
-#### For macOS Monterey and lower
+#### For macOS version 12 (Monterey) and lower
 * Open "System Preferences"
 * Navigate to "Security & Privacy"
 * Click "Privacy", and then select "Accessibility" from the sidebar.
@@ -59,11 +59,7 @@ We will use Slack to communicate with you both during and after the workshop, as
 ### Installing Slack
 
 While Slack can be used directly from the browser at (<https://slack.com>), we recommend that you download Slack to be able to use its full features.
-Follow the download and installation instructions for your given operating system:
-
-* [Windows download link](https://slack.com/downloads/instructions/windows)
-* [macOS download link](https://slack.com/downloads/mac)
-
+Download Slack from this link: <https://slack.com/downloads>, which will automatically direct you to the download page for your operating system.
 ### Joining the Cancer Data Science Slack
 
 Open <http://ccdatalab.org/slack> in your browser.
