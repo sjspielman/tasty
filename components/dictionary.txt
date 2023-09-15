@@ -70,6 +70,7 @@ macOS
 miQC
 md
 modifided
+Monterey
 Muris
 musculus
 nonconsensual
@@ -105,6 +106,7 @@ Tung
 Uber
 uncheck
 unmute
+Ventura
 videoconferences
 YAML
 Zakeri
