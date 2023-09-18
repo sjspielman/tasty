@@ -12,26 +12,10 @@ But asking questions about code in such a way that others can readily help you c
 Here we've laid out guidelines for posting your question so that your peers and the Data Lab team will readily be able to help you find a solution.
 Following these guidelines will take more time but it will increase your chances of getting speedier responses that more adequately help you resolve your error!
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+**Table of contents**
 
-- [What information should a question about code include?](#what-information-should-a-question-about-code-include)
-- [A troubleshooting example](#a-troubleshooting-example)
-  - [Step 1) Do what you can to try to solve the error yourself (but don't tire yourself out!)](#step-1-do-what-you-can-to-try-to-solve-the-error-yourself-but-dont-tire-yourself-out)
-  - [Step 2) Draft out the description of your error post.](#step-2-draft-out-the-description-of-your-error-post)
-    - [Where is this error occurring; what notebook/chunk?](#where-is-this-error-occurring-what-notebookchunk)
-    - [What is the goal of this code?](#what-is-the-goal-of-this-code)
-    - [What is the code that is producing this error?](#what-is-the-code-that-is-producing-this-error)
-    - [What is the error or problematic outcome?](#what-is-the-error-or-problematic-outcome)
-    - [(Optional) What have you tried thus far?](#optional-what-have-you-tried-thus-far)
-  - [Step 3) Post to Slack!](#step-3-post-to-slack)
-    - [Step 3a) Post the headline of your problem.](#step-3a-post-the-headline-of-your-problem)
-    - [Step 3b) In the thread of your headline, post the description you crafted in Step 2.](#step-3b-in-the-thread-of-your-headline-post-the-description-you-crafted-in-step-2)
-  - [Step 4) Look for responses (in the same thread)!](#step-4-look-for-responses-in-the-same-thread)
-- [Checklist for posting a code error question](#checklist-for-posting-a-code-error-question)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 ## What information should a question about code include?
 
