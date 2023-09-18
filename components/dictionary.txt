@@ -5,6 +5,7 @@ ALSF
 ArrayExpress
 AUCell
 Bala
+Beaulieu
 Benchmarking
 bioinformatics
 bp
@@ -62,6 +63,7 @@ Homebrew
 Homewood
 jekyll
 Korsunsky
+lockfile
 Luecken
 Lun
 LTS
@@ -79,6 +81,8 @@ PHI
 PII
 pre
 README
+renv
+Reproducibility
 rerio
 RStudio
 scCODA

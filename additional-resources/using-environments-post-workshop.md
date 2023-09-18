@@ -49,7 +49,7 @@ You can [set up resource limits](https://docs.docker.com/config/containers/resou
 ![Settings menu in Docker Desktop](screenshots/training-docker-image-settings-arrow.png)
 
 
-From here, nagivate to the "Resources" tab and select the number of CPUs and amount of RAM you would like your container to have access to.
+From here, navigate to the "Resources" tab and select the number of CPUs and amount of RAM you would like your container to have access to.
 In this example, we have selected 2 CPUs and 8 GB RAM, as well as 2 GB swap memory (amount of memory that Docker can "swap" in to avoid running out of memory).
 
 ![Settings for Docker Desktop Resources](screenshots/docker-resources.png)
@@ -116,7 +116,7 @@ In the future, you can simply run the container from the "Containers" tab, as de
 
 ### Run the Docker Container
 
-Nagivate back to the "Containers" tab in Docker Desktop, and you should see one running container that you just launched.
+Navigate back to the "Containers" tab in Docker Desktop, and you should see one running container that you just launched.
 It will have the name you specified; in this example, the specified name was `ccdl-training`.
 
 ![Run icon](screenshots/container-running.png)
@@ -162,9 +162,9 @@ Once you have the correct `R` version, you will want to install the `renv` packa
 
 You may need to install a few more things depending on your operating system so that the R packages `renv` installs can build properly, if you have not previously installed these:
 
-* **Windows** users will need to install [Rtools42 for Windows](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html); this will allow you to compile R packages.
-  * `Rtools` is generally specific to a given R version, so if you have newly downloaded R, you will bee to download the correct Rtools version for it as well.
-* **macOS** users will need to install Xcode developer command line tools and a GNU fortran compiler (`gfortran`), as described [here](https://mac.r-project.org/tools/).
+* **Windows** users will need to install [`Rtools42` for Windows](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html); this will allow you to compile R packages.
+  * `Rtools` is generally specific to a given R version, so if you have newly downloaded R, you will need to download the correct `Rtools` version for it as well.
+* **macOS** users will need to install `Xcode` developer command line tools and a GNU `fortran` compiler (`gfortran`), as described [here](https://mac.r-project.org/tools/).
   * You can install command line tools by launching `Terminal` and entering
   ```
   xcode-select --install
