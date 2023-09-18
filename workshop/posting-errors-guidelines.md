@@ -36,11 +36,11 @@ To demonstrate what we mean by these guidelines we will walk through an example.
 
 ## A troubleshooting example
 
-In this example, we're using our exercise notebook `04a-intro_to_R_exercise.Rmd`.
+In this example, we're using our exercise notebook `exercise_02-intro_to_R.Rmd`, which is part of our `Introduction to R and Tidyverse` training module.
 
 Below is a screenshot of what this error would look like when encountering it on [our RStudio Server](../software-setup/rstudio-login.md).
 
-<img src = "screenshots/file.path-error.png" width = "800">
+<img src = "screenshots/file-path-error.png" width = "800">
 
 ### Step 1) Do what you can to try to solve the error yourself (but don't tire yourself out!)
 
@@ -53,7 +53,7 @@ The debugging guide also has tips on first steps to take which may help you get 
 
 **A short list of things to try:**
 
-- Try to identify which part of your code appears to be the problem through trying smaller parts of the code and seeing if the error still occurs (called chunking).
+- Try to identify which part of your code appears to be the problem through trying smaller parts of the code and seeing if the error still occurs (called chunking, a term _unrelated_ to R code chunks).
 In the chunking example below, each highlighted portion is something you could run by itself to test.
 (Using `Command + Enter` in RStudio will run what you have highlighted. On Windows or Linux systems it may be `Crtl + Enter`).
 
@@ -63,7 +63,7 @@ In the chunking example below, each highlighted portion is something you could r
 
 ### Step 2) Draft out the description of your error post.
 
-You may want to open up a text editor to write this out before posting (this is a personal preference thing).
+You may want to open up a text editor to write this out before posting, as a matter of personal preference.
 
 For our example error, here's how each of the "four points" (and the optional one) could be included in your posted question; we will go through the details on each point:
 
@@ -112,10 +112,10 @@ Being able to copy and paste the code itself makes it much easier for others to 
 
 #### What is the error or problematic outcome?
 
-- Include any error messages verbatim.
-Also preferably not a screenshot so others can copy-paste for Google searching (A reminder to also try Google searching yourself before posting - It's often surprisingly helpful!).
-- If you don't have an error message per se, but do have something else that is not working as expected, describe what isn't working and how you found it.
-     - *Example*: "This data.frame I'm showing in my code, called `cool_df` doesn't have row names when I look at it in my environment panel".
+- Include any error messages **verbatim**.
+  - It's helpful if you copy/paste the error message into Slack rather than posting a screen shot, so others can copy/paste for Google searching. (A reminder to also try Google searching yourself before posting - It's often surprisingly helpful!).
+- If you don't have an error message _per se_, but do have something else that is not working as expected, describe what isn't working and how you found it.
+     - *Example*: "This data.frame I'm showing in my code called `cool_df` doesn't have row names when I look at it in my environment panel".
 - Context around when the error appears versus when it does not can be helpful clues to your reader.
 
 *For our example:*
@@ -163,7 +163,7 @@ When you are typing out your error description you may find it helpful to have o
 We've included [a checklist you could use for creating your post](#posting-a-code-question-checklist) for this purpose.
 
 When you paste your text into Slack, it may ask if you'd like to `Apply formatting`. Click `Apply`.
-If Slack doesn't ask you about formatting for some reason, you can also click `Shift + Command + F` and it will apply the formatting.
+If Slack doesn't ask you about formatting for some reason, you can also hit **`Shift + Command + F`** to apply the formatting.
 
 <img src = "screenshots/slack-apply-formatting.png" width = "500">
 
@@ -173,25 +173,28 @@ Either method will format your post like below:
 
 If all looks set, click the green arrow to add it to the thread!
 
-**Slack Tip:** if you see a mistake in your post you missed, you can click on the three dots in the corner of your Slack post and choose `Edit message` and fix the mistake:
+**Slack Tip:** if you see a mistake in your post you missed, you can click on the three dots in the corner of your Slack post.
 
-<img src = "screenshots/slack-edit-message.png" width = "500">
+<img src = "screenshots/slack-more-actions.png" width = "200">
+
+
+Then, choose `Edit message` and fix the mistake:
+
+<img src = "screenshots/slack-edit-message.png" width = "300">
 
 ### Step 4) Look for responses (in the same thread)!
 
-We don't want anyone's questions or responses to get lost, especially after you've followed these careful steps to craft it!
+You'll see a total count for how many replies are in your thread; for example, here there are two replies, including one that might have helpful advice!
 
-Or click on the `replies` button below your post:
+<img src = "screenshots/slack-replies.png" width = "400">
 
-<img src = "screenshots/replies-slack.png" width = "400">
-
-It's in the Slack thread that you should hopefully see a response that helps you fix your error!  🎉
+Scroll through to see the reply:
 
 <img src = "screenshots/slack-thread.png" width = "350">
 
 Lastly, it is helpful for the person who has responded to you or others who might have the same problem if you can remember to post on the thread if/how you resolved the problem!
 
-<img src = "screenshots/solved-thread.png" width = "350">
+<img src = "screenshots/slack-thread-solved.png" width = "350">
 
 Congrats on solving your error! 🎉
 
