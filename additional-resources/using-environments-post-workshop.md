@@ -54,7 +54,7 @@ In this example, we have selected 2 CPUs and 8 GB RAM, as well as 2 GB swap memo
 
 ![Settings for Docker Desktop Resources](screenshots/docker-resources.png)
 
-Once you have made your selection, click "Apply and Restart."
+Once you have made your selection, click **Apply & restart**.
 
 ### Set up local files
 
@@ -82,7 +82,7 @@ To create a container from this image, click the Run icon:
 ![Run icon](screenshots/training-docker-image-run-arrow.png)
 
 
-You will then see a dropdown menu of "Optional settings" for this new container; click to reveal these options.
+You will then see a dropdown menu of "Optional settings" for this new container; click this menu to reveal these options.
 
 
 ![Run icon](screenshots/container-settings-blank.png)
@@ -102,13 +102,13 @@ Now, set the following:
   * First, provide the **Host path**, which the local folder on your computer.
   Click the three dots select the folder of interest.
   * Second, provide the **Container path**, which is where in the Docker container this local folder should be mounted.
-    * You can simply write `/home/rstudio` for this path.
+    * You will want this to be located within `/home/rstudio` directory to make it easy to find, so enter something like `/home/rstudio/<my_folder>` for this path (where `<my_folder>` is the name of the folder on your computer).
 * **Environment variables**
   * There is one environment variable you need to specify: a password that will allow you to access the RStudio Server once its launched in browser.
-  * Enter `PASSWORD` in the **Variable** field, and provide a memorable password (something short like `12345` is ok!) in the **Value** field.
+  * Enter `PASSWORD` in the **Variable** field, and provide a memorable password in the **Value** field.
 
 
-Finally, click the "Run" button at the bottom of this popup to launch a container with these settings.
+Finally, click the **Run** button at the bottom of this popup to launch a container with these settings.
 
 At this point, you have created your container!
 In the future, you can simply run the container from the "Containers" tab, as described next.
@@ -116,7 +116,7 @@ In the future, you can simply run the container from the "Containers" tab, as de
 
 ### Run the Docker Container
 
-Navigate back to the "Containers" tab in Docker Desktop, and you should see one running container that you just launched.
+Navigate back to the "Containers" tab in Docker Desktop; you should see the container that you just launched running.
 It will have the name you specified; in this example, the specified name was `ccdl-training`.
 
 ![Run icon](screenshots/container-running.png)
@@ -126,7 +126,7 @@ To launch the RStudio Server in this container, click the Port link which will l
 
 ![Run icon](screenshots/launch-rstudio-server.png)
 
-It will prompt you for login information: Your username is always `rstudio`, and your password is whatever you entered for this environment variable (e.g., `12345`).
+It will prompt you for login information: Your username is always `rstudio`, and your password is whatever you entered for the `PASSWORD` environment variable.
 
 ![Log into RStudio Server](screenshots/login-rstudio.png)
 
@@ -135,7 +135,7 @@ Upon logging in, you should see your mounted local files in the Files Pane, and 
 
 To stop (but not delete!) the Docker container when you are finished for the day, come back to Docker Desktop and hit the "Stop" button for this container.
 
-![Log into RStudio Server](screenshots/container-stop-arrow.png)
+![Stop Docker container](screenshots/container-stop-arrow.png)
 
 
 Once stopped, this icon will switch to a "Play" button which you can click to re-launch the container.
