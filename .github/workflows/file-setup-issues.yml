@@ -77,6 +77,14 @@ jobs:
           content-filepath: ./setup-issue-templates/copy-completed-notebooks.md
           labels: automated training issue, blocked
 
+      # Issue for customizing participant-information.md
+      - name: Create issue for updating participant-information.md
+        uses: peter-evans/create-issue-from-file@v4.0.0
+        with:
+          title: Update in-person logistics in `participant-information.md`
+          content-filepath: ./setup-issue-templates/update-participant-information.md
+          labels: automated training issue
+
       # Issue for creating a final version of schedule
       - name: Create final schedule issue
         uses: peter-evans/create-issue-from-file@v4.0.0
