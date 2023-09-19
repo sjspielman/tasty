@@ -14,30 +14,14 @@ We recommend setting the new repository to public.
 
 ## Customizing the new repository for an individual training workshop
 
-We have set up two [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) to support setting up this new repository.
-To run a GitHub action, navigate to the "Actions" tab.
+We have set up a [manually-triggered GitHub Action](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) to support setting up this new repository.
+When triggered, this action will file a series of issues comprising tasks that should be completed before the start of a workshop.
+You should trigger this action once the [`training-modules` repository](https://github.com/AlexsLemonade/training-modules) tag for the given workshop has been created, as one of the _first steps_ of setting up your new repository.
+
+To run this action, navigate to the "Actions" tab.
 On the left, you will see all available workflows.
-Click the name of the workflow you would like to run, and then click the "Run workflow" dropdown button.
-
-The subsections below introduce the two workflows you should run for setup.
-
-### `Manually trigger issue creation for standard set up`
-
-This action will automatically file a series of issues representing tasks that should be completed before the start of a workshop.
-This action takes one required input, the [`training-modules` repository](https://github.com/AlexsLemonade/training-modules) release tag you would like to associate with the workshop.
-
-You should trigger this action once the `training-modules` repository tag has been created; this should happen as one of the _first steps_ of setting up your new repository.
-
-### `Copy completed HTML notebooks to training website repository`
-
-This action will copy completed exercise notebooks from the `training-modules` repository to this new repository.
-Specifically, this action will open a Pull Request (PR) to add completed notebooks to the `completed-notebooks` directory; this PR will need to approved and merged before the workshop begins.
-
-This action takes two required inputs:
-
-- The name of the workshop that will be taught.
-You can select this value from a dropdown menu when triggering the action.
-- The [`training-modules` repository](https://github.com/AlexsLemonade/training-modules) tag associated with the workshop
+Click the workflow named `Manually trigger issue creation for standard set up`, and then click the "Run workflow" dropdown button.
+You will need to provide one required input, the `training-modules` repository release tag you would like to associate with the workshop.
 
 ## Additional instructions for externally-hosted workshops
 
