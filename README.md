@@ -1,7 +1,7 @@
 # training-specific-template
 
 This repository is intended to serve as a template for creating a repository for an individual Data Lab workshop.
-The repository structure and use of GitHub pages is intended to gather all material required to administer a workshop in one user-friendly place.
+The repository structure and use of GitHub Pages is intended to gather all material required to administer a workshop in one user-friendly place.
 We use a template repository approach for maintainability.
 
 ## Creating a repository for an individual training workshop
@@ -9,7 +9,7 @@ We use a template repository approach for maintainability.
 First, you will need to create a new repository using the [`Use the template` button](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 This will create a new repository with the same layout as this template repository under the user or organization you choose as the owner of the repository; if you are a Data Lab member running an internal training workshop, the `AlexsLemonade` organization should be the owner.
 
-We recommend setting the new repository to private, _unless_ you are working from an unpaid GitHub account/organization.
+We recommend setting the new repository to private (the rendered GitHub Pages website will still be public!).
 
 ## Customizing the new repository for an individual training workshop
 
@@ -28,11 +28,11 @@ _More detailed instructions and/or improvements coming soon._
 
 ## Local development
 
-It can be helpful to build the GitHub pages site locally to check that passing parameter values is working as expected.
+It can be helpful to build the GitHub Pages site locally to check that passing parameter values is working as expected.
 
-### Installing GitHub pages dependencies locally
+### Installing GitHub Pages dependencies locally
 
-Installing the dependencies for GitHub pages is best done in a separate ruby environment, managed by [`rbenv`](https://github.com/rbenv/) and [Bundler](https://bundler.io)
+Installing the dependencies for GitHub Pages is best done in a separate ruby environment, managed by [`rbenv`](https://github.com/rbenv/) and [Bundler](https://bundler.io)
 
 The following instructions were tested for installation on macOS, but installation on other systems should be similar.
 
