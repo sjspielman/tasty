@@ -5,10 +5,6 @@ name: Manually trigger issue creation for standard set up
 # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow-on-github
 on:
   workflow_dispatch:
-    inputs:
-      tag:
-        description: training-modules release tag for training workshop
-        required: true
 
 jobs:
   # This runs a single job that creates issues from files
@@ -65,7 +61,7 @@ jobs:
       - name: Create issue for training-specific release
         uses: peter-evans/create-issue-from-file@v4.0.0
         with:
-          title: Create ${{ github.event.inputs.tag }} release of training-modules
+          title: Create release of training-modules to associate with this workshop
           content-filepath: ./setup-issue-templates/workshop-release.md
           labels: automated training issue
 
