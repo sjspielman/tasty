@@ -110,8 +110,8 @@ Now, set the following:
 
 Finally, click the **Run** button at the bottom of this popup to launch a container with these settings.
 
-At this point, you have created your container!
-In the future, you can simply run the container from the "Containers" tab, as described next.
+Now you have created your container!
+In the future you can skip these variable definition steps and run the container directly from the "Containers" tab, as described next.
 
 
 ### Run the Docker Container
@@ -131,7 +131,7 @@ It will prompt you for login information: Your username is always `rstudio`, and
 ![Log into RStudio Server](screenshots/login-rstudio.png)
 
 
-Upon logging in, you should see your mounted local files in the Files Pane, and you're ready to go!
+Upon logging in, you should see your mounted local folder in the Files pane, and you're ready to go!
 
 To stop (but not delete!) the Docker container when you are finished for the day, come back to Docker Desktop and hit the "Stop" button for this container.
 
