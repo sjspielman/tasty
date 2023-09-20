@@ -9,8 +9,7 @@ We use a template repository approach for maintainability.
 First, you will need to create a new repository using the [`Use the template` button](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 This will create a new repository with the same layout as this template repository under the user or organization you choose as the owner of the repository; if you are a Data Lab member running an internal training workshop, the `AlexsLemonade` organization should be the owner.
 
-We recommend setting the new repository to public.
-(When you use GitHub pages on a private repository, those pages are publicly accessible anyway.)
+We recommend setting the new repository to private, _unless_ you are working from an unpaid GitHub account/organization.
 
 ## Customizing the new repository for an individual training workshop
 
@@ -21,7 +20,6 @@ You should trigger this action once the [`training-modules` repository](https://
 To run this action, navigate to the "Actions" tab.
 On the left, you will see all available workflows.
 Click the workflow named `Manually trigger issue creation for standard set up`, and then click the "Run workflow" dropdown button.
-You will need to provide one required input, the `training-modules` repository release tag you would like to associate with the workshop.
 
 ## Additional instructions for externally-hosted workshops
 
