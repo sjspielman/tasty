@@ -7,7 +7,7 @@ We use a template repository approach for maintainability.
 ## Creating a repository for an individual training workshop
 
 First, you will need to create a new repository using the [`Use the template` button](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-This will create a new repository with the same layout as this template repository under the given organization or user you choose to administer the repository; if you are a Data Lab member running an internal training workshop, the `AlexsLemonade` organization should administer the new repository.
+This will create a new repository with the same layout as this template repository under the user or organization you choose as the owner of the repository; if you are a Data Lab member running an internal training workshop, the `AlexsLemonade` organization should be the owner.
 
 We recommend setting the new repository to public.
 (When you use GitHub pages on a private repository, those pages are publicly accessible anyway.)
