@@ -101,11 +101,10 @@ For our example error, here's how each of the "four points" (and the optional on
 
 #### What is the code that is producing this error?
 
-- [Use backticks (```) to format your code.](../software-setup/slack-procedures.md#adding-code-blocks-to-messages) (How to do this in the next step).
+- [Use code blocks or backticks (```) to format your code](../software-setup/slack-procedures.md#adding-code-blocks-to-messages).
 Formatting your code makes it easier for others to distinguish between your code and the words in your post where you are otherwise describing the problem.
 
-- Screenshots are not ideal because others can't copy your code from a screenshot.
-Being able to copy and paste the code itself makes it much easier for others to help you, and to provide a reply with code that you can copy!
+- It's helpful if you copy/paste the error message into Slack rather than posting a screenshot, so others can copy/paste for Google searching. (A reminder to also try Google searching yourself before posting - It's often surprisingly helpful!).
 
 *For our example:*
 <img src = "screenshots/what-is-the-code.png" width = "600">
@@ -113,7 +112,7 @@ Being able to copy and paste the code itself makes it much easier for others to 
 #### What is the error or problematic outcome?
 
 - Include any error messages **verbatim**.
-  - It's helpful if you copy/paste the error message into Slack rather than posting a screen shot, so others can copy/paste for Google searching. (A reminder to also try Google searching yourself before posting - It's often surprisingly helpful!).
+  - It's also helpful if you copy/paste (no screenshot) your error and [format it as a code block](../software-setup/slack-procedures.md#adding-code-blocks-to-messages), just like you shared the code itself.
 - If you don't have an error message _per se_, but do have something else that is not working as expected, describe what isn't working and how you found it.
      - *Example*: "This data.frame I'm showing in my code called `cool_df` doesn't have row names when I look at it in my environment panel".
 - Context around when the error appears versus when it does not can be helpful clues to your reader.
@@ -174,13 +173,9 @@ Either method will format your post like below:
 If all looks set, click the green arrow to add it to the thread!
 
 **Slack Tip:** if you see a mistake in your post you missed, you can click on the three dots in the corner of your Slack post.
+Choose `Edit message` from the dropdown menu that appears, and fix the mistake.
 
 <img src = "screenshots/slack-more-actions.png" width = "200">
-
-
-Then, choose `Edit message` and fix the mistake:
-
-<img src = "screenshots/slack-edit-message.png" width = "300">
 
 ### Step 4) Look for responses (in the same thread)!
 
