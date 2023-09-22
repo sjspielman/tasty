@@ -4,28 +4,10 @@ title: Resources for Working with Single-Cell RNA-seq
 
 On this page, we've assembled some resources you may find helpful for working with single-cell RNA-seq data.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+**Table of contents**
 
-- [Obtaining practice datasets](#obtaining-practice-datasets)
-    - [The Single-Cell Pediatric Cancer Atlas (ScPCA)](#the-single-cell-pediatric-cancer-atlas-scpca)
-    - [The `scRNAseq` Bioconductor package](#the-scrnaseq-bioconductor-package)
-    - [_Tabula Muris_ data](#_tabula-muris_-data)
-    - [Human Cell Atlas data](#human-cell-atlas-data)
-      - [Reading `loom` format data in R](#reading-loom-format-data-in-r)
-- [Additional single-cell RNA-seq resources](#additional-single-cell-rna-seq-resources)
-  - [General Single-cell resources](#general-single-cell-resources)
-  - [Alignment and quantification of gene expression](#alignment-and-quantification-of-gene-expression)
-  - [Filtering and normalization](#filtering-and-normalization)
-  - [Dimensionality reduction and clustering](#dimensionality-reduction-and-clustering)
-  - [Cell type annotation](#cell-type-annotation)
-  - [CITE-seq](#cite-seq)
-  - [Integrating scRNA-seq samples](#integrating-scrna-seq-samples)
-  - [Differential expression analysis](#differential-expression-analysis)
-  - [Differential abundance analysis](#differential-abundance-analysis)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 ## Obtaining practice datasets
 

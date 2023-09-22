@@ -4,20 +4,10 @@ title: Resources for Working with Bulk RNA-seq
 
 On this page, we've assembled some resources you may find helpful for working with _bulk transcriptomic data_, include bulk RNA-seq and microarray data.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+**Table of contents**
 
-- [Obtaining practice datasets from `refine.bio`](#obtaining-practice-datasets-from-refinebio)
-    - [Bulk RNA-seq data on refine.bio](#bulk-rna-seq-data-on-refinebio)
-    - [Microarray data on refine.bio](#microarray-data-on-refinebio)
-- [Transcriptome indices for common organisms](#transcriptome-indices-for-common-organisms)
-  - [_Homo sapiens_](#_homo-sapiens_)
-  - [_Mus musculus_](#_mus-musculus_)
-  - [_Danio rerio_](#_danio-rerio_)
-  - [_Canis lupus familiaris_](#_canis-lupus-familiaris_)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 ## Obtaining practice datasets from `refine.bio`
 

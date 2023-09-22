@@ -19,30 +19,10 @@ We will email you with a reminder 6 months from now so you can make sure to remo
 
 - As always, please Slack one of the Data Lab team members if you need help with anything (that is what we are here for!).
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+**Table of contents**
 
-- [Things to know before uploading your data](#things-to-know-before-uploading-your-data)
-- [Load data that is online (from a url)](#load-data-that-is-online-from-a-url)
-- [Load data from an a ssh server](#load-data-from-an-a-ssh-server)
-- [Upload large files (\> 1Gb) from your own computer](#upload-large-files--1gb-from-your-own-computer)
-  - [Install FileZilla on Mac](#install-filezilla-on-mac)
-  - [Install FileZilla on Windows](#install-filezilla-on-windows)
-  - [Install FileZilla on Ubuntu](#install-filezilla-on-ubuntu)
-  - [Linking FileZilla to the RStudio Server](#linking-filezilla-to-the-rstudio-server)
-  - [Using FileZilla to upload files to the RStudio Server](#using-filezilla-to-upload-files-to-the-rstudio-server)
-  - [Using FileZilla to download files to your computer](#using-filezilla-to-download-files-to-your-computer)
-- [Upload *small* files (\<1 Gb) from your own computer](#upload-small-files-1-gb-from-your-own-computer)
-- [Download *small* files (\<1Gb) to your computer](#download-small-files-1gb-to-your-computer)
-- [Installing packages](#installing-packages)
-  - [Finding what packages are installed](#finding-what-packages-are-installed)
-  - [Installing a new package](#installing-a-new-package)
-    - [install.packages()](#installpackages)
-    - [Bioconductor packages](#bioconductor-packages)
-  - [More resources on package installation strategies](#more-resources-on-package-installation-strategies)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 ## Load data that is online (from a url)
 
