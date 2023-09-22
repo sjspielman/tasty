@@ -97,7 +97,7 @@ For our example error, here's how each of the "four points" (and the optional on
 - Sometimes you can bypass an error completely by using an alternative strategy altogether, but your helper won't be able to suggest an alternative if they don't know your ultimate goal.
 
 *For our example:*
-<img src = "screenshots/what-is-the-goal.png" width = "600">
+<img src = "screenshots/what-is-the-goal.png" width = "500">
 
 #### What is the code that is producing this error?
 
