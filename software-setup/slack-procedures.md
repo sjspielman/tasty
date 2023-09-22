@@ -5,33 +5,15 @@ title: Using Slack for Data Lab virtual workshops
 
 <img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
 Specifically, we use the **Cancer Data Science Slack** team administered by the Data Lab.
-You can join Cancer Data Science Slack by following this link: [ccdatalab.org/slack](https://www.ccdatalab.org/slack)
-
+See our [Software Installation](software-installation.md#installing-slack) page for full instructions on installing Slack and joining the Cancer Data Science Slack.
 
 All Slack communications must adhere to our [code of conduct](../code-of-conduct.md).
 
-#### Instructions for setting up Slack
+**Table of contents**
 
-We have instructions for setting up Slack for your operating system available.
+* TOC goes here
+{:toc}
 
-* [Linux](linux-instructions.md#slack)
-* [Mac](mac-instructions.md#slack)
-* [Windows](windows-instructions.md#slack)
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [How we use Slack during workshops](#how-we-use-slack-during-workshops)
-  - [Using the training-specific channel](#using-the-training-specific-channel)
-    - [Introduce yourself!](#introduce-yourself)
-    - [General use](#general-use)
-    - [Collecting feedback](#collecting-feedback)
-  - [Using Slack calling during training](#using-slack-calling-during-training)
-  - [Using direct messages during training](#using-direct-messages-during-training)
-- [General Slack use](#general-slack-use)
-    - [Attaching a file or image](#attaching-a-file-or-image)
-    - [Adding code blocks to messages](#adding-code-blocks-to-messages)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
