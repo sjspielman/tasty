@@ -80,6 +80,7 @@ OSCA
 PHI
 PII
 pre
+Protip
 README
 renv
 reproducibility
