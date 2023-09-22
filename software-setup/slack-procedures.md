@@ -69,25 +69,6 @@ Use the `Submit Response` button in a Polly message to enter your feedback:
 
 <img src = "screenshots/slack-polly-response.png" width = "600">
 
-### Using Slack calling during training
-
-If you need help during consultation session, a course instructor may initiate a [Slack call](https://slack.com/help/articles/216771908-Make-calls-in-Slack).
-To answer a Slack call, hit the button with the phone icon on the prompt.
-
-<img src = "screenshots/slack-call-prompt.png" height = "300">
-
-_Note: Where possible please utilize headphones throughout the training workshop to minimize audio feedback._
-
-<!--
-Your instructor will ask you to [share your screen](https://slack.com/help/articles/115003501303-Share-your-screen-with-Slack-Calls) using the share your screen icon circled in yellow below.
-It is located at the bottom middle of your Slack call window.
-
-<img src = "screenshots/slack-call-control.png" width = "300">
-
-When you share your screen in Slack, please note that the **entire screen** will be displayed.
-You can not select a specific window to share.
--->
-
 ### Using direct messages during training
 
 If you have a question that is **_highly specific_** to your own data or a problem with your RStudio credentials, you may [direct message](https://slack.com/help/articles/212281468-What-is-a-direct-message) a Data Lab staff member.
