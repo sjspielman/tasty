@@ -48,7 +48,7 @@ The best way to learn how to solve errors in code is to figure them out yourself
 So try to explore the error a bit - but we are also here to help you so don't hesitate to ask for help!
 (_If you are feeling exasperated by your error, skip to Step 2_).
 
-We recommend looking over our [debugging guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00b-debugging_resources.md) which can explain what some of the most common errors mean.
+We recommend looking over our [debugging guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00b-debugging_resources.Rmd) which can explain what some of the most common errors mean.
 The debugging guide also has tips on first steps to take which may help you get to the root of the problem.
 
 **A short list of things to try:**

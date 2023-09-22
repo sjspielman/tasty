@@ -6,7 +6,7 @@ For this training, we've set up a server that hosts RStudio and allows you to ru
 In other words, you will be programming in R via this server, and _you do not need to download R or RStudio for this workshop._
 
 In this tutorial, we will get you set up with our server.
-In our [RStudio guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.md) and our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) we will work on becoming more comfortable with R and RStudio for programming.
+In our [RStudio guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.Rmd) and our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) we will work on becoming more comfortable with R and RStudio for programming.
 RStudio by itself is an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) or IDE that makes it easier to program in R.
 
 ### Logging in
@@ -100,7 +100,7 @@ Back on the session page, you are able to see the current files in your `home` d
 In your `home` directory, you will find the `training-modules` folder that contains our course materials and the `shared-data` that contains the data we will be using in the modules.
 The files in these folders are accessible in each R session you start.
 Starting and stopping R sessions will refresh what is in your `Environment` tab in the upper right panel.
-We go into more detail on the R environment and other RStudio navigating tidbits in our [guide to RStudio](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/00a-rstudio_guide.md) as well as our [first intro to R notebook](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/01-intro_to_base_R.Rmd).
+We go into more detail on the R environment and other RStudio navigating tidbits in our [guide to RStudio](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/00a-rstudio_guide.Rmd) as well as our [first intro to R notebook](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/01-intro_to_base_R.Rmd).
 
 
 As always, please reach out to our Data Lab team through Slack if you have any questions!
