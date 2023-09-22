@@ -61,11 +61,10 @@ Once you have made your selection, click **Apply & restart**.
 Docker only has access to folders that you explicitly specify when launching an image, so you need to make sure everything you will need is in one place.
 You can then tell Docker to include this folder in your running container.
 
-⚠️ It is important to be aware that any files that you save to the Docker container _outside of this specified folder_ are ephemeral - once you destroy the container, those files will disappear!
-Therefore, it's very important to save files in your specified folder when working in your Docker container so that files continue to exist on your computer.
+If you would like to work with the actual workshop materials, you should download the `training-modules` folder from the Data Lab's RStudio Server and then tell Docker to include that folder in your container; [this page](../workshop/working-with-your-own-data.md) explains how to transfer files to and from the server.
 
-> Tip! If you would like to work with the actual workshop materials, you should download the `training-modules` folder from the Data Lab's RStudio Server and then tell Docker to include that folder in your container; [this page](../workshop/working-with-your-own-data.md) explains how to transfer files to and from the server.
-
+> ⚠️ It is important to be aware that any files that you save to the Docker container _outside of this specified folder_ are ephemeral - once you destroy the container, those files will disappear!
+> When working from the container, you MUST save files in your specified folder, or else they will not exist on your computer.
 
 ### Create the Docker container
 
@@ -152,8 +151,7 @@ This link provides full documentation for the `renv` package: <https://rstudio.g
 #### R, RStudio, and renv
 
 While not strictly required, we recommend that you install the same `R` version that we used during the workshop (version `4.2.3`).
-
-> Protip: You might find the [`rig` software](https://github.com/r-lib/rig) useful for getting this specific `R` version!
+(Protip: You might find the [`rig` software](https://github.com/r-lib/rig) useful for getting this specific `R` version!)
 
 You can download R and RStudio following [these instructions](https://posit.co/download/rstudio-desktop/).
 
@@ -185,7 +183,7 @@ You can download the exact version of the lockfile used for your workshop by cop
 _Make sure your RStudio Project has launched before you run this command so that this file is downloaded to the correct location on your computer!_
 
 ```
-download.file(https://raw.githubusercontent.com/AlexsLemonade/training-modules/{{ site.release_tag }}/renv.lock)
+download.file("https://raw.githubusercontent.com/AlexsLemonade/training-modules/{{ site.release_tag }}/renv.lock")
 ```
 
 Finally, it's time to set up `renv`!
@@ -210,8 +208,8 @@ This project already has a lockfile. What would you like to do?
 Enter `1` to restore the project from the existing lockfile.
 At this point, all R packages should automatically install and your R environment will be all set up and ready to go!
 
-⚠️ These installed packages can _only_ be accessed when working in this RStudio Project, so you will always need to work in this RStudio Project to replicate the workshop's R environment.
-For more on how and why this is the case, check out the [full `renv` documentation](https://rstudio.github.io/renv/articles/renv.html.
+> ⚠️ These installed packages can _only_ be accessed when working in this RStudio Project, so you will always need to work in this RStudio Project to replicate the workshop's R environment.
+> For more information on how and why this is the case, check out the [full `renv` documentation](https://rstudio.github.io/renv/index.html).
 
 ## Parting thoughts and further reading
 
