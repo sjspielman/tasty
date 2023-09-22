@@ -3,10 +3,6 @@ title: Workshop Materials
 nav_title: Materials
 ---
 
-### GitHub Repositories
-
-Data Lab training materials are available on GitHub, in either this repository or our shared [training-modules repository](https://github.com/AlexsLemonade/training-modules).
-
 ### Slides
 
 PDF versions of the slides we present in this workshop can be found in the [slides directory]({{site.repository_url}}/tree/master/slides) of the `{{site.repository}}` repository, and are also linked to directly from the [schedule](SCHEDULE.md).
@@ -15,7 +11,8 @@ PDF versions of the slides we present in this workshop can be found in the [slid
 
 In the `training-modules` repository, each individual module is found in a subfolder of the main page, along with folders containing cheat sheets and setup instructions.
 
-In this training workshop, we will be using the following modules:
+In this training workshop, we will be using the following modules.
+Links below will take you to our `training-modules` GitHub repository where all materials are stored, but we will also directly provide you will all of these materials as part of the workshop.
 
 <!--List the specific modules you will be using and use permalinks to a specific release-->
 
@@ -51,3 +48,4 @@ These are formatted both as markdown files and PDFs, with the latter likely most
 ### RStudio Server
 
 Notebooks and data files required for participation in the workshop will be pre-loaded for each user on the RStudio server.
+See [this page](../software-setup/rstudio-login.md) for more information about logging into your RStudio Server account for the first time.
