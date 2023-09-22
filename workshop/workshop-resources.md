@@ -5,18 +5,10 @@ nav_title: Resources
 
 On this page, we've assembled some resources you may find helpful during your own data journey as well as during consultation sessions during the workshop. For more information about the structure of consultation sessions and how to get help, please review [the Consultation sessions section of the Workshop Structure page](workshop-structure.md#consultation-sessions).
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+**Table of contents**
 
-- [Module cheatsheets](#module-cheatsheets)
-- [Working with your own data on RStudio Server](#working-with-your-own-data-on-rstudio-server)
-- [Topic-specific resources](#topic-specific-resources)
-  - [R programming](#r-programming)
-  - [Bulk transcriptomics data](#bulk-transcriptomics-data)
-  - [Single-cell RNA-seq data](#single-cell-rna-seq-data)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* TOC goes here
+{:toc}
 
 ## Module cheatsheets
 
