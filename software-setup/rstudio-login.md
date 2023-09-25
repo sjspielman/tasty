@@ -17,33 +17,25 @@ Go to <https://rstudio.ccdatalab.org> and type in your username and temporary pa
 You may want to bookmark <https://rstudio.ccdatalab.org> for the duration of the workshop.
 
 <img src = "screenshots/rstudio-server-login.png" width = "750">
-<br>
-<br>
 
 Signing in should bring you to the RStudio session page.
 Click on the `Terminal` tab.
 
 <img src = "screenshots/rstudio-session-terminal.png" width = "750">
-<br>
-<br>
 
-Type in the `passwd` command in the `Terminal` tab.
+Type the `passwd` command in the `Terminal` tab.
 
 <img src = "screenshots/rstudio-password-change-1.png" width = "500">
-<br>
-<br>
 
 Press `Enter`. Then type in the password you were given in Slack.
-Keep in mind, as you are typing in your password, it will remain blank, but it is receiving what you are typing.
+Keep in mind, as you are typing in your password, no symbols will appear, but `Terminal` is receiving what you are typing.
 
 
 <img src = "screenshots/rstudio-password-change-2.png" width = "500">
-<br>
-<br>
 
 Type in the new password you've chosen once, and press `Enter`, then it will ask you to confirm by typing it in again.
 Again, no text or dots will show as you are typing your new password.
-Also press `Enter`.
+Press `Enter` again to complete the password change.
 
 To check that you have successfully changed your password, you may want to log out completely and log back in to the server.
 If you look in the upper right corner of the screen, you should see a series of icons; the box with an arrow pointing out of it is the "Sign Out" button, and if you click that you will be returned to the login screen.
