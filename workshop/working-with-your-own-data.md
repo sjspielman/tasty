@@ -221,10 +221,10 @@ scp -r <username@server>:<FOLDER_FROM_FILE_PATH> <FOLDER_TO_SAVE_TO>
 In either situation you will likely be prompted to enter your password.
 You can enter it interactively; it's best to not have the password written in a script.
 
-## Upload large files (> 1Gb) from your own computer
+## Upload large files (> 100 MB) from your own computer
 
 FileZilla is a GUI that helps transfer local files to remote servers like our RStudio Server.
-We recommend setting up FileZilla if your dataset is larger than a Gb or if you will transfer files to and from the RStudio Server.
+We recommend setting up FileZilla if your dataset is larger than 100 MB or if you will transfer files to and from the RStudio Server.
 
 ### Install FileZilla on Mac
 
@@ -331,9 +331,9 @@ For the folder or file you want to download, right click on it and choose `Downl
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
 
-## Upload *small* files (<1 Gb) from your own computer
+## Upload *small* files (~ <100 MB) from your own computer
 
-*This will only work for files smaller than 1GB*
+*This will only work for files smaller than roughly 100 MB.*
 
 If the data you want to use is stored locally on your computer, here's how we recommend uploading it to the RStudio Server.
 
@@ -362,7 +362,7 @@ This may take some time, particularly if you have a large dataset.
 When the server is finished uploading your data, you should see your file in your `home` directory!
 It will automatically be uncompressed.
 
-## Download *small* files (<1Gb) to your computer
+## Download *small* files (~ < 100 MB) to your computer
 
 Any files on the RStudio server you would like to save to your computer you can export.
 
