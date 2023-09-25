@@ -34,6 +34,11 @@ We'll reiterate some of the most important points from those instructions below:
 * You have 50GB of space available.
 If your data is larger than 50GB, please contact an instructor.
 
+## Working locally
+
+After your access to the RStudio Server has ended, you may wish to continue working in a computing environment that matches what we used during the workshop.
+[Follow these instructions](../additional-resources/using-environments-post-workshop.md) for how you can set up a local environment on your own computer that reproduces, to the extent possible, the workshop computing environment.
+
 ## Topic-specific resources
 
 ### R programming
