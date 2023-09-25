@@ -11,10 +11,7 @@ PDF versions of the slides we present in this workshop can be found in the [slid
 
 In the `training-modules` repository, each individual module is found in a subfolder of the main page, along with folders containing cheat sheets and setup instructions.
 
-In this training workshop, we will be using the following modules.
-Links below will take you to our `training-modules` GitHub repository where all materials are stored, but we will also directly provide you will all of these materials as part of the workshop.
-
-<!--List the specific modules you will be using and use permalinks to a specific release-->
+In this training workshop, we will be using the following modules:
 
 {% case site.workshop_content  %}
 {% when "intro-r" %}
@@ -28,6 +25,8 @@ Links below will take you to our `training-modules` GitHub repository where all 
 {% when "advanced-single-cell" %}
   - [Advanced single-cell RNA-seq](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/scRNA-seq-advanced)
 {% endcase %}
+
+The link(s) above will take you to our `training-modules` GitHub repository where all materials are stored, but we will also directly provide you will all of these materials as part of the workshop.
 
 
 The layout of the `training-modules` folders follow a common general structure.
