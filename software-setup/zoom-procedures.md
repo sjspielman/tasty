@@ -4,30 +4,12 @@ title: Zoom Procedures for Data Lab Virtual Workshops
 We use [Zoom](https://zoom.us/) meetings for conducting Data Lab virtual workshops.
 In this document, we will cover the procedures for joining a Zoom call and using various features for instruction and consultation sessions.
 
+**Table of contents**
+
+* TOC goes here
+{:toc}
+
 #### Table of Contents
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [General tips for using Zoom during workshops](#general-tips-for-using-zoom-during-workshops)
-  - [Audio](#audio)
-  - [Video](#video)
-  - [Viewing Zoom while instructors are sharing their screen](#viewing-zoom-while-instructors-are-sharing-their-screen)
-  - [Interacting with instructors and providing feedback](#interacting-with-instructors-and-providing-feedback)
-    - [Participant pane](#participant-pane)
-    - [Chat](#chat)
-- [Joining a Zoom call](#joining-a-zoom-call)
-  - [Joining a Zoom call via link](#joining-a-zoom-call-via-link)
-  - [Joining a Zoom call from Slack](#joining-a-zoom-call-from-slack)
-- [Zoom recordings](#zoom-recordings)
-- [Using Zoom breakout rooms](#using-zoom-breakout-rooms)
-  - [Asking for 1:1 help during instruction](#asking-for-11-help-during-instruction)
-  - [Joining a breakout room](#joining-a-breakout-room)
-  - [Sharing your screen in Zoom](#sharing-your-screen-in-zoom)
-  - [Returning to the main session](#returning-to-the-main-session)
-- [Zoom during consultation](#zoom-during-consultation)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## General tips for using Zoom during workshops
 

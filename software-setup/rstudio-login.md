@@ -6,7 +6,7 @@ For this training, we've set up a server that hosts RStudio and allows you to ru
 In other words, you will be programming in R via this server, and _you do not need to download R or RStudio for this workshop._
 
 In this tutorial, we will get you set up with our server.
-In our [RStudio guide](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse/00a-rstudio_guide.md) and our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) we will work on becoming more comfortable with R and RStudio for programming.
+Our [`intro-to-R-tidyverse` module](https://github.com/AlexsLemonade/training-modules/blob/{{site.release_tag}}/intro-to-R-tidyverse) contains lessons and resources for becoming more comfortable with R and RStudio for programming.
 RStudio by itself is an [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) or IDE that makes it easier to program in R.
 
 ### Logging in
@@ -17,33 +17,25 @@ Go to <https://rstudio.ccdatalab.org> and type in your username and temporary pa
 You may want to bookmark <https://rstudio.ccdatalab.org> for the duration of the workshop.
 
 <img src = "screenshots/rstudio-server-login.png" width = "750">
-<br>
-<br>
 
 Signing in should bring you to the RStudio session page.
 Click on the `Terminal` tab.
 
 <img src = "screenshots/rstudio-session-terminal.png" width = "750">
-<br>
-<br>
 
-Type in the `passwd` command in the `Terminal` tab.
+Type the `passwd` command in the `Terminal` tab.
 
 <img src = "screenshots/rstudio-password-change-1.png" width = "500">
-<br>
-<br>
 
 Press `Enter`. Then type in the password you were given in Slack.
-Keep in mind, as you are typing in your password, it will remain blank, but it is receiving what you are typing.
+Keep in mind, as you are typing in your password, no symbols will appear, but `Terminal` is receiving what you are typing.
 
 
 <img src = "screenshots/rstudio-password-change-2.png" width = "500">
-<br>
-<br>
 
 Type in the new password you've chosen once, and press `Enter`, then it will ask you to confirm by typing it in again.
 Again, no text or dots will show as you are typing your new password.
-Also press `Enter`.
+Press `Enter` again to complete the password change.
 
 To check that you have successfully changed your password, you may want to log out completely and log back in to the server.
 If you look in the upper right corner of the screen, you should see a series of icons; the box with an arrow pointing out of it is the "Sign Out" button, and if you click that you will be returned to the login screen.
@@ -100,7 +92,7 @@ Back on the session page, you are able to see the current files in your `home` d
 In your `home` directory, you will find the `training-modules` folder that contains our course materials and the `shared-data` that contains the data we will be using in the modules.
 The files in these folders are accessible in each R session you start.
 Starting and stopping R sessions will refresh what is in your `Environment` tab in the upper right panel.
-We go into more detail on the R environment and other RStudio navigating tidbits in our [guide to RStudio](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/00a-rstudio_guide.md) as well as our [first intro to R notebook](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/01-intro_to_base_R.Rmd).
+We go into more detail on the R environment and other RStudio navigating tidbits in our [guide to RStudio](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/00a-rstudio_guide.Rmd) as well as our [first intro to R notebook](https://github.com/AlexsLemonade/training-modules/blob/2022-yi-intro-r/intro-to-R-tidyverse/01-intro_to_base_R.Rmd).
 
 
 As always, please reach out to our Data Lab team through Slack if you have any questions!
