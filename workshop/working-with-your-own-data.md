@@ -153,6 +153,7 @@ It works similarly to the [`cp` command](https://linuxize.com/post/cp-command-in
 To understand how this works, we will practice `cp` with some files already in the RStudio Server.
 
 **Template:**
+
 The first argument is the file you'd like to copy.
 The second argument is the folder location where you'd like to copy the file from the first argument to.
 
@@ -160,27 +161,21 @@ The second argument is the folder location where you'd like to copy the file fro
 cp <FROM_FILE_PATH> <TO_FILE_PATH>
 ```
 
-*Example:*
-First you'll want to make sure that you are in your home directory:
+**Specific Example:**
+
+Here we will copy the `wget` template script from its location in `~/shared-data/working-with-your-data` *to* our own `training-modules/` folder.
 
 ```
-# Navigate to your home directory in Terminal
-cd ~
-```
-
-Here we will copy this notebook *from* its location in `shared-data/working-with-your-data` *to* our own `training-modules/` folder.
-
-```
-cp shared-data/working-with-your-data/retrieve-SRAdb-metadata.Rmd  training-modules/
+cp ~/shared-data/template-scripts/wget-TEMPLATE.sh  ~/training-modules/
 ```
 
 Let's double check it worked by using the `ls` command.
 
 ```
-ls training-modules
+ls ~/training-modules
 ```
 
-You should see `retrieve-SRAdb-metadata.Rmd` printed out in addition to the names of the other folders and files in `training-modules` folder.
+You should see `wget-TEMPLATE.sh` printed out in addition to the names of the other folders and files in `~/training-modules` folder.
 
 Here are more [`cp` examples](https://www.geeksforgeeks.org/cp-command-linux-examples/).
 As with other commands, you can use `cp --help` to print out a full list of the options for `cp`.
@@ -190,7 +185,6 @@ Your institution, or whomever gave you access to the server, should have given y
 
 Here's very general examples info about logging into [`ssh`](https://help.liquidweb.com/s/article/Logging-into-Your-Server-via-Secure-Shell-SSH).
 
-**Template:**
 Generally an ssh login will look something like this:
 ```
 ssh username@server
@@ -212,6 +206,9 @@ Whatever login information you used in the previous step is what you will need t
 Then we can use the `FROM` and `TO` file paths as before.
 Remember to get rid of all `<` and `>`'s (these symbols are placeholders; enter your text here instead!).
 
+**Template:**
+
+To copy a single file, you will write something like this:
 ```
 scp <username@server>:<FROM_FILE_PATH> <TO_FILE_PATH>
 ```
@@ -223,9 +220,20 @@ This will `r`ecursively copy all the files in the folder you reference, as in:
 scp -r <username@server>:<FOLDER_FROM_FILE_PATH> <FOLDER_TO_SAVE_TO>
 ```
 
-In either situation you will likely be prompted to enter your password.
-You can enter it interactively; it's best to not have the password written in a script.
+**Specific Example:**
 
+For example, we can copy a file `~/data-on-my-server.txt` from the server to your computer's home directory as follows:
+
+```
+scp <username@server>:~/data-on-my-server.txt ~
+```
+
+Or, we can copy a folder `~/my-project/` from the server to your computer's home directory as follows:
+```
+scp -r <username@server>:~/my-project ~
+```
+
+In either situation you will likely be prompted to enter your password, which you can enter interactively on the command line.
 
 ## Transferring small files (≲100 MB) to and from your computer
 
