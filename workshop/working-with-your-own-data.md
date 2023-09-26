@@ -368,7 +368,7 @@ Then click `OK`.
 
 <img src="screenshots/filezilla-trust-server.png" width="500">
 
-### Uploading files to your computer with FileZilla
+### Uploading files from your computer with FileZilla
 
 The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
 
