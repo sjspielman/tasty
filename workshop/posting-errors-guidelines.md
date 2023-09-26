@@ -157,7 +157,7 @@ Follow up problems in the same section of code should also be kept to this same 
 
 #### Step 3b) In the thread of your headline, post the description you crafted in [Step 2](#step-2-draft-out-your-question-youll-post).
 
-Navigate to the Slack thread of your "headline" and click the speech bubble in the corner of your post.
+Navigate to the Slack thread of your "headline" post.
 
 If you wrote out your error description in a text editor, it may have looked like this, where backticks we can turn into code chunks after we copy-paste it in Slack:
 
