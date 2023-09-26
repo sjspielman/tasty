@@ -368,7 +368,7 @@ Then click `OK`.
 
 <img src="screenshots/filezilla-trust-server.png" width="500">
 
-### Uploading files from your computer with FileZilla
+### Uploading large files from your computer with FileZilla
 
 The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
 
@@ -386,7 +386,7 @@ For the folder or file you want to upload, right click on it and choose `Upload`
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to upload.
 
-### Downloading files to your computer with FileZilla
+### Downloading large files from the RStudio Server
 
 The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
 
