@@ -78,6 +78,7 @@ For our example error, here's how each of the "four points" (and the optional on
 - Note that line numbers change as you've added code, so line numbers as a reference aren't as helpful.
 
 *For our example:*
+
 <img src = "screenshots/where-is-the-error.png" alt = "Where is the error" width = "600">
 
 #### What is the goal of this code?
@@ -97,6 +98,7 @@ For our example error, here's how each of the "four points" (and the optional on
 - Sometimes you can bypass an error completely by using an alternative strategy altogether, but your helper won't be able to suggest an alternative if they don't know your ultimate goal.
 
 *For our example:*
+
 <img src = "screenshots/what-is-the-goal.png" alt = "What is the goal" width = "500">
 
 #### What is the code that is producing this error?
@@ -107,6 +109,7 @@ Formatting your code makes it easier for others to distinguish between your code
 - It's helpful if you copy/paste the error message into Slack rather than posting a screenshot, so others can copy/paste for Google searching. (A reminder to also try Google searching yourself before posting - It's often surprisingly helpful!).
 
 *For our example:*
+
 <img src = "screenshots/what-is-the-code.png" alt = "What is the code" width = "600">
 
 #### What is the error or problematic outcome?
@@ -118,6 +121,7 @@ Formatting your code makes it easier for others to distinguish between your code
 - Context around when the error appears versus when it does not can be helpful clues to your reader.
 
 *For our example:*
+
 <img src = "screenshots/what-is-the-error.png" alt = "What is the error" width = "600">
 
 #### (Optional) What have you tried thus far?
@@ -129,6 +133,7 @@ Formatting your code makes it easier for others to distinguish between your code
 - If you have tried solutions you have found posted online, including the links to those solutions is helpful.
 
 *For our example:*
+
 <img src = "screenshots/what-have-you-tried.png" alt = "What have you tried" width = "600">
 
 ### Step 3) Post to Slack!
@@ -140,6 +145,7 @@ First, navigate to your particular workshop's training channel.
 To keep new questions and responses from getting lost in the messaging board, we strongly encourage you to make a "headline" that is one post and put the longer description you crafted in step 2 in the thread of your headline.
 
 *For our example:*
+
 <img src = "screenshots/error-headline.png" alt = "Error headline" width = "600">
 
 To navigate to Slack threads, you can can click speech bubble in the corner of your post:
@@ -188,7 +194,7 @@ Scroll through to see the reply:
 
 Lastly, it is helpful for the person who has responded to you or others who might have the same problem if you can remember to post on the thread if/how you resolved the problem!
 
-<img src = "screenshots/slack-thread-solved.png" alt = "Error solved message in Slack"width = "350">
+<img src = "screenshots/slack-thread-solved.png" alt = "Error solved message in Slack" width = "350">
 
 Congrats on solving your error! 🎉
 
