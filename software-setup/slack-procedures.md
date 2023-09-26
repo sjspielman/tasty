@@ -72,7 +72,7 @@ If you have a question that is **_highly specific_** to your own data or a probl
 
 First, use the Plus sign button on the bottom left by your user icon, and select "Message" from the menu that appears (or, you can hit `cmd + N` to start a new message!):
 
-<img src = "screenshots/slack-compose-new-message.png" alt = "Button in Slack to compose a new message" width="600">
+<img src = "screenshots/slack-compose-new-message.png" alt = "Button in Slack to compose a new message" width="300">
 
 You are then able to search for the Data Lab instructors –
 {%- for name in site.instructors -%}
