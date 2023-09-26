@@ -331,7 +331,7 @@ For the folder or file you want to download, right click on it and choose `Downl
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
 
-## Upload *small* files (~ <100 MB) from your own computer
+## Upload *small* files (≲100 MB) from your own computer
 
 *This will only work for files smaller than roughly 100 MB.*
 
