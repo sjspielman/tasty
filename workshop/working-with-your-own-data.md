@@ -32,7 +32,7 @@ If you are retrieving your data from online, perhaps from a publicly available r
 
 **Step 1)** Go to the Terminal tab in your RStudio session.
 
-<img src="screenshots/rstudio-session-terminal.png" width="600">
+<img src="screenshots/rstudio-session-terminal.png" alt = "RStudio terminal tab" width="600">
 
 
 **Step 2)** Copy over the [`wget` template script]({{site.repository_url}}/tree/master/additional-resources/template-scripts/wget-TEMPLATE.sh).
@@ -107,7 +107,7 @@ wget -O data/some_array_data.zip 'https://www.ebi.ac.uk/arrayexpress/files/E-GEO
 `-O` is one of many `wget` command options.
 To see the complete list of `wget` options, use the command: `wget -h` in Terminal.
 
-[See more `wget` examples](https://www.tecmint.com/10-wget-command-examples-in-linux/)
+You can see some more `wget` examples [at this link](https://www.tecmint.com/10-wget-command-examples-in-linux/).
 
 As is recommended and also shown with this example, this dataset is zipped.
 This means after you successfully `wget` the file, you will need to unzip it.
@@ -145,8 +145,7 @@ If you are retrieving your data from an [**s**ecure **sh**ell (ssh) server](http
 
 **Step 1)** Go to the Terminal tab in your RStudio session.
 
-
-<img src="screenshots/rstudio-session-terminal.png" width="600">
+<img src="screenshots/rstudio-session-terminal.png" alt = "RStudio terminal tab" width="600">
 
 The `scp` command is a way to copy files securely to or from an ssh server.
 It works similarly to the [`cp` command](https://linuxize.com/post/cp-command-in-linux/), which is used for copying files that are all on the same computer.
@@ -255,11 +254,12 @@ For most operating systems, you can right-click on your data folder, and choose 
 **Step 3)** Use the `Upload button` to choose your compressed data folder.
 
 This button is in the lower right panel of your RStudio session:
-<img src="screenshots/upload-button.png" width="400">
+
+<img src="screenshots/upload-button.png" alt = "RStudio upload button" width="400">
 
 A mini screen will pop up asking you to choose the file you want to upload:
 
-<img src="screenshots/upload-choose-file.png" width="400">
+<img src="screenshots/upload-choose-file.png" alt = "RStudio choose file to upload" width="400">
 
 
 Choose your compressed data file, and click `OK`.
@@ -279,11 +279,11 @@ Check the box(es) to the left of the files or folder(s) in the **Files** pane.
 
 Click on the `More` button with a gear next to it in the lower right pane.
 
-<img src="screenshots/export-button.png" width="200">
+<img src="screenshots/export-button.png" alt = "RStudio export button" width="200">
 
 **Step 3)** Specify the name you would like the downloaded file to have.
 
-<img src="screenshots/export-window.png" width="400">
+<img src="screenshots/export-window.png" alt = "Select file to export from RStudio" width="400">
 
 **Step 4)** Find where the file downloaded.
 Your computer may show the file in the bottom left of your browser window.
@@ -306,7 +306,7 @@ Click the big green `Download` button.
 
 Click `Download` on this next page for `FileZilla` this is the only free option but will have the functionality you need.
 
-<img src="screenshots/filezilla-download-install.png" width="400">
+<img src="screenshots/filezilla-download-install.png" alt = "Filezilla download screen" width="400">
 
 After download is complete, you'll find the `FileZilla`'s `.app.tar.bz2` file in your download files or you can click on it in the corner of your web browser's screen.
 Double click on the file to install.
@@ -315,7 +315,7 @@ Finally, drag the installed `FileZilla` application icon to your `Applications` 
 
 The first time you open `FileZilla`, you may see this warning message; click `Open`.
 
-<img src="screenshots/filezilla-mac-allow.png" width="300">
+<img src="screenshots/filezilla-mac-allow.png" alt = "Allow macOS to use FileZilla application" screen" width="300">
 
 
 #### Windows installation
@@ -326,7 +326,7 @@ Click the big green `Download` button.
 
 Click `Download` on this next page for `FileZilla` this is the only free option but will have the functionality you need.
 
-<img src="screenshots/filezilla-download-install.png" width="400">
+<img src="screenshots/filezilla-download-install.png" alt = "Filezilla download screen" width="400">
 
 After download is complete, you'll find the `FileZilla` `.exe` file in your download files or you can click on it in the corner of your web browser's screen.
 
@@ -336,7 +336,7 @@ You'll be asked if you want to `Allow FileZilla to make changes` click `Yes`.
 
 There will be a series of steps (like below) you need to agree to.
 
-<img src="screenshots/filezilla-windows.png" width="400">
+<img src="screenshots/filezilla-windows.png" alt = "Windows FileZilla installation screen" width="400">
 
 #### Ubuntu installation
 
@@ -355,7 +355,7 @@ sudo apt-get install filezilla
 Open up the FileZilla application.
 At the top of the FileZilla screen, you can enter in the address and your credentials for our RStudio Server (send a message to one of our staff if you forgot your username or password).
 
-<img src="screenshots/filezilla-bar.png">
+<img src="screenshots/filezilla-bar.png" alt = "Enter credentials in FileZilla">
 
 
 For `Host`, type in `rstudio.ccdatalab.org`.
@@ -368,13 +368,13 @@ Then click the blue `Quickconnect` button.
 FileZilla may ask you if you want it to remember your passwords.
 We'd suggest creating a master password or using `Do not save password`.
 
-<img src="screenshots/filezilla-password.png" width="500">
+<img src="screenshots/filezilla-password.png" alt = "FileZilla save passwords" width="500">
 
 Next, FileZilla will ask you if you should trust our RStudio Server.
 You can check the box for `Always trust this host` if you don't want to be asked this again.
 Then click `OK`.
 
-<img src="screenshots/filezilla-trust-server.png" width="500">
+<img src="screenshots/filezilla-trust-server.png" alt = "FileZilla trust server" width="500">
 
 ### Uploading large files from your computer with FileZilla
 
@@ -386,11 +386,11 @@ Then, on the left, navigate to the file or folder on your computer you'd like to
 On a Mac, you will likely be asked to allow FileZilla to have access to your files.
 Click `OK` for each time.
 
-<img src="screenshots/filezilla-permission.png" width="300">
+<img src="screenshots/filezilla-permission.png" alt = "Grant FileZilla permissions on macOS" width="300">
 
 For the folder or file you want to upload, right click on it and choose `Upload`.
 
-<img src="screenshots/filezilla-upload.png" width="400">
+<img src="screenshots/filezilla-upload.png" alt = "Upload a file in FileZilla" width="400">
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to upload.
 
@@ -404,7 +404,7 @@ Then, on the right, navigate to the file or folder on the RStudio Server you'd l
 
 For the folder or file you want to download, right click on it and choose `Download`.
 
-<img src="screenshots/filezilla-download.png" width="400">
+<img src="screenshots/filezilla-download.png" alt = "Download a file in FileZilla" width="400">
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
 
@@ -418,7 +418,7 @@ Here, we'll take you through some basics of how to install new packages.
 The RStudio Server has a list of packages installed for you already.
 You can see this list of installed R packages by looking in the `Packages` tab:
 
-<img src="screenshots/rstudio-packages.png" width="400">
+<img src="screenshots/rstudio-packages.png" alt = "See all installed packages in RStudio" width="400">
 
 
 Note that the checkmarks in the `Packages` tab indicate which packages are loaded currently in the environment.
@@ -446,7 +446,7 @@ install.packages("ggforce")
 
 You should see output in the Console that shows some download bars, and finally some output that looks like this:
 
-<img src="screenshots/ggforce-package.png" width="400">
+<img src="screenshots/ggforce-package.png" alt = "Installing the ggforce package" width="400">
 
 
 If your package installation is NOT successful, you'll see some sort of message like :
