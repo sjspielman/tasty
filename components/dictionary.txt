@@ -50,6 +50,7 @@ FileZilla's
 forloop
 Gb
 GDebi
+GitLab
 GRCh
 GRCm
 GRCz

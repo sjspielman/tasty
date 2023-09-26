@@ -7,7 +7,6 @@ on:
   pull_request:
     branches:
       - main
-      - template-refresh
 
 jobs:
   # This workflow contains a single job called "spell check"

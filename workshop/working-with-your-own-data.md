@@ -4,7 +4,7 @@ nav_title: Using Your Data
 ---
 
 The goal of our workshop is to equip you to do initial analyses with your own data!
-This guide will take you through how to get your data onto our RStudio server so you can begin analyzing your own data!
+This guide will take you through how to get your data onto our RStudio server so you can begin analyzing your own data.
 
 **Table of contents**
 
@@ -25,14 +25,15 @@ We will email you with a reminder 6 months from now so you can make sure to remo
 - As always, please Slack one of the Data Lab team members if you need help with anything (that is what we are here for!).
 
 
-## Load data that is online (from a url)
+## Loading data from a website
 
 If you are retrieving your data from online, perhaps from a publicly available repository, we encourage you to use the terminal command `wget`.
 `wget` works for `http://` `https://` and `ftp://` URLs.
 
 **Step 1)** Go to the Terminal tab in your RStudio session.
 
-![Terminal tab](screenshots/rstudio-session-terminal.png)
+<img src="screenshots/rstudio-session-terminal.png" width="600">
+
 
 **Step 2)** Copy over the [`wget` template script]({{site.repository_url}}/tree/master/additional-resources/template-scripts/wget-TEMPLATE.sh).
 
@@ -44,14 +45,16 @@ In the RStudio Server, you can click the check mark next to the file name, then 
 
 The most simple `wget` command just needs the URL to pull the file from.
 
-*Template:*
+**Template:**
 ```
 wget '<URL>'
 ```
 
 The quote characters are not always required, but are a good practice in case the URL includes any strange characters that might cause problems.
 
-*Specific example:* Here's an example of us downloading a file from ArrayExpress
+**Specific example:**
+
+Here's an example using `wget` to download a file from ArrayExpress:
 ```
 wget 'https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-67851/E-GEOD-67851.processed.1.zip'
 ```
@@ -61,12 +64,14 @@ By default, the file will be saved to the current directory and the file name it
 Likely you will want to be more specific about where you are saving the file to and what you are calling it.
 For that, we can use the `-O`, or `output` option with our `wget` command and specify a file path.
 
-*Template:*
+**Template:**
 ```
 wget -O <FILE_PATH_TO_SAVE_TO> '<URL>'
 ```
 
-*Specific example: using the -O option* Here's another example where we will download that same array express file, but instead save it to a `data` folder and call it `some_array_data.zip`.
+**Specific example using the `-O` option:**
+
+Here's another example where we will download that same array express file, but instead save it to a `data` folder and call it `some_array_data.zip`.
 (Best to keep the file extension consistent to avoid troubles!)
 
 
@@ -75,8 +80,7 @@ Most often we will want to create this in a project-specific directory.
 [Keeping our files organized](https://www.thinkingondata.com/how-to-organize-data-science-projects/) can save us from some headaches in the future.
 
 
-Let's assume that we have already created a directory called `training_project` to hold all of my project files.
-That directory is in my home directory.
+Let's assume that we have already created a directory inside the home directory called `training_project` to hold all of our project files.
 
 ```
 # Navigate to the project directory
@@ -86,7 +90,7 @@ cd ~/training_project
 ls
 ```
 
-If the `ls` command does not include `data` in its print out, it means we will need to make a `data` folder with the `mkdir` command.
+If the `ls` command does not include `data` in its printed output, that means we will need to make a `data` folder with the `mkdir` command:
 
 ```
 # Make a new data folder
@@ -109,13 +113,14 @@ As is recommended and also shown with this example, this dataset is zipped.
 This means after you successfully `wget` the file, you will need to unzip it.
 To unzip the contents to a particular directory, we will use the `-d` option.
 
-*Template*
+**Template:**
 ```
 unzip -d <DIRECTORY_TO_UNZIP_TO> <FILE_TO_UNZIP>
 ```
 
-*Specific example:*
-Here we will unzip the contents of data/some_array_data.zip to be saved to the directory `data/`.
+**Specific example:**
+
+Here we will unzip the contents of `data/some_array_data.zip` to be saved to the directory `data/`.
 
 ```
 unzip -d data/ data/some_array_data.zip
@@ -133,20 +138,22 @@ wget --user=<USERNAME> --ask-password '<URL>'
 ```
 Using the `--ask-password` will prompt you to enter your password.
 
-## Load data from an a ssh server
+## Transferring data from an ssh server
 
 If you are retrieving your data from an [**s**ecure **sh**ell (ssh) server](https://searchsecurity.techtarget.com/definition/Secure-Shell), like one your institution or lab may host data on, we encourage you to use [the terminal command `scp`](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) to copy over your files you'd like to analyze to our server.
 (Make sure the data does not violate any of the [privacy issues described above](#things-to-know-before-uploading-your-data).)
 
 **Step 1)** Go to the Terminal tab in your RStudio session.
 
-![Terminal tab](screenshots/rstudio-session-terminal.png)
+
+<img src="screenshots/rstudio-session-terminal.png" width="600">
 
 The `scp` command is a way to copy files securely to or from an ssh server.
 It works similarly to the [`cp` command](https://linuxize.com/post/cp-command-in-linux/), which is used for copying files that are all on the same computer.
 To understand how this works, we will practice `cp` with some files already in the RStudio Server.
 
-*Template:*
+**Template:**
+
 The first argument is the file you'd like to copy.
 The second argument is the folder location where you'd like to copy the file from the first argument to.
 
@@ -154,27 +161,21 @@ The second argument is the folder location where you'd like to copy the file fro
 cp <FROM_FILE_PATH> <TO_FILE_PATH>
 ```
 
-*Example:*
-First you'll want to make sure that you are in your home directory:
+**Specific Example:**
+
+Here we will copy the `wget` template script *from* its location in `~/shared-data/working-with-your-data` *to* our own `training-modules/` folder.
 
 ```
-# Navigate to your home directory in Terminal
-cd ~
-```
-
-Here we will copy this notebook *from* its location in `shared-data/working-with-your-data` *to* our own `training-modules/` folder.
-
-```
-cp shared-data/working-with-your-data/retrieve-SRAdb-metadata.Rmd  training-modules/
+cp ~/shared-data/template-scripts/wget-TEMPLATE.sh  ~/training-modules/
 ```
 
 Let's double check it worked by using the `ls` command.
 
 ```
-ls training-modules
+ls ~/training-modules
 ```
 
-You should see `retrieve-SRAdb-metadata.Rmd` printed out in addition to the names of the other folders and files in `training-modules` folder.
+You should see `wget-TEMPLATE.sh` printed out in addition to the names of the other folders and files in `~/training-modules` folder.
 
 Here are more [`cp` examples](https://www.geeksforgeeks.org/cp-command-linux-examples/).
 As with other commands, you can use `cp --help` to print out a full list of the options for `cp`.
@@ -184,7 +185,6 @@ Your institution, or whomever gave you access to the server, should have given y
 
 Here's very general examples info about logging into [`ssh`](https://help.liquidweb.com/s/article/Logging-into-Your-Server-via-Secure-Shell-SSH).
 
-*Template*
 Generally an ssh login will look something like this:
 ```
 ssh username@server
@@ -200,33 +200,105 @@ If you are unsure of the file path of the data you are looking for, we recommend
 The `scp` command works similarly to the `cp` command we practiced above, except that the `secure` part of copying from a ssh server will require us to supply the server's address and may require us to enter a password.
 Just as we practiced with `cp`, the first argument is `FROM` the second argument is `TO`.
 
-*Template:*
-The main change with `scp` as compared to `cp` is that we will need to add the server address and a colon.
+**Template:**
+The main difference with `scp` versus `cp` is that we will need to add the server address and a colon.
 Whatever login information you used in the previous step is what you will need to use here.
 Then we can use the `FROM` and `TO` file paths as before.
-Remember to get rid of all `<` and `>`'s.
+Remember to get rid of all `<` and `>`'s (these symbols are placeholders; enter your text here instead!).
 
+**Template:**
+
+To copy a single file, you will write something like this:
 ```
 scp <username@server>:<FROM_FILE_PATH> <TO_FILE_PATH>
 ```
 
 If you are copying a folder of files, you may want to use the `-r` option.
-This will `r`ecursively copy all the files in the folder you reference:
+This will `r`ecursively copy all the files in the folder you reference, as in:
 
-*Template:*
 ```
 scp -r <username@server>:<FOLDER_FROM_FILE_PATH> <FOLDER_TO_SAVE_TO>
 ```
 
-In either situation you will likely be prompted to enter your password.
-You can enter it interactively; it's best to not have the password written in a script.
+**Specific Example:**
 
-## Upload large files (> 1Gb) from your own computer
+For example, we can copy a file `~/data-on-my-server.txt` from the server to your computer's home directory as follows:
 
-FileZilla is a GUI that helps transfer local files to remote servers like our RStudio Server.
-We recommend setting up FileZilla if your dataset is larger than a Gb or if you will transfer files to and from the RStudio Server.
+```
+scp <username@server>:~/data-on-my-server.txt ~
+```
 
-### Install FileZilla on Mac
+Or, we can copy a folder `~/my-project/` from the server to your computer's home directory as follows:
+```
+scp -r <username@server>:~/my-project ~
+```
+
+In either situation you will likely be prompted to enter your password, which you can enter interactively on the command line.
+
+## Transferring small files (≲100 MB) to and from your computer
+
+*These procedures will only reliably work for files smaller than roughly 100 MB.*
+
+### Uploading small files to RStudio Server
+
+If the data you want to use is stored locally on your computer, here's how we recommend uploading it to the RStudio Server.
+
+**Step 1)** We recommend you compress your data folder into a single zip file.
+
+For most operating systems, you can right-click on your data folder, and choose `Compress` to zip up your files.
+
+* [See here](https://edu.gcfglobal.org/en/techsavvy/working-with-zip-files/1/#) for more detailed instructions on creating zip files in Windows and macOS.
+* For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
+
+**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](../software-setup/rstudio-login.md).
+
+**Step 3)** Use the `Upload button` to choose your compressed data folder.
+
+This button is in the lower right panel of your RStudio session:
+<img src="screenshots/upload-button.png" width="400">
+
+A mini screen will pop up asking you to choose the file you want to upload:
+
+<img src="screenshots/upload-choose-file.png" width="400">
+
+
+Choose your compressed data file, and click `OK`.
+This may take some time, particularly if you have a large dataset.
+
+When the server is finished uploading your data, you should see your file in your `home` directory!
+It will automatically be uncompressed.
+
+### Downloading small files from the RStudio Server
+
+You can export any files from the RStudio server that you'd like to save to your computer.
+
+**Step 1)** Select the file(s) or folder(s) you would like to download
+Check the box(es) to the left of the files or folder(s) in the **Files** pane.
+
+**Step 2)** Use the Export button!
+
+Click on the `More` button with a gear next to it in the lower right pane.
+
+<img src="screenshots/export-button.png" width="200">
+
+**Step 3)** Specify the name you would like the downloaded file to have.
+
+<img src="screenshots/export-window.png" width="400">
+
+**Step 4)** Find where the file downloaded.
+Your computer may show the file in the bottom left of your browser window.
+You are likely to find your files in your `Downloads` folder!
+
+## Transferring large files (≳100MB) to and from your computer
+
+FileZilla is a GUI that helps transfer local files to and from remote servers like our RStudio Server.
+We recommend setting up FileZilla if your dataset is larger than 100 MB or if you will transfer files between your computer and RStudio Server.
+
+### Installing FileZilla on your computer
+
+Follow the instructions below to install FileZilla on your given operating system.
+
+#### macOS installation
 
 Go to [FileZilla's website](https://filezilla-project.org/download.php?type=client) to download the FileZilla Client.
 
@@ -234,14 +306,19 @@ Click the big green `Download` button.
 
 Click `Download` on this next page for `FileZilla` this is the only free option but will have the functionality you need.
 
-<img src="screenshots/filezilla-download-install.png">
+<img src="screenshots/filezilla-download-install.png" width="400">
 
 After download is complete, you'll find the `FileZilla`'s `.app.tar.bz2` file in your download files or you can click on it in the corner of your web browser's screen.
 Double click on the file to install.
 
-You may want to move the App file to where your other applications are stored.
+Finally, drag the installed `FileZilla` application icon to your `Applications` folder in Finder where all your other applications are stored.
 
-### Install FileZilla on Windows
+The first time you open `FileZilla`, you may see this warning message; click `Open`.
+
+<img src="screenshots/filezilla-mac-allow.png" width="300">
+
+
+#### Windows installation
 
 Go to [FileZilla's website](https://filezilla-project.org/download.php?type=client) to download the FileZilla Client.
 
@@ -249,7 +326,7 @@ Click the big green `Download` button.
 
 Click `Download` on this next page for `FileZilla` this is the only free option but will have the functionality you need.
 
-<img src="screenshots/filezilla-download-install.png">
+<img src="screenshots/filezilla-download-install.png" width="400">
 
 After download is complete, you'll find the `FileZilla` `.exe` file in your download files or you can click on it in the corner of your web browser's screen.
 
@@ -257,11 +334,11 @@ Double click on the file to install to begin installation.
 
 You'll be asked if you want to `Allow FileZilla to make changes` click `Yes`.
 
-There will be a series of steps (like below) you need to click `Next` and `Accept` to them.
+There will be a series of steps (like below) you need to agree to.
 
-<img src="screenshots/filezilla-windows.png" width="600">
+<img src="screenshots/filezilla-windows.png" width="400">
 
-### Install FileZilla on Ubuntu
+#### Ubuntu installation
 
 Navigate to the Ubuntu Software Center and search for FileZilla.
 Select FileZilla and then click the `Install` button.
@@ -299,7 +376,7 @@ Then click `OK`.
 
 <img src="screenshots/filezilla-trust-server.png" width="500">
 
-### Using FileZilla to upload files to the RStudio Server
+### Uploading large files from your computer with FileZilla
 
 The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
 
@@ -309,7 +386,7 @@ Then, on the left, navigate to the file or folder on your computer you'd like to
 On a Mac, you will likely be asked to allow FileZilla to have access to your files.
 Click `OK` for each time.
 
-<img src="screenshots/filezilla-permission.png" width="400">
+<img src="screenshots/filezilla-permission.png" width="300">
 
 For the folder or file you want to upload, right click on it and choose `Upload`.
 
@@ -317,7 +394,7 @@ For the folder or file you want to upload, right click on it and choose `Upload`
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to upload.
 
-### Using FileZilla to download files to your computer
+### Downloading large files from the RStudio Server
 
 The left side of the FileZilla window shows the files and folders on your computer and the right side shows the files and folders on the RStudio Server, defaulting to show the folders in your "Home" folder (which has the same name as your username).
 
@@ -331,58 +408,6 @@ For the folder or file you want to download, right click on it and choose `Downl
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
 
-## Upload *small* files (<1 Gb) from your own computer
-
-*This will only work for files smaller than 1GB*
-
-If the data you want to use is stored locally on your computer, here's how we recommend uploading it to the RStudio Server.
-
-**Step 1)** We recommend you compress your data folder into a single zip file.
-
-For most operating systems, you can right-click on your data folder, and choose `Compress` to zip up your files
-- [Windows zipping](https://support.microsoft.com/en-us/help/14200/windows-compress-uncompress-zip-files)
-- [Mac zipping](https://www.imore.com/how-compress-file-your-mac)
-
-For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
-
-**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](rstudio-login.md).
-
-**Step 3)** Use the `Upload button` to choose your compressed data folder.
-
-This button is in the lower right panel of your RStudio session:
-![Upload button](screenshots/upload-button.png)
-
-A mini screen will pop up asking you to choose the file you want to upload:
-
-![Choose file](screenshots/upload-choose-file.png)
-
-Choose your compressed data file, and click `OK`.
-This may take some time, particularly if you have a large dataset.
-
-When the server is finished uploading your data, you should see your file in your `home` directory!
-It will automatically be uncompressed.
-
-## Download *small* files (<1Gb) to your computer
-
-Any files on the RStudio server you would like to save to your computer you can export.
-
-**Step 1)** Select the file(s) or folder(s) you would like to download
-Check the box(es) to the left of the files or folder(s) in the **Files** pane.
-
-**Step 2)** Use the Export button!
-
-Click on the `More` button with a gear next to it in the lower right pane.
-
-![Export button](screenshots/export-button.png)
-
-**Step 3)** Specify the name you would like the downloaded file to have.
-
-![Export window](screenshots/export-window.png)
-
-**Step 4)** Find where the file downloaded.
-Your computer may show the file in the bottom left of your browser window.
-You are likely to find your files in your `Downloads` folder!
-
 ## Installing packages
 
 As you are working with your own data, you may find you want functionality from a package not yet installed to the RStudio server.
@@ -393,19 +418,21 @@ Here, we'll take you through some basics of how to install new packages.
 The RStudio Server has a list of packages installed for you already.
 You can see this list of installed R packages by looking in the `Packages` tab:
 
-![R Studio packages](screenshots/rstudio-packages.png)
+<img src="screenshots/rstudio-packages.png" width="400">
 
-Or, by using the `installed.packages()` command in the `Console` tab.
 
 Note that the checkmarks in the `Packages` tab indicate which packages are loaded currently in the environment.
+
+
+Alternatively, you can run the `installed.packages()` command in the `Console` tab to see all installed packages.
+
 
 ### Installing a new package
 
 Here we will take you through the most common R package installation steps and the most common roadblocks.
 However, [*package dependencies*](http://r-pkgs.had.co.nz/description.html#dependencies), packages needing other packages to work (and specific versions of them!), can make this a [hairy process](https://en.wikipedia.org/wiki/Dependency_hell).
 Because of this, we encourage you to reach out to one of the Data Lab team members for assistance if you encounter problems beyond the scope of this brief introduction!
-
-#### install.packages()
+#### Installing packages from CRAN with `install.packages()`
 
 The Comprehensive R Archive Network or CRAN is a repository of packages that can all be installed with the `install.packages()` command.
 
@@ -419,7 +446,8 @@ install.packages("ggforce")
 
 You should see output in the Console that shows some download bars, and finally some output that looks like this:
 
-![`ggforce` installed](screenshots/ggforce-package.png)
+<img src="screenshots/ggforce-package.png" width="400">
+
 
 If your package installation is NOT successful, you'll see some sort of message like :
 
@@ -428,12 +456,12 @@ Warning in install.packages :
 installation of package ‘ggforce’ had non-zero exit status
 ```
 
-#### Bioconductor packages
+#### Installing Bioconductor packages
 
 Bioconductor has a collection of bioinformatics-relevant packages but requires different steps for installation.
-These steps depend on `BiocManager` to be installed.
+You have to use the [`BiocManager` package](https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html) to install Bioconductor packages.
 
-We have already installed `BiocManager` for you on the RStudio server, but on your computer you could install it by using `install.packages("BiocManager")` like we did in the previous section (It's on CRAN).
+We have already installed `BiocManager` for you on the RStudio server, but on your computer you could install it by using `install.packages("BiocManager")` like we did in the previous section (it's on CRAN).
 
 Since `BiocManager` is installed, (which you can check by using the [strategies in the above section](#finding-what-packages-are-installed)) then you can use the following command to install a package.
 In this example, we'll install a package called `GenomicFeatures`.
@@ -445,7 +473,17 @@ You should get a similar successful installation message as in the previous sect
 
 Or if it failed to install, it will give you a `non-zero exit status` message.
 
+#### Installing packages from GitHub repositories
+
+There may be times when you want to install a package that is not available from CRAN or Bioconductor, but instead _only_ exists within a given GitHub (or GitLab, etc.) repository.
+
+We recommend that you use the [`remotes` package](https://remotes.r-lib.org/), which has already been installed for you in the RStudio Server and is available from CRAN for you to install to your computer (`install.packages("remotes")`).
+For example, we can use `remotes` to install the [`emo` package](https://github.com/hadley/emo) from the `hadley` GitHub account:
+
+```
+remotes::install_github("hadley/emo")
+```
+
 ### More resources on package installation strategies
 - [Stack Overflow: Non-zero exit status](https://stackoverflow.com/questions/35666638/cant-access-user-library-in-r-non-zero-exit-status-warning)
-- [Installing R packages](https://www.r-bloggers.com/installing-r-packages/)
-- [Installing GitHub R Packages](https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html)
+- [Installing R packages](https://www.dataquest.io/blog/install-package-r/)
