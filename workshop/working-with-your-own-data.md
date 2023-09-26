@@ -226,14 +226,69 @@ scp -r <username@server>:<FOLDER_FROM_FILE_PATH> <FOLDER_TO_SAVE_TO>
 In either situation you will likely be prompted to enter your password.
 You can enter it interactively; it's best to not have the password written in a script.
 
+
+## Transferring small files (≤100 MB) to and from your computer
+
+*These procedures will only reliably work for files smaller than roughly 100 MB.*
+
+### Uploading small files to RStudio Server
+
+If the data you want to use is stored locally on your computer, here's how we recommend uploading it to the RStudio Server.
+
+**Step 1)** We recommend you compress your data folder into a single zip file.
+
+For most operating systems, you can right-click on your data folder, and choose `Compress` to zip up your files.
+
+* [See here](https://edu.gcfglobal.org/en/techsavvy/working-with-zip-files/1/#) for more detailed instructions on creating zip files in Windows and macOS.
+* For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
+
+**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](../software-setup/rstudio-login.md).
+
+**Step 3)** Use the `Upload button` to choose your compressed data folder.
+
+This button is in the lower right panel of your RStudio session:
+<img src="screenshots/upload-button.png" width="400">
+
+A mini screen will pop up asking you to choose the file you want to upload:
+
+<img src="screenshots/upload-choose-file.png" width="400">
+
+
+Choose your compressed data file, and click `OK`.
+This may take some time, particularly if you have a large dataset.
+
+When the server is finished uploading your data, you should see your file in your `home` directory!
+It will automatically be uncompressed.
+
+### Downloading small files from the RStudio Server
+
+You can export any files from the RStudio server that you'd like to save to your computer.
+
+**Step 1)** Select the file(s) or folder(s) you would like to download
+Check the box(es) to the left of the files or folder(s) in the **Files** pane.
+
+**Step 2)** Use the Export button!
+
+Click on the `More` button with a gear next to it in the lower right pane.
+
+<img src="screenshots/export-button.png" width="200">
+
+**Step 3)** Specify the name you would like the downloaded file to have.
+
+<img src="screenshots/export-window.png" width="400">
+
+**Step 4)** Find where the file downloaded.
+Your computer may show the file in the bottom left of your browser window.
+You are likely to find your files in your `Downloads` folder!
+
 ## Transferring large files (≥100MB) to and from your computer
 
 FileZilla is a GUI that helps transfer local files to and from remote servers like our RStudio Server.
 We recommend setting up FileZilla if your dataset is larger than 100 MB or if you will transfer files between your computer and RStudio Server.
 
-### FileZilla installation instructions
+### Installing FileZilla on your computer
 
-First, follow the instructions below to install FileZilla for your given operating system.
+Follow the instructions below to install FileZilla on your given operating system.
 
 #### macOS installation
 
@@ -344,60 +399,6 @@ For the folder or file you want to download, right click on it and choose `Downl
 <img src="screenshots/filezilla-download.png" width="400">
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
-
-## Transferring small files (≤100 MB) to and from your computer
-
-*These procedures will only reliably work for files smaller than roughly 100 MB.*
-
-### Uploading small files to RStudio Server
-
-If the data you want to use is stored locally on your computer, here's how we recommend uploading it to the RStudio Server.
-
-**Step 1)** We recommend you compress your data folder into a single zip file.
-
-For most operating systems, you can right-click on your data folder, and choose `Compress` to zip up your files.
-
-* [See here](https://edu.gcfglobal.org/en/techsavvy/working-with-zip-files/1/#) for more detailed instructions on creating zip files in Windows and macOS.
-* For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
-
-**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](../software-setup/rstudio-login.md).
-
-**Step 3)** Use the `Upload button` to choose your compressed data folder.
-
-This button is in the lower right panel of your RStudio session:
-<img src="screenshots/upload-button.png" width="400">
-
-A mini screen will pop up asking you to choose the file you want to upload:
-
-<img src="screenshots/upload-choose-file.png" width="400">
-
-
-Choose your compressed data file, and click `OK`.
-This may take some time, particularly if you have a large dataset.
-
-When the server is finished uploading your data, you should see your file in your `home` directory!
-It will automatically be uncompressed.
-
-### Downloading small files from the RStudio Server
-
-You can export any files from the RStudio server that you'd like to save to your computer.
-
-**Step 1)** Select the file(s) or folder(s) you would like to download
-Check the box(es) to the left of the files or folder(s) in the **Files** pane.
-
-**Step 2)** Use the Export button!
-
-Click on the `More` button with a gear next to it in the lower right pane.
-
-<img src="screenshots/export-button.png" width="200">
-
-**Step 3)** Specify the name you would like the downloaded file to have.
-
-<img src="screenshots/export-window.png" width="400">
-
-**Step 4)** Find where the file downloaded.
-Your computer may show the file in the bottom left of your browser window.
-You are likely to find your files in your `Downloads` folder!
 
 ## Installing packages
 
