@@ -226,7 +226,7 @@ scp -r <username@server>:<FOLDER_FROM_FILE_PATH> <FOLDER_TO_SAVE_TO>
 In either situation you will likely be prompted to enter your password.
 You can enter it interactively; it's best to not have the password written in a script.
 
-## Transfering large files (≥100MB) to and from your computer
+## Transferring large files (≥100MB) to and from your computer
 
 FileZilla is a GUI that helps transfer local files to and from remote servers like our RStudio Server.
 We recommend setting up FileZilla if your dataset is larger than 100 MB or if you will transfer files between your computer and RStudio Server.
@@ -345,7 +345,7 @@ For the folder or file you want to download, right click on it and choose `Downl
 
 A progress bar on the bottom of the screen will tell you approximately how long it will take to download.
 
-## Transfering small files (≤100 MB) to and from your computer
+## Transferring small files (≤100 MB) to and from your computer
 
 *These procedures will only reliably work for files smaller than roughly 100 MB.*
 
