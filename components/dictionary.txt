@@ -45,6 +45,7 @@ Ensembl
 epitope
 et
 familiaris
+filezilla
 FileZilla
 FileZilla's
 forloop
@@ -62,6 +63,7 @@ hg
 Hippen
 Homebrew
 Homewood
+img
 jekyll
 Korsunsky
 lockfile
@@ -80,6 +82,7 @@ nonconsensual
 OSCA
 PHI
 PII
+png
 pre
 Protip
 README
@@ -97,6 +100,7 @@ SingleCellExperiment
 SingleR
 Slackbot
 socio
+src
 Stoeckius
 subfolder
 Tabula
