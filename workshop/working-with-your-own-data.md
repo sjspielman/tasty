@@ -163,7 +163,7 @@ cp <FROM_FILE_PATH> <TO_FILE_PATH>
 
 **Specific Example:**
 
-Here we will copy the `wget` template script from its location in `~/shared-data/working-with-your-data` *to* our own `training-modules/` folder.
+Here we will copy the `wget` template script *from* its location in `~/shared-data/working-with-your-data` *to* our own `training-modules/` folder.
 
 ```
 cp ~/shared-data/template-scripts/wget-TEMPLATE.sh  ~/training-modules/
