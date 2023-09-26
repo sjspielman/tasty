@@ -105,9 +105,8 @@ wget -O data/some_array_data.zip 'https://www.ebi.ac.uk/arrayexpress/files/E-GEO
 ```
 
 `-O` is one of many `wget` command options.
-To see the complete list of `wget` options, use the command: `wget -h` in Terminal.
-
-You can see some more `wget` examples [at this link](https://www.tecmint.com/10-wget-command-examples-in-linux/).
+To see the complete list of `wget` options, use the command `wget -h` in Terminal.
+You can also see some [more `wget` examples](https://www.tecmint.com/10-wget-command-examples-in-linux/).
 
 As is recommended and also shown with this example, this dataset is zipped.
 This means after you successfully `wget` the file, you will need to unzip it.
