@@ -25,7 +25,7 @@ We will email you with a reminder 6 months from now so you can make sure to remo
 - As always, please Slack one of the Data Lab team members if you need help with anything (that is what we are here for!).
 
 
-## Load data that is online (from a url)
+## Loading data from a website
 
 If you are retrieving your data from online, perhaps from a publicly available repository, we encourage you to use the terminal command `wget`.
 `wget` works for `http://` `https://` and `ftp://` URLs.
@@ -138,7 +138,7 @@ wget --user=<USERNAME> --ask-password '<URL>'
 ```
 Using the `--ask-password` will prompt you to enter your password.
 
-## Load data from an a ssh server
+## Transferring data from an ssh server
 
 If you are retrieving your data from an [**s**ecure **sh**ell (ssh) server](https://searchsecurity.techtarget.com/definition/Secure-Shell), like one your institution or lab may host data on, we encourage you to use [the terminal command `scp`](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) to copy over your files you'd like to analyze to our server.
 (Make sure the data does not violate any of the [privacy issues described above](#things-to-know-before-uploading-your-data).)
