@@ -18,7 +18,7 @@ In this document, we will cover the procedures for joining a Zoom call and using
 Please make sure your microphone is muted when joining the call and when you are not speaking to minimize background noise during instruction.
 You can toggle mute on and off using the `Mute` (or `Unmute` if you are muted) icon on the left side of the controls at the bottom of the Zoom window.
 
-<img src = "screenshots/zoom-participant-mute.png">
+<img src = "screenshots/zoom-participant-mute.png" alt = "Zoom mute button">
 
 Where possible, please use headphones throughout training to minimize audio feedback.
 
@@ -28,7 +28,7 @@ If you are experiencing issues with the call quality, turning off your video may
 This will not affect your ability to see the instructors or content, only outgoing video.
 You can toggle video on and off using the Stop Video icon (or Start Video if video is off) on the left side of the controls at the bottom of the Zoom window.
 
-<img src = "screenshots/zoom-participant-video.png">
+<img src = "screenshots/zoom-participant-video.png" alt = "Zoom Video button">
 
 ### Viewing Zoom while instructors are sharing their screen
 
@@ -48,7 +48,7 @@ To bring up the participant pane, click the participants icon in the middle of t
 
 The participant pane will appear on the side of the main Zoom window and look something like this:
 
-<img src = "screenshots/zoom-participant-panel.png" height = "400">
+<img src = "screenshots/zoom-participant-panel.png" alt = "Zoom participant button" height = "400">
 
 There are feedback controls on the bottom of the participant pane that will allow you to raise your hand, answer yes or no questions, give feedback on the speed of instruction, and under `more` you can indicate if you need a break.
 

@@ -14,9 +14,6 @@ All Slack communications must adhere to our [code of conduct](../code-of-conduct
 * TOC goes here
 {:toc}
 
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## How we use Slack during workshops
 
 Course instructors will add you to a private channel specific to your training a few days before the start of your training workshop.
@@ -52,7 +49,7 @@ If you have a question, it's very likely someone else in the course has the same
 **Responses to questions should be in [threads](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions-) as much as possible**, including any screenshots or images.
 To start a thread, hover over the message you want to respond to and click the start a thread icon that appears on the top right of the message:
 
-<img src = "screenshots/slack-start-a-thread.png" width = "450">
+<img src = "screenshots/slack-start-a-thread.png" alt = "Start a Slack thread" width = "450">
 
 You can then enter your response in the thread sidebar that appears on the right side of the Slack interface.
 In general, you do not want to check the box that sends the message to the entire channel.
@@ -67,15 +64,15 @@ We also use the training-specific private channel to poll participants via [Poll
 
 Use the `Submit Response` button in a Polly message to enter your feedback:
 
-<img src = "screenshots/slack-polly-response.png" width = "600">
+<img src = "screenshots/slack-polly-response.png" alt = "Submit a response to a Polly poll in Slack" width = "600">
 
 ### Using direct messages during training
 
 If you have a question that is **_highly specific_** to your own data or a problem with your RStudio credentials, you may [direct message](https://slack.com/help/articles/212281468-What-is-a-direct-message) a Data Lab staff member.
 
-First, use the new message button in the top right side corner of the Slack interface.
+First, use the Plus sign button on the bottom left by your user icon, and select "Message" from the menu that appears (or, you can hit `cmd + N` to start a new message!):
 
-<img src = "screenshots/slack-compose-new-message.png" width="300">
+<img src = "screenshots/slack-compose-new-message.png" alt = "Button in Slack to compose a new message" width="300">
 
 You are then able to search for the Data Lab instructors –
 {%- for name in site.instructors -%}
@@ -91,20 +88,20 @@ In this section, we include a collection of tips that you may find helpful for u
 
 #### Attaching a file or image
 
-You can [add a file or image to Slack](https://slack.com/help/articles/201330736-Add-files-to-Slack) by dragging a file to the Slack window or by using the paper clip icon next to the message field:
+You can [add a file or image to Slack](https://slack.com/help/articles/201330736-Add-files-to-Slack) by clicking the plus sign on the bottom left of the message field:
 
-<img src = "screenshots/slack-add-a-file.png" width = "600">
+<img src = "screenshots/slack-add-a-file.png" alt = "Icon to attach a file when sending a message" width = "600">
 
 #### Adding code blocks to messages
 
 Code and error messages are usually easier to read when you use code formatting in Slack.
 You can either select the code block icon below the message field:
 
-<img src = "screenshots/slack-code-block-icon.png" width = "600">
+<img src = "screenshots/slack-code-block-icon.png" alt = "Icon to write a code block in Slack messaging" width = "600">
 
-Or you can type three backticks <code>```</code> into the message field and formatting will be applied:
+Or you can type three backticks <code>```</code> into the message field and formatting will automatically be applied:
 
-<img src = "screenshots/slack-backticks.gif" width = "600">
+<img src = "screenshots/slack-backticks.gif" alt = "Slack will automatically convert three backticks (```) a code block" width = "600">
 
 You are then ready to paste your code or error message into the gray code block.
 
