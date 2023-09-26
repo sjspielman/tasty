@@ -210,7 +210,7 @@ Just as we practiced with `cp`, the first argument is `FROM` the second argument
 The main difference with `scp` versus `cp` is that we will need to add the server address and a colon.
 Whatever login information you used in the previous step is what you will need to use here.
 Then we can use the `FROM` and `TO` file paths as before.
-Remember to get rid of all `<` and `>`'s (these symbols are placeholders meaning, enter your text here instead!).
+Remember to get rid of all `<` and `>`'s (these symbols are placeholders; enter your text here instead!).
 
 ```
 scp <username@server>:<FROM_FILE_PATH> <TO_FILE_PATH>
@@ -227,7 +227,7 @@ In either situation you will likely be prompted to enter your password.
 You can enter it interactively; it's best to not have the password written in a script.
 
 
-## Transferring small files (≤100 MB) to and from your computer
+## Transferring small files (≲100 MB) to and from your computer
 
 *These procedures will only reliably work for files smaller than roughly 100 MB.*
 
@@ -281,7 +281,7 @@ Click on the `More` button with a gear next to it in the lower right pane.
 Your computer may show the file in the bottom left of your browser window.
 You are likely to find your files in your `Downloads` folder!
 
-## Transferring large files (≥100MB) to and from your computer
+## Transferring large files (≳100MB) to and from your computer
 
 FileZilla is a GUI that helps transfer local files to and from remote servers like our RStudio Server.
 We recommend setting up FileZilla if your dataset is larger than 100 MB or if you will transfer files between your computer and RStudio Server.
@@ -416,7 +416,7 @@ You can see this list of installed R packages by looking in the `Packages` tab:
 Note that the checkmarks in the `Packages` tab indicate which packages are loaded currently in the environment.
 
 
-Or, you can run the `installed.packages()` command in the `Console` tab to see all installed packages.
+Alternatively, you can run the `installed.packages()` command in the `Console` tab to see all installed packages.
 
 
 ### Installing a new package
@@ -424,7 +424,6 @@ Or, you can run the `installed.packages()` command in the `Console` tab to see a
 Here we will take you through the most common R package installation steps and the most common roadblocks.
 However, [*package dependencies*](http://r-pkgs.had.co.nz/description.html#dependencies), packages needing other packages to work (and specific versions of them!), can make this a [hairy process](https://en.wikipedia.org/wiki/Dependency_hell).
 Because of this, we encourage you to reach out to one of the Data Lab team members for assistance if you encounter problems beyond the scope of this brief introduction!
-`
 #### Installing packages from CRAN with `install.packages()`
 
 The Comprehensive R Archive Network or CRAN is a repository of packages that can all be installed with the `install.packages()` command.
@@ -472,6 +471,7 @@ There may be times when you want to install a package that is not available from
 
 We recommend that you use the [`remotes` package](https://remotes.r-lib.org/), which has already been installed for you in the RStudio Server and is available from CRAN for you to install to your computer (`install.packages("remotes")`).
 For example, we can use `remotes` to install the [`emo` package](https://github.com/hadley/emo) from the `hadley` GitHub account:
+
 ```
 remotes::install_github("hadley/emo")
 ```
