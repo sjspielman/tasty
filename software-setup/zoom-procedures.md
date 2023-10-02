@@ -36,9 +36,9 @@ _Note: Consent for video recordings is included in the [Data Lab training worksh
 
 ## Using Zoom during instruction
 
-During instruction, we will clearly identify who is the _instructor_ (leads workshop sessions) and who is the _host_ (manages the Zoom meeting).
+During instruction, we will clearly identify who is the _lead instructor_ and who is the _host_, who manages the Zoom meeting.
 If you need help from an instructor during instruction, message the _host_ of the Zoom meeting and let them know that you need help from an instructor.
-Please do not message the instructor because there is a good chance they will not have the chat window open while teaching.
+Please do not message the lead instructor because there is a good chance they will not have the chat window open while teaching.
 
 ### Using breakout rooms
 
@@ -46,7 +46,7 @@ Zoom breakout rooms are a feature that allow us to assign course participants an
 We will use Zoom breakout rooms in the following capacities during training:
 
 * To provide 1:1 help during instruction as needed.
-* To group participants during exercise portions of instruction.
+* To hold smaller group Q/A sessions after each instruction session.
 * _Optionally_ to group participants during consultation sessions who are working on similar tasks or the same exercise notebooks.
 
 For example, if you need assistance during live instruction, the host might place you in a breakout room with a different instructor who can help you solve your issue.
