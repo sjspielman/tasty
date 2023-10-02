@@ -38,7 +38,6 @@ _Note: Consent for video recordings is included in the [Data Lab training worksh
 
 During instruction, we will clearly identify who is the _instructor_ (leads workshop sessions) and who is the _host_ (manages the Zoom meeting).
 If you need help from an instructor during instruction, message the _host_ of the Zoom meeting and let them know that you need help from an instructor.
-We will clearly identify the host of the meeting at the beginning of the session.
 Please do not message the instructor because there is a good chance they will not have the chat window open while teaching.
 
 ### Using breakout rooms
