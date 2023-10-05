@@ -66,13 +66,11 @@ Download Slack from this link <https://slack.com/downloads>, which will automati
 
 ### Joining the Cancer Data Science Slack
 
-Open <http://ccdatalab.org/slack> in your browser.
+Join Cancer Data Science Slack by navigating to <http://ccdatalab.org/slack> in your browser (you will have also received an email invite to join this Slack workspace).
 If you have not created an account, follow the prompts to do so.
-
-Join Cancer Data Science Slack using [this link](https://ccdatalab.org/slack) (you will have also received an email invite to join this Slack workspace).
 _Please use your full name in your profile, and don't forget to set a unique password!_
 
-After you login, you will see the Slack interface in the browser, but again we recommend using the Desktop version.
+After you log in, you will see the Slack interface in the browser, but again we recommend using the Desktop version.
 Slack might directly prompt you if you want to open the Desktop app (in which case say yes), but if not, you can launch the app directly.
 In the upper left of the window, click on the words **Cancer Data Science** to open the setting menu, and the select "Open the Slack App".
 (If you are on a PC, you may see the prompt: `Did you mean to switch apps?`; say `Yes`.
