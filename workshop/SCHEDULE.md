@@ -8,7 +8,7 @@ nav_title: Schedule
 | Time        | Topic                                          |
 |-------------|------------------------------------------------|
 | **Day 1**   | **Date** <br> <!--uncomment and add link: [Module]()-->                      |
-| 12:00 PM    | Welcome, Introductions and Getting Started     <br>[Welcome Slides (PDF)](../slides/ Workshop_Introduction.pdf)|
+| 12:00 PM    | Welcome, Introductions and Getting Started     <br>[Welcome Slides (PDF)](../slides/Workshop_Introduction.pdf)|
 | 5:00        | End             |
 | **Day 2**   | **Date**  |
 | **Day 3**   | **Date**  |
