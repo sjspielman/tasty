@@ -59,6 +59,7 @@ GSEA
 Haghverdi
 HCA
 Hemburg
+Heumos
 hg
 Hippen
 Homebrew
