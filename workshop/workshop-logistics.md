@@ -37,16 +37,15 @@ The next sections are designed to give you an idea of what your participation in
 
 ### Instruction sessions
 
-**During instruction sessions**, you will log into [our RStudio Server](https://rstudio.ccdatalab.org).
-An instructor may present some slides to introduce the material and then they will instruct you to navigate to [https://rstudio.ccdatalab.org](https://rstudio.ccdatalab.org), [enter your RStudio login credentials](../software-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the course material.
-Typically you will be asked to navigate to a specific R Notebook file and you will execute steps at the same time as your instructor.
+**During instruction sessions**, an instructor may present some slides to introduce the material, and then they will instruct you to navigate to the RStudio Server (<https://rstudio.ccdatalab.org>), [enter your RStudio login credentials](../software-setup/rstudio-login.md#rstudio-server-set-up), and guide you through the interactive lesson.
+Typically instructors will prompt you to navigate to a specific R Notebook file, and you will execute steps at the same time as your instructor.
 You will have access to [a private training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) in [Cancer Data Science Slack](https://www.ccdatalab.org/slack) that you can use as a forum to post questions.
 This channel will be monitored by instructors.
 
-For remote workshops, instruction will occur over Zoom, and sessions will be [recorded and distributed to course participants](../software-setup/zoom-procedures.md#zoom-recordings) (not posted publicly).
-
-
 {% if site.workshop_type == "remote" %}
+
+For remote workshops, instruction will occur over Zoom, and sessions will be [recorded and distributed to course participants](../software-setup/zoom-procedures.md#zoom-recording) (not posted publicly).
+
 #### Your instructors' roles during instruction
 
 **During instruction**, your instructors function in one of three roles:
@@ -67,8 +66,8 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../so
 
 | If this happens | Use this platform |
 |-----------------|-------------------|
-| I need something clarified before we move on with instruction | [Use Zoom chat to message the meeting host with your question or use the `Raise Hand` button on Zoom](../software-setup/zoom-procedures.md#interacting-with-instructors-and-providing-feedback) |
-| I am stuck with an error message and am no longer able to follow the hands-on exercise | [Use Zoom chat](../software-setup/zoom-procedures.md#chat) to [message the meeting host and let them know you need 1:1 assistance](../software-setup/zoom-procedures.md#asking-for-11-help-during-instruction) - they will pair you with an available instructor in a [Zoom breakout room](../software-setup/zoom-procedures.md#joining-a-breakout-room) |
+| I need something clarified before we move on with instruction | Use Zoom chat to message the meeting host with your question or use the `Raise Hand` button on Zoom|
+| I am stuck with an error message and am no longer able to follow the hands-on exercise | Use Zoom chat to message the meeting host to [ask for 1:1 assistance](../software-setup/zoom-procedures.md#using-zoom-during-instruction) - they will pair you with an available instructor in a [Zoom breakout room](../software-setup/zoom-procedures.md#using-breakout-rooms) |
 | I have a general or conceptual question that can be addressed later in the lecture or asynchronously | Post in the [training-specific Slack channel](../software-setup/slack-procedures.md#using-the-training-specific-channel) |
 | I am having trouble with my login credentials | [Use Slack to direct message a Data Lab staff member](../software-setup/slack-procedures.md#using-direct-messages-during-training) that is not leading instruction or the host of the Zoom meeting |
 | I am having technical difficulties that preclude me from using Zoom and Slack | Email [training@ccdatalab.org](mailto:training@ccdatalab.org) |
@@ -79,8 +78,8 @@ You can read more about how we use Zoom and Slack in the [Zoom procedures](../so
 During consultation sessions, you can work through exercise notebooks included as part of the course, with your own data, or with publicly available data related to your research.
 
 The main method we use for communication during consultation sessions is Slack.
-You can use the training-specific private channel to [post errors](./posting-errors-guidelines.md), get help with debugging, and interact with other participants as they work through exercises.
-We recommend you follow the [posting for error help guidelines](./posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.
+You can use the training-specific private channel to post errors, get help with debugging, and interact with other participants as they work through exercises.
+We strongly recommend you follow these [**guidelines for posting errors**](./posting-errors-guidelines.md) so you can maximize others' abilities to help you resolve your error.
 
 {% if site.workshop_type == "remote" %}
 
@@ -94,7 +93,7 @@ If you need assistance and would like to share your screen, an instructor will i
 
 Our goal during consultation days is to make sure you get the support you need from instructors, to facilitate peer-to-peer learning, and to maximize the information that is available to everyone in a form that is discoverable in the future.
 For these reasons, the main process for communication on consultation days is the training-specific Slack channel.
-We recommend following these [posting for error help guidelines](posting-errors-guidelines.md) when you request help for errors you encounter in your code.
+Again, we recommend following these [guidelines for posting errors](posting-errors-guidelines.md) when requesting help for errors you encounter in your code.
 
 _Remember – if you have a question, another person in the course almost certainly has the same question!_
 
@@ -102,7 +101,7 @@ _Remember – if you have a question, another person in the course almost certai
 
 Your instructors will be available via Slack during the consultation sessions listed in the [workshop schedule](SCHEDULE.md).
 You may also remain in the Zoom meeting used for the day's instruction session, which will be used for breakout room functionality for grouping participants that want to work together.
-If you need to share your screen with an instructor during a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../software-setup/zoom-procedures.md#joining-a-zoom-call-from-slack).
+If you need to share your screen with an instructor during a consultation day, the instructor will [start a Zoom meeting and you will be able to join from Slack](../software-setup/zoom-procedures.md#using-zoom-during-consultation).
 
 You can read more about how we use Zoom and Slack in the [Zoom procedures](../software-setup/zoom-procedures.md) and [Slack procedures](../software-setup/slack-procedures.md) documentation. We've put together the table below to serve as a guide at a glance.
 
@@ -134,6 +133,6 @@ Here are some examples of what people have presented in the past at our workshop
 {% if site.workshop_type == "remote" %}
 
 These presentations will take place in the same Zoom meeting used for the rest of the workshop.
-When it is your turn to present, you will [share your screen on Zoom](../software-setup/zoom-procedures.md#sharing-your-screen-in-zoom) and [unmute yourself](../software-setup/zoom-procedures.md#audio).
+When it is your turn to present, you will [share your screen on Zoom](../software-setup/software-setup-instructions.md#enabling-screen-share) and unmute yourself.
 
 {% endif %}
