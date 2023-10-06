@@ -1,5 +1,5 @@
 ---
-title: Using Slack for Data Lab virtual workshops
+title: Slack Procedures for Data Lab Workshops
 ---
 
 
