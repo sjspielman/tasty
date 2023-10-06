@@ -7,10 +7,10 @@
 
 **The workshop will be held at** [**One Bala Plaza, Bala Cynwyd, PA 19004**](https://www.google.com/maps/place/One+Bala+Plaza/@40.0073079,-75.2221085,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6b89e7102a3b5:0x77dce0b150a7df52!8m2!3d40.0073798!4d-75.2199724?utm_campaign=CCDL_Workshops&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--pRa135WXpaamTCddydLZAXVv6QwBlCpR9HqVWrGN1EmHMVqdhOeW6wlCMhaR6eCaT1Ekh), just outside of Philadelphia.
 We will meet in the Amenity Suite located on the lower level.
-Enter the building through the Center Lobby and take the elevator down one floor (labeled “LL”).
+Enter the building through the Center Lobby and take the elevator down one floor (labeled "LL").
 The Amenity Suite is the first room you will see after exiting the elevator.
 Please note that Bala Plaza is an office park with multiple buildings.
-If you have trouble finding the building or the room on the first day of training, please use Slack to [direct message](../software-setup/slack-procedures.html#using-direct-messages-during-training) `Jen O'Malley`.
+If you have trouble finding the building or the room on the first day of training, please use Slack to [direct message](/software-setup/slack-procedures.html#using-direct-messages-during-training) `Jen O'Malley`.
  {% comment %}
  NOTE: `html` relative link above is used since this is an included file.
  {% endcomment %}
