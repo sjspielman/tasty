@@ -9,7 +9,7 @@ nav_title: Logistics
 {:toc}
 
 {% if site.workshop_type == "in-person" %}
-    {% include_relative participant-information.md %}
+    {% include_relative local-participant-information.md %}
 {% endif %}
 
 ## Workshop Structure
