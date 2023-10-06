@@ -26,7 +26,7 @@ You can start by searching [refine.bio](https://www.refine.bio/) for keywords re
 The format of the RNA-seq data you can download from the web interface of refine.bio data will be slightly different from what we cover in training.
 We summarize our data to the gene-level with `tximport` ([docs](http://docs.refine.bio/en/latest/main_text.html#tximport)), instead of `tximeta` like we do in training, before you download it.
 When downloading your data from refine.bio, we recommend checking the box that says "Skip quantile normalization for RNA-seq samples" to obtain the non-quantile normalized data ([docs](http://docs.refine.bio/en/latest/main_text.html#skipping-quantile-normalization-for-rna-seq-experiments)).
-You will receive a TSV file that you can use as the counts matrix input for a [`DESeqDataSet`](https://www.rdocumentation.org/packages/DESeq2/versions/1.12.3/topics/DESeqDataSet-class).
+You will receive a TSV file that you can use as the counts matrix input for a [`DESeqDataSet`](https://rdrr.io/bioc/DESeq2/man/DESeqDataSet.html).
 Note that we recommend using non-quantile normalized data as the `DESeqDataSetFromMatrix()` function requires a counts matrix and not a matrix with normalized or corrected value like TPMs.
 See this nice [`DESeq2` vignette](https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#count-matrix-input) for more information (Love *et al.*, 2014).
 You can read more about using `DESeq2` with refine.bio data [here](https://alexslemonade.github.io/refinebio-examples/03-rnaseq/00-intro-to-rnaseq.html#about-deseq2).

@@ -154,8 +154,7 @@ To navigate to Slack threads, you can can click speech bubble in the corner of y
 
 You should try to keep all further messages and correspondence about that question in the same Slack thread.
 Follow up problems in the same section of code should also be kept to this same thread you started.
-
-#### Step 3b) In the thread of your headline, post the description you crafted in [Step 2](#step-2-draft-out-your-question-youll-post).
+#### Step 3b) In the thread of your headline, post the description you crafted in [Step 2](#step-2-draft-out-the-description-of-your-error-post).
 
 Navigate to the Slack thread of your "headline" post.
 
@@ -164,7 +163,7 @@ If you wrote out your error description in a text editor, it may have looked lik
 <img src = "screenshots/text-editor.png" alt = "Comment written in text editor" width = "500">
 
 When you are typing out your error description you may find it helpful to have our "four points" handy.
-We've included [a checklist you could use for creating your post](#posting-a-code-question-checklist) for this purpose.
+We've included [a checklist you could use for creating your post](#checklist-for-posting-a-code-error-question) for this purpose.
 
 When you paste your text into Slack, it may ask if you'd like to `Apply formatting`. Click `Apply`.
 If Slack doesn't ask you about formatting for some reason, you can also hit **`Shift + Command + F`** to apply the formatting.

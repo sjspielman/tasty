@@ -24,7 +24,7 @@ You will need to install swirl courses using the following R command:
 swirl::install_course("Getting and Cleaning Data")
 ```
 
-If you are interested in even more material, the [full list of swirl courses is here](https://swirlstats.com/scn/title.html)
+If you are interested in even more material, the [full list of swirl courses is here](https://swirlstats.com/scn/title.html).
 
 ## More resources for learning R
 
@@ -33,5 +33,5 @@ Here are some more resources for those of you who want to dive deeper. It is NOT
 + [R for Data Science](https://r4ds.had.co.nz/)
 + [R Markdown](http://rmarkdown.rstudio.com)
 + [Tutorial on R, RStudio and R Markdown](https://ismayc.github.io/rbasics-book/)
-+ [Handy R cheatsheets](https://posit.co/resources/cheatsheets/)
 + [R Notebooks tutorial](https://bookdown.org/yihui/rmarkdown/)
++ [Handy R cheatsheets](https://posit.co/resources/cheatsheets/)

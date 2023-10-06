@@ -22,7 +22,7 @@ Where possible, please use headphones throughout training to minimize audio feed
 Sharing your screen in a Zoom breakout room during instruction or one-on-one Zoom consultation sessions may be required to allow instructors to best provide assistance.
 You will also want to share your screen during your [presentation at the end of the workshop](../workshop/workshop-logistics.md#participant-presentations).
 
-Please refer to our [Zoom installation instructions](software-installation.md#enabling-screen-share) for more information about setting up screen sharing.
+Please refer to our [Zoom setup instructions](software-setup-instructions.md#enabling-screen-share) for more information about setting up screen sharing.
 
 ## Zoom recording
 

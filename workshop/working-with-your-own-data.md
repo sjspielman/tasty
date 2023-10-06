@@ -181,7 +181,7 @@ As with other commands, you can use `cp --help` to print out a full list of the 
 **Step 2)** Confirm your `ssh` login credentials.
 Your institution, or whomever gave you access to the server, should have given you a username and server address as well as more specific instructions on how to log on to the server.
 
-Here's very general examples info about logging into [`ssh`](https://help.liquidweb.com/s/article/Logging-into-Your-Server-via-Secure-Shell-SSH).
+Below are some very general examples with info about logging into a remote server with [`ssh`](https://help.liquidweb.com/s/article/Logging-into-Your-Server-via-Secure-Shell-SSH).
 
 Generally an ssh login will look something like this:
 ```
@@ -248,7 +248,7 @@ For most operating systems, you can right-click on your data folder, and choose 
 * [See here](https://edu.gcfglobal.org/en/techsavvy/working-with-zip-files/1/#) for more detailed instructions on creating zip files in Windows and macOS.
 * For reference, here's how you [compress files from the command line](https://coolestguidesontheplanet.com/how-to-compress-and-uncompress-files-and-folders-in-os-x-lion-10-7-using-terminal/).
 
-**Step 2)** Once your data is compressed to a single file, [navigate to your RStudio session](../software-setup/rstudio-login.md).
+**Step 2)** Once your data is compressed to a single file, log in to your RStudio server account (<https://rstudio.ccdatalab.org/>).
 
 **Step 3)** Use the `Upload button` to choose your compressed data folder.
 

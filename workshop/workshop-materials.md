@@ -41,7 +41,7 @@ For example, there may be a `01-intro_to_base_R-live.Rmd`, a `01-intro_to_base_R
 - The `.nb.html` version of the file is a rendered web page of the notebook.
 This file can be downloaded or viewed via the links in the README file that you will see at the bottom of the file listing for each module.
 
-Cheatsheets that review key functions and concepts are found in the [module-cheatsheets folder](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/module-cheatsheets).
+Cheatsheets that review key functions and concepts are found in the [`module-cheatsheets` folder](https://github.com/AlexsLemonade/training-modules/tree/{{site.release_tag}}/module-cheatsheets).
 These are formatted both as markdown files and PDFs, with the latter likely most useful for reference.
 
 ### RStudio Server

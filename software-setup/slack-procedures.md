@@ -1,11 +1,11 @@
 ---
-title: Using Slack for Data Lab virtual workshops
+title: Slack Procedures for Data Lab Workshops
 ---
 
 
 <img style = "padding: 0px 15px 0px 0px; float: left;" src = "screenshots/slack-cancer-data-science-logo.png" width = "75">
 Specifically, we use the **Cancer Data Science Slack** team administered by the Data Lab.
-See our [Software Installation](software-installation.md#installing-slack) page for full instructions on installing Slack and joining the Cancer Data Science Slack.
+See our [software setup page](software-setup-instructions.md#installing-slack) for full instructions on installing Slack and joining the Cancer Data Science Slack.
 
 All Slack communications must adhere to our [code of conduct](../code-of-conduct.md).
 
