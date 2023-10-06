@@ -181,7 +181,7 @@ As with other commands, you can use `cp --help` to print out a full list of the 
 **Step 2)** Confirm your `ssh` login credentials.
 Your institution, or whomever gave you access to the server, should have given you a username and server address as well as more specific instructions on how to log on to the server.
 
-Here's very general examples info about logging into a remote server with [`ssh`](https://help.liquidweb.com/s/article/Logging-into-Your-Server-via-Secure-Shell-SSH).
+Below are some very general examples with info about logging into a remote server with [`ssh`](https://help.liquidweb.com/s/article/Logging-into-Your-Server-via-Secure-Shell-SSH).
 
 Generally an ssh login will look something like this:
 ```
