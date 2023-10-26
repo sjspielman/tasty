@@ -23,7 +23,7 @@ This will create a new repository with the same layout as this template reposito
       * Navigate to the `Actions` -> `General` page from the sidebar
       * Ensure [the following settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#configuring-the-default-github_token-permissions) are on:
 
-      <img src="./images/workflow-permissions.png" alt="Workflow permissions settings to turn on" width="100"/>
+      <img src="./images/workflow-permissions.png" alt="Workflow permissions settings to turn on" width="600"/>
 
 
 
@@ -39,7 +39,7 @@ Run this action as follows:
 * Click the workflow named `Manually trigger issue creation for standard set up`, and then click the "Run workflow" dropdown button.
   * You will see a dropdown button "Use workflow from"; ensure this says the default branch `main`:
 
-  <img src="./images/run-workflow-from-main.png" alt="Run workflow from main branch" width="75"/>
+  <img src="./images/run-workflow-from-main.png" alt="Run workflow from main branch" width="300"/>
 
 To complete repository setup, address all issues filed by this workflow.
 
