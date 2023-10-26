@@ -56,7 +56,7 @@ jobs:
           #  bulk RNA-seq: RNA-seq/
 
           # Path to copy notebooks to
-          target_path=website/completed-notebooks/
+          target_path=website/completed-notebooks
 
           # Create array of directories from which notebooks should be copied
           case "${{ github.event.inputs.training-module }}" in
@@ -80,6 +80,7 @@ jobs:
 
           # Copy all completed notebooks from the given directories
           for module in ${modules[@]}; do
+            mkdir -p ${target_path}/${module}
             cp training-modules/${module}/[0-9]*.html ${target_path}/${module}
           done
 
