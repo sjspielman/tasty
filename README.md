@@ -17,7 +17,7 @@ This will create a new repository with the same layout as this template reposito
     * If you are using GitHub from a **free account tier** (e.g., GitHub Free for individuals or organizations),
     * you must set the visibility of this repository as **public** for [GitHub Pages to be active](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-2. Turn on permission for Github Actions
+2. Turn on workflow permission for Github Actions.
     * There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
     * You must turn on "Read and Write" permissions for GitHub Actions to use them:
       * Navigate to the repository `Settings` menu by clicking the Gear icon.
@@ -26,20 +26,22 @@ This will create a new repository with the same layout as this template reposito
       ![Workflow permissions settings to turn on](./images/workflow-permissions.png)
 
 
+
+
 ## Customizing the new repository for an individual training workshop
 
-We have set up a [manually-triggered GitHub Action](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) to support setting up this new repository.
+The first step of setting up up this repository is to run the [manually-triggered GitHub Action](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) "Manually trigger issue creation for standard set up" GitHub action.
 When triggered, this action will file a series of issues comprising tasks that should be completed before the start of a workshop.
-You should trigger this action once the [`training-modules` repository](https://github.com/AlexsLemonade/training-modules) tag for the given workshop has been created, as one of the _first steps_ of setting up your new repository.
 
-To run this action, navigate to the "Actions" tab.
-On the left, you will see all available workflows.
-Click the workflow named `Manually trigger issue creation for standard set up`, and then click the "Run workflow" dropdown button.
+Run this action as follows:
 
-## Additional instructions for externally-hosted workshops
+* Navigate to the repository's "Actions" tab.
+* On the upper left-hand side, you will see all available workflows.
+* Click the workflow named `Manually trigger issue creation for standard set up`, and then click the "Run workflow" dropdown button.
+  * You will see a dropdown button "Use workflow from"; ensure this says the default branch `main`:
+  ![Run workflow from main branch](./images/run-workflow-from-main.png)
 
-_More detailed instructions and/or improvements coming soon._
-
+To complete repository setup, address all issues filed by this workflow.
 
 ## Local development
 
