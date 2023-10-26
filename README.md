@@ -20,12 +20,13 @@ This will create a new repository with the same layout as this template reposito
 
 2. Turn on permission for Github Actions
 
-* There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
-* You must turn on "Read and Write" permissions for GitHub Actions to use them:
-  * Navigate to the repository `Settings` menu by clicking the Gear icon.
-  * Navigate to the `Actions` -> `General` page from the sidebar
-  * Ensure the following settings are on:
-  ![Workflow permissions settings to turn on](./images/workflow-permissions.png)
+  * There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
+  * You must turn on "Read and Write" permissions for GitHub Actions to use them:
+    * Navigate to the repository `Settings` menu by clicking the Gear icon.
+    * Navigate to the `Actions` -> `General` page from the sidebar
+    * Ensure the following settings are on:
+
+    ![Workflow permissions settings to turn on](./images/workflow-permissions.png)
 
 
 ## Customizing the new repository for an individual training workshop
