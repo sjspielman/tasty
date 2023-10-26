@@ -16,7 +16,7 @@ This will create a new repository with the same layout as this template reposito
     * If you are using GitHub from a **paid account tier** (e.g., GitHub Pro, GitHub Team, or GitHub Enterprise), you can set the visibility of this repository as either public or private; the associated GitHub Pages website will still be public.
     * If you are using GitHub from a **free account tier** (e.g., GitHub Free for individuals or organizations), you must set the visibility of this repository as **public** for [GitHub Pages to be active](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 
-2. Turn on workflow permissions for Github Actions.
+2. Turn on workflow permissions for GitHub Actions.
     * There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
     * You must turn on "Read and Write" permissions for GitHub Actions to use them:
       * Navigate to the repository `Settings` menu by clicking the Gear icon.
