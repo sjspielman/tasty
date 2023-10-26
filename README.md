@@ -9,8 +9,24 @@ We use a template repository approach for maintainability.
 First, you will need to create a new repository using the [`Use the template` button](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 This will create a new repository with the same layout as this template repository under the user or organization you choose as the owner of the repository; if you are a Data Lab member running an internal training workshop, the `AlexsLemonade` organization should be the owner.
 
-If you are using GitHub from a paid tier account (e.g., GitHub Pro, GitHub Team, or GitHub Enterprise), you can set the visibility of this repository as private; the associated GitHub Pages website will still be public.
-However, if you are using GitHub from a _free_ account (e.g., GitHub Free for individuals or organizations), you must set the visibility of this repository as public in order for GitHub Pages to be active, as described in [this documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+### Turning on required settings
+
+
+1. Ensure you have the correct [visibility setting](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) for your GitHub account tier.
+
+  * If you are using GitHub from a **paid account tier** (e.g., GitHub Pro, GitHub Team, or GitHub Enterprise), you can set the visibility of this repository as either public private; the associated GitHub Pages website will still be public.
+  * If you are using GitHub from a **free account tier** (e.g., GitHub Free for individuals or organizations),
+  * you must set the visibility of this repository as **public** for [GitHub Pages to be active](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+
+2. Turn on permission for Github Actions
+
+* There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
+* You must turn on "Read and Write" permissions for GitHub Actions to use them:
+  * Navigate to the repository `Settings` menu by clicking the Gear icon.
+  * Navigate to the `Actions` -> `General` page from the sidebar
+  * Ensure the following settings are on:
+  ![Workflow permissions settings to turn on](./images/workflow-permissions.png)
+
 
 ## Customizing the new repository for an individual training workshop
 
