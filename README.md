@@ -20,12 +20,11 @@ This will create a new repository with the same layout as this template reposito
     * There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
     * You must turn on "Read and Write" permissions for GitHub Actions to use them:
       * Navigate to the repository's "Settings" tab at the top of the page.
-      <br>
-      <img src="./images/github_bar_settings.png" alt="Actions tab" height="200"/>
-      <br>
+      <br><img src="./images/github_bar_settings.png" alt="Actions tab" width="400"/><br>
+
       * Navigate to the `Actions` -> `General` page from the sidebar
-      <br>
-      <img src="./images/actions_general.png" alt="General actions settings" width="100"/>
+      <br><img src="./images/actions_general.png" alt="General actions settings" width="100"/><br>
+
       * Ensure [the following settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#configuring-the-default-github_token-permissions) are on:
       <br>
       <img src="./images/workflow-permissions.png" alt="Workflow permissions settings to turn on" width="600"/>
