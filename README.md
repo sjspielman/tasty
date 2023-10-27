@@ -19,10 +19,14 @@ This will create a new repository with the same layout as this template reposito
 2. Turn on workflow permissions for GitHub Actions.
     * There are several [manually-triggered GitHub Actions](https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow) provided to facilitate setting up this new repository.
     * You must turn on "Read and Write" permissions for GitHub Actions to use them:
-      * Navigate to the repository `Settings` menu by clicking the Gear icon.
+      * Navigate to the repository's "Settings" tab at the top of the page.
+      <br>
+      <img src="./images/github_bar_settings.png" alt="Actions tab" width="300"/>
       * Navigate to the `Actions` -> `General` page from the sidebar
+      <br>
+      <img src="./images/actions_general.png" alt="General actions settings" width="300"/>
       * Ensure [the following settings](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#configuring-the-default-github_token-permissions) are on:
-    <br>
+      <br>
       <img src="./images/workflow-permissions.png" alt="Workflow permissions settings to turn on" width="600"/>
 
 
@@ -34,7 +38,9 @@ When triggered, this action will file a series of issues comprising tasks that s
 
 Run this action as follows:
 
-* Navigate to the repository's "Actions" tab.
+* Navigate to the repository's "Actions" tab at the top of the page.
+<br>
+<img src="./images/github_bar_actions.png" alt="Actions tab" width="300"/>
 * On the upper left-hand side, you will see all available workflows.
 * Click the workflow named `Manually trigger issue creation for standard set up`, and then click the "Run workflow" dropdown button.
   * You will see a dropdown button "Use workflow from"; ensure this says the default branch `main`: <img src="./images/run-workflow-from-main.png" alt="Run workflow from main branch" width="300"/>
