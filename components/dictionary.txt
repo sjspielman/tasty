@@ -45,6 +45,7 @@ Ensembl
 epitope
 et
 familiaris
+favicon
 filezilla
 FileZilla
 FileZilla's
