@@ -1,9 +1,9 @@
 This file provides an overview of contents in this repository.
 
-- Please review the `LICENSE.md` file for terms of use of these materials.
-- Please review the `README.md` file for instructions on using and contributing to this repository.
+- Please see the `LICENSE.md` file for this terms of use of this repository's materials.
+- Please see the `README.md` file for instructions on using and contributing to this repository.
 
-## Workshop foles
+## Workshop files
 
 These files/directories are directly shown in the rendered website.
 
@@ -20,7 +20,7 @@ These files/directories are directly shown in the rendered website.
 - `slides`
   - Empty by default, this directory can be populated with slide PDFs to link to from the schedule in `workshop/SCHEDULE.md`
 - `code-of-conduct.md`
-  - The Data Lab's Code of Conduct, as displayed on the workshop website.
+  - The Data Lab's Code of Conduct, as displayed on the workshop website
 
 ## Setup files
 
