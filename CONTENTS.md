@@ -33,7 +33,7 @@ These files/directories are used to prepare contents for a given training websit
 - `.github/workflows`
   - This directory contains GitHub Actions Workflows used during repository setup and development
 - `setup-issue-templates`
-  - Contains templated for automatic issues filed by the manually-triggered action `.github/workflows/file-setup-issues.yml`
+  - Contains templates for automatic issues filed by the manually-triggered action `.github/workflows/file-setup-issues.yml`
 
 ## Jekyll files
 
