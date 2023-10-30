@@ -1,6 +1,6 @@
 This file provides an overview of contents in this repository.
 
-- Please see the `LICENSE.md` file for this terms of use of this repository's materials.
+- Please see the `LICENSE.md` file for the terms of use of this repository's materials.
 - Please see the `README.md` file for instructions on using and contributing to this repository.
 
 ## Workshop files
