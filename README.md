@@ -4,6 +4,8 @@ This repository is intended to serve as a template for creating a repository for
 The repository structure and use of GitHub Pages is intended to gather all material required to administer a workshop in one user-friendly place.
 We use a template repository approach for maintainability.
 
+Please refer to [`CONTENTS.md`](./CONTENTS.md) for a brief overview of this repository's contents.
+
 ## Creating a repository for an individual training workshop
 
 First, you will need to create a new repository using the [`Use the template` button](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
