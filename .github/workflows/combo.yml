@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 
 # https://docs.github.com/en/actions/using-workflows/reusing-workflows#calling-a-reusable-workflow
+# https://docs.github.com/en/actions/using-workflows/reusing-workflows#example-caller-workflow
 jobs:
   call-reusable-one:
     uses: ./.github/workflows/reusable-one.yml  # cannot specify version if calling local workflow. if we want @tag,
