@@ -7,7 +7,7 @@ on:
 # https://docs.github.com/en/actions/using-workflows/reusing-workflows#example-caller-workflow
 jobs:
   call-reusable-one:
-    uses: ./.github/workflows/reusable-one.yml  # cannot specify version if calling local workflow. if we want @tag,
+    uses: ./.github/workflows/reusable-one.yml  # cannot specify version if calling local workflow.
   call-reusable-two:
     uses: sjspielman/tasty/.github/workflows/reusable-two.yml@main # with path for a PUBLIC repo, can specify version
 
