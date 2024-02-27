@@ -5,6 +5,8 @@ name: Manually trigger issue creation for standard set up
 # https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow-on-github
 on:
   workflow_dispatch:
+  workflow_call:
+
 
 jobs:
   # This runs a single job that creates issues from files
