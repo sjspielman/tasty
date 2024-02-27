@@ -1,4 +1,4 @@
-name: Manually trigger issue creation for standard set up
+name: reusable 1
 
 # This is a manually triggered workflow
 # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#workflow_dispatch

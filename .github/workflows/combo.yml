@@ -1,0 +1,13 @@
+name: megaworkflow
+
+on:
+  workflow_dispatch:
+
+# https://docs.github.com/en/actions/using-workflows/reusing-workflows#calling-a-reusable-workflow
+jobs:
+  call-reusable-one:
+    uses: ./.github/workflows/file-setup-issues.yml@main
+  call-reusable-two:
+    uses: ./.github/workflows/more-issues.yml@main
+
+# if we need secrets: https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-inputs-and-secrets-to-a-reusable-workflow
