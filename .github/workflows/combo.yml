@@ -6,8 +6,8 @@ on:
 # https://docs.github.com/en/actions/using-workflows/reusing-workflows#calling-a-reusable-workflow
 jobs:
   call-reusable-one:
-    uses: ./.github/workflows/file-setup-issues.yml@main
+    uses: ./.github/workflows/file-setup-issues.yml  # cannot specify version if calling local workflow. if we want @tag,
   call-reusable-two:
-    uses: ./.github/workflows/more-issues.yml@main
+    uses: sjspielman/tasty/.github/workflows/more-issues.yml@main # with path for a PUBLIC repo, can specify version
 
 # if we need secrets: https://docs.github.com/en/actions/using-workflows/reusing-workflows#passing-inputs-and-secrets-to-a-reusable-workflow
