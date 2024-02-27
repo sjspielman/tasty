@@ -17,10 +17,11 @@ jobs:
       # Check out
       - uses: actions/checkout@v3
 
-      # Issue for turning on GitHub pages
-      - name: Create GitHub Pages issue
+
+      # Issue for turning on branch protection
+      - name: Create branch protection issue
         uses: peter-evans/create-issue-from-file@v4.0.0
         with:
-          title: Turn on GitHub Pages
-          content-filepath: ./setup-issue-templates/gh-pages.md
+          title: Set up branch protection - pull requests required
+          content-filepath: ./setup-issue-templates/branch-protection.md
           labels: automated training issue
